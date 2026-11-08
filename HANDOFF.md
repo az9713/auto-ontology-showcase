@@ -39,7 +39,7 @@ project document (plan, decisions, progress, results, log). There is no project 
 - P8 MCP server stopped 2026-11-08 (was PIDs 48812/61734); log `p8/mcp_server.log`. `p8/mcp_token.json`, `p8/mcp_auth.json` = secrets.
 - User env vars set: `OLLAMA_CONTEXT_LENGTH=16384`, `OLLAMA_FLASH_ATTENTION=1`, `OLLAMA_KV_CACHE_TYPE=q8_0`.
 - DB `cchist` and its certified terms/attributes stay in the store (DB `auto_ontology`). SEC store untouched.
-- Git: workspace root = repo `az9713/auto-ontology-showcase` (private, branch main). `.gitignore` keeps out secrets, the clone,
+- Git: workspace root = repo `az9713/auto-ontology-showcase` (public since 2026-11-08, branch main). `.gitignore` keeps out secrets, the clone,
   raw SEC data and the personal `cchist` rows. Names and user paths were replaced by "the owner" / `<user>` before the first commit.
 
 ## Next task
