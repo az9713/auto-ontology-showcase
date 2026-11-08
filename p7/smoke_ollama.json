@@ -1,0 +1,3 @@
+{"model":"qwen3:4b-instruct-2507-q4_K_M","temperature":0,
+ "messages":[{"role":"user","content":"Name two primary colors and count them."}],
+ "response_format":{"type":"json_schema","json_schema":{"name":"r","strict":true,"schema":{"type":"object","properties":{"colors":{"type":"array","items":{"type":"string"}},"count":{"type":"integer"}},"required":["colors","count"],"additionalProperties":false}}}}

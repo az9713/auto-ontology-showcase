@@ -1,0 +1,7 @@
+6 jobs, 1 workers
+R3 r1 AMAZON.revenue 310.9s err=False
+R3 r1 BERKSHIRE.total_assets 19.9s err=False
+R3 r1 COCACOLA.revenue 518.1s err=False
+R3 r1 EXXON.net_income 47.8s err=False
+R3 r1 JPMORGAN.revenue 77.1s err=False
+R3 r1 WALMART.net_income 136.3s err=False

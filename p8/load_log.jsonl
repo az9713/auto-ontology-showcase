@@ -1,0 +1,412 @@
+{"at": "2026-11-07T20:55:47", "method": "GET", "path": "/api/sql-attributes", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:47", "method": "DELETE", "path": "/api/sql-attributes/dadab403-1dac-4adc-a05b-d428b6568e1d", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:47", "method": "DELETE", "path": "/api/sql-attributes/8bf6c1ae-f42a-4886-a30c-89d5b703e88b", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:47", "method": "DELETE", "path": "/api/sql-attributes/3d44084c-731e-4e69-96f0-84264ef12e06", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:47", "method": "DELETE", "path": "/api/sql-attributes/9f91edc1-d4fd-4a58-bbf3-ff799281237b", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:47", "method": "DELETE", "path": "/api/sql-attributes/0ed2a448-f123-4e8e-ab43-6fadd6061596", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:47", "method": "DELETE", "path": "/api/sql-attributes/003de804-e9fc-4a5b-86d8-5562ff4f84a2", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:47", "method": "DELETE", "path": "/api/sql-attributes/e6775016-152d-499a-b018-405a899a8f93", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:47", "method": "DELETE", "path": "/api/sql-attributes/48c8a06e-5269-49bd-b55b-9ed23d8ffe7c", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:47", "method": "DELETE", "path": "/api/sql-attributes/0b665aed-ee19-46f4-a053-74cc93ebf1ed", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:48", "method": "POST", "path": "/api/sql-attributes", "name": "Correction Messages", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:48", "method": "POST", "path": "/api/sql-attributes", "name": "User Questions", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:48", "method": "POST", "path": "/api/sql-attributes", "name": "Questions Followed By An Edit", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:48", "method": "POST", "path": "/api/sql-attributes", "name": "Typed User Messages", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:48", "method": "PATCH", "path": "/api/sql-attributes/cc8ef4c2-bc21-4725-ab9e-4870e1307a9e", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:48", "method": "PATCH", "path": "/api/sql-attributes/8af22adb-3ef8-49b6-9c59-55fd06f7596e", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:48", "method": "PATCH", "path": "/api/sql-attributes/eb3f03ad-d304-450f-86f7-46f34f911a85", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:48", "method": "PATCH", "path": "/api/sql-attributes/f2ce321a-6aef-4a85-8919-fb14b9db3e83", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:49", "method": "POST", "path": "/api/sql-attributes", "name": "Over-Building Corrections", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:49", "method": "PATCH", "path": "/api/sql-attributes/41ff283f-074c-4444-a622-45f8ed3863e1", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:49", "method": "POST", "path": "/api/sql-attributes", "name": "Read Calls", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:49", "method": "POST", "path": "/api/sql-attributes", "name": "Stopped Early Corrections", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:49", "method": "POST", "path": "/api/sql-attributes", "name": "Kill-By-Pattern Commands", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:49", "method": "PATCH", "path": "/api/sql-attributes/d9c0f0e6-2ac2-47da-b467-2fcc829fd4e5", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:49", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Calls", "status": 422, "response": "{\"detail\":\"SQL doesn't reference any table known to the catalog; ingest the schema first or check the query\"}"}
+{"at": "2026-11-07T20:55:49", "method": "PATCH", "path": "/api/sql-attributes/f08c7fef-6e12-4193-bd6f-78fcafa8e7b2", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:50", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Read Calls", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:50", "method": "PATCH", "path": "/api/sql-attributes/c9a84fc1-4a51-4945-ac07-2cfd16c4139e", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:50", "method": "POST", "path": "/api/sql-attributes", "name": "Read Calls (Subagent)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:50", "method": "POST", "path": "/api/sql-attributes", "name": "Bash Calls (Subagent)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:50", "method": "POST", "path": "/api/sql-attributes", "name": "Bash Calls", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:50", "method": "PATCH", "path": "/api/sql-attributes/556c780c-f0e5-4940-9826-cc92b6be2d25", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:50", "method": "PATCH", "path": "/api/sql-attributes/0f26c8b1-d4c9-489b-8b6f-b8d4048bf8ec", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:50", "method": "PATCH", "path": "/api/sql-attributes/c0252825-c939-4c39-bfbb-c0a85d74fe72", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:50", "method": "POST", "path": "/api/sql-attributes", "name": "PowerShell Calls", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:51", "method": "PATCH", "path": "/api/sql-attributes/f87df5b8-e6e0-4c4f-b742-a6d827abfdf4", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:51", "method": "POST", "path": "/api/sql-attributes", "name": "File-Changing Calls (Subagent)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:51", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Calls (Sonnet 4.6)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:51", "method": "POST", "path": "/api/sql-attributes", "name": "Subagent Launches (Main Agent)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:51", "method": "PATCH", "path": "/api/sql-attributes/46dac403-73ce-4e5c-a273-08eafa3155b1", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:51", "method": "PATCH", "path": "/api/sql-attributes/afef723c-5010-4032-bb0a-fe19032428a3", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:51", "method": "PATCH", "path": "/api/sql-attributes/dd2207d8-84b3-4580-a76a-307377ec2554", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:51", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Calls (Sonnet 4.6, Main Agent)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:51", "method": "PATCH", "path": "/api/sql-attributes/f29ecccd-944f-42b3-a10d-48823b9a384c", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:51", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Calls (Haiku 4.5)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:51", "method": "PATCH", "path": "/api/sql-attributes/e591e7e0-fb1a-4519-b3a2-02c54fcb443c", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:51", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Edit Calls", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:52", "method": "PATCH", "path": "/api/sql-attributes/3e65ffaa-4341-4310-92b9-5f9c69e4852c", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:52", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Read Calls (Main Agent)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:52", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Edit Calls (Main Agent)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:52", "method": "PATCH", "path": "/api/sql-attributes/902ab0b3-dead-4da3-a5d8-33dc8dcc06aa", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:52", "method": "PATCH", "path": "/api/sql-attributes/824fe55a-1540-464f-96ac-0995b23f96c0", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:52", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Write Calls", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:52", "method": "PATCH", "path": "/api/sql-attributes/c004f89b-1a60-4039-84b0-619050d029db", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:52", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Read Calls", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:52", "method": "PATCH", "path": "/api/sql-attributes/16f99581-206f-47e8-b208-0386d1042b0e", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:52", "method": "POST", "path": "/api/sql-attributes", "name": "Denied Tool Calls", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:52", "method": "POST", "path": "/api/sql-attributes", "name": "Denied Bash Calls", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:52", "method": "PATCH", "path": "/api/sql-attributes/f9133925-4b9d-49df-be18-da3f37cb0d18", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:52", "method": "PATCH", "path": "/api/sql-attributes/ad7b8b9b-0e71-444c-9a2e-9ed6c9597754", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:53", "method": "POST", "path": "/api/sql-attributes", "name": "Validation-Rejected Tool Calls", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:53", "method": "PATCH", "path": "/api/sql-attributes/2e4993f2-f6df-44e9-b545-8f78ae1b62bc", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:53", "method": "POST", "path": "/api/sql-attributes", "name": "Long User Messages", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:53", "method": "POST", "path": "/api/sql-attributes", "name": "Typed User Messages (Opus 4.8)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:53", "method": "PATCH", "path": "/api/sql-attributes/2ec52d81-58f1-4ae4-bb82-be2e106c85a9", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:53", "method": "POST", "path": "/api/sql-attributes", "name": "User Questions (Fable 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:53", "method": "PATCH", "path": "/api/sql-attributes/db2ca552-7fa3-45b8-b06b-effc2a6f687a", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:53", "method": "PATCH", "path": "/api/sql-attributes/09a00cf9-8b3e-4e66-9e5c-20580cc1d0fc", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:54", "method": "POST", "path": "/api/sql-attributes", "name": "Messages Ending With A Question Mark", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:54", "method": "PATCH", "path": "/api/sql-attributes/cb4a6b6c-7b1a-498e-942d-0194bf8df362", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:54", "method": "POST", "path": "/api/sql-attributes", "name": "Questions Followed By A Tool Call", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:54", "method": "POST", "path": "/api/sql-attributes", "name": "Corrections", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:54", "method": "POST", "path": "/api/sql-attributes", "name": "Questions Followed By A Bash Call", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:54", "method": "PATCH", "path": "/api/sql-attributes/d09c8d99-c281-4f94-822d-40aa35cecf05", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:54", "method": "PATCH", "path": "/api/sql-attributes/8c7a6bca-1176-4dba-b19a-8d8e67a92606", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:54", "method": "PATCH", "path": "/api/sql-attributes/cf7d3da7-3e92-4719-8e10-d9269e29b3b5", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:54", "method": "POST", "path": "/api/sql-attributes", "name": "Misread Corrections", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:54", "method": "PATCH", "path": "/api/sql-attributes/054e460c-f34b-44e0-8702-ef23b1b57e96", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:55", "method": "POST", "path": "/api/sql-attributes", "name": "Over-Building Correction Messages", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:55", "method": "POST", "path": "/api/sql-attributes", "name": "Stopped Early Correction Messages", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:55", "method": "PATCH", "path": "/api/sql-attributes/343ff81b-277f-445f-a294-4ea3ef846b71", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:55", "method": "POST", "path": "/api/sql-attributes", "name": "Stopped Early Corrections (Opus 4.8)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:55", "method": "PATCH", "path": "/api/sql-attributes/337bca1d-50c5-41ee-a55f-516fd290a35f", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:55", "method": "PATCH", "path": "/api/sql-attributes/13c77554-bb6b-4f06-bd0b-2031ffd28163", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:55", "method": "POST", "path": "/api/sql-attributes", "name": "Stopped Early Corrections (Opus 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:55", "method": "PATCH", "path": "/api/sql-attributes/a863e3fe-7c2e-4c93-906f-669649325a7a", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:56", "method": "POST", "path": "/api/sql-attributes", "name": "Stopped Early Corrections (Opus 4.7)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:56", "method": "POST", "path": "/api/sql-attributes", "name": "Risky Shell Commands", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:56", "method": "PATCH", "path": "/api/sql-attributes/6ce3b5ca-f937-49f7-8746-93504c182629", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:56", "method": "POST", "path": "/api/sql-attributes", "name": "No-Verification Corrections", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:56", "method": "PATCH", "path": "/api/sql-attributes/28a68154-225d-4e4b-9fbe-6eff68a677b9", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:56", "method": "POST", "path": "/api/sql-attributes", "name": "Kill-By-Pattern Commands (Opus 4.8)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:56", "method": "PATCH", "path": "/api/sql-attributes/30ad0f6d-979e-442b-a5b5-296f0b65dae1", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:56", "method": "PATCH", "path": "/api/sql-attributes/82255f72-a4b0-4354-82ff-f5a3759504f3", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:56", "method": "POST", "path": "/api/sql-attributes", "name": "Kill-By-Pattern Commands (Fable 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:56", "method": "PATCH", "path": "/api/sql-attributes/317c5ef6-cd83-4200-a740-1df63fb64505", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:57", "method": "POST", "path": "/api/sql-attributes", "name": "Kill-By-PID Commands", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:57", "method": "POST", "path": "/api/sql-attributes", "name": "Recursive Delete Commands (Opus 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:57", "method": "POST", "path": "/api/sql-attributes", "name": "Force Push Commands", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:57", "method": "PATCH", "path": "/api/sql-attributes/c162b646-6597-4422-93ac-5b0a7f636b9d", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:57", "method": "PATCH", "path": "/api/sql-attributes/c41d2c62-3f82-447b-a773-c1e431d373d2", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:57", "method": "PATCH", "path": "/api/sql-attributes/ff7d3861-bf28-49c2-bc15-83412243386e", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:57", "method": "POST", "path": "/api/sql-attributes", "name": "Read Calls Failure Rate", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:57", "method": "PATCH", "path": "/api/sql-attributes/06b71395-8e77-4dc4-97f7-5b1ea105d0a6", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:57", "method": "POST", "path": "/api/sql-attributes", "name": "Bash Calls Failure Rate", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:57", "method": "POST", "path": "/api/sql-attributes", "name": "Read Calls Failure Rate (Opus 4.8)", "status": 201, "response": ""}
+{"at": "2026-11-07T20:55:57", "method": "PATCH", "path": "/api/sql-attributes/a1ce1ead-eae2-4a11-91b4-613b8fde2562", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:57", "method": "PATCH", "path": "/api/sql-attributes/1dc7918d-e9e6-4e27-962b-8d9979b3d26b", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:55:57", "method": "GET", "path": "/api/sql-attributes", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:58:54", "method": "GET", "path": "/api/sql-attributes", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:58:56", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Calls", "status": 201, "response": ""}
+{"at": "2026-11-07T20:58:56", "method": "PATCH", "path": "/api/sql-attributes/9f3195b6-1cde-40d4-b4a6-aa04a3d7ebca", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T20:58:56", "method": "GET", "path": "/api/sql-attributes", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:50:58", "method": "GET", "path": "/api/sql-attributes", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:00", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Bash Calls (Opus 4.7, H1 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:00", "method": "POST", "path": "/api/sql-attributes", "name": "Web Fetch Calls (Opus 4.8, Subagent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:00", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Web Fetch Calls (Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:00", "method": "PATCH", "path": "/api/sql-attributes/3ea2dd80-e495-45ed-858c-9a865ef5c550", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:00", "method": "PATCH", "path": "/api/sql-attributes/89a017b1-823d-4ae6-9bb8-bddd9ba1d416", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:00", "method": "PATCH", "path": "/api/sql-attributes/dad81c79-2da6-4f35-98fa-ca4962d3c723", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:00", "method": "PATCH", "path": "/api/sql-attributes/a85949b8-29e8-47ed-aa82-87752db32edd", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:01", "method": "POST", "path": "/api/sql-attributes", "name": "File-Changing Calls", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:01", "method": "POST", "path": "/api/sql-attributes", "name": "MCP Tool Calls (Sonnet 5, Sonnet Split)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:01", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Calls (Opus 5, Main Agent)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:01", "method": "POST", "path": "/api/sql-attributes", "name": "Tool-Misuse Correction Messages (Sonnet 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:01", "method": "PATCH", "path": "/api/sql-attributes/87c9e779-0ff2-4ac8-a9d4-1ffeae20a870", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:01", "method": "PATCH", "path": "/api/sql-attributes/6127ab42-b73c-4257-93f8-096b4d03a9d5", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:01", "method": "PATCH", "path": "/api/sql-attributes/6bd2786b-c3f6-497e-b83e-97f2bc925658", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:01", "method": "PATCH", "path": "/api/sql-attributes/c4a7a80e-8199-4a66-a5d1-54229a3e9d4c", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Search Calls (Opus 4.8, Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "POST", "path": "/api/sql-attributes", "name": "Subagent Launches (Opus 4.8, Subagent, Daily Rollup)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Read Calls (Sonnet 5, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "POST", "path": "/api/sql-attributes", "name": "Over-Building Correction Messages (Opus 5, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "PATCH", "path": "/api/sql-attributes/1ea2880e-836c-4466-b69e-f912575725a1", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "PATCH", "path": "/api/sql-attributes/65dd2ea7-4ac6-48af-8ec8-96243e68597c", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "PATCH", "path": "/api/sql-attributes/4085ae06-86b1-48c3-b36e-c96db451947e", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "PATCH", "path": "/api/sql-attributes/c069be56-eaca-4c93-9d52-5d9ee2bc3614", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "POST", "path": "/api/sql-attributes", "name": "Grep Calls (Opus 4.7, Opus Split)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "POST", "path": "/api/sql-attributes", "name": "Web Search Calls (Fable 5, Main Agent, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "POST", "path": "/api/sql-attributes", "name": "Web Fetch Calls (Haiku 4.5, H1 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "POST", "path": "/api/sql-attributes", "name": "Regression Correction Messages", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "PATCH", "path": "/api/sql-attributes/3e81ca69-c565-4853-8a00-d552f55d6610", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "PATCH", "path": "/api/sql-attributes/ca886712-18ea-4046-968c-c71dba48f00c", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "PATCH", "path": "/api/sql-attributes/11c12344-7f64-468b-bc4e-526db9b6e674", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:02", "method": "PATCH", "path": "/api/sql-attributes/cef4db36-5f43-4f5c-8c97-746897a219a3", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:03", "method": "POST", "path": "/api/sql-attributes", "name": "Bash Calls (Main Agent, H1 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:03", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Bash Calls (Opus 4.8, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:03", "method": "POST", "path": "/api/sql-attributes", "name": "Read Calls (Fable 5, Archive)", "status": 201, "response": ""}
+onse": ""}
+{"at": "2026-11-07T21:51:03", "method": "PATCH", "path": "/api/sql-attributes/2491ec91-089f-48e2-83a2-6bc9928ba135", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:03", "method": "PATCH", "path": "/api/sql-attributes/ccfb8cdf-bcea-4b86-b4c4-b56dbd15ab1c", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:03", "method": "PATCH", "path": "/api/sql-attributes/b9423507-e0ec-4cb4-bd74-3c3c7dc6b848", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:03", "method": "PATCH", "path": "/api/sql-attributes/5d7d64ce-c502-4c96-9e4c-6408e9d6580f", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:04", "method": "POST", "path": "/api/sql-attributes", "name": "Bash Calls (Subagent, Sonnet Split)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:04", "method": "POST", "path": "/api/sql-attributes", "name": "Bash Calls (Opus 4.8, Main Agent, Opus Split)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:04", "method": "PATCH", "path": "/api/sql-attributes/813a69df-91fd-4166-a0d3-3d10de392f5d", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:04", "method": "POST", "path": "/api/sql-attributes", "name": "Grep Calls (Fable 5, Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:04", "method": "POST", "path": "/api/sql-attributes", "name": "Validation-Rejected Web Fetch Calls (Haiku 4.5, Main Agent, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:04", "method": "PATCH", "path": "/api/sql-attributes/1c5fdedb-6fdc-47d3-a943-97db92adca14", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:04", "method": "PATCH", "path": "/api/sql-attributes/7e326ad7-06d2-4bc0-a2ea-79e7c8dc5206", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:04", "method": "PATCH", "path": "/api/sql-attributes/4fabcdd7-8f84-4ddd-aeb1-cb7f05260909", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:05", "method": "POST", "path": "/api/sql-attributes", "name": "Errored MCP Tool Calls (Opus 5, Main Agent, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:05", "method": "POST", "path": "/api/sql-attributes", "name": "Kill-By-Pattern Commands (Opus 4.8, Staging, V1 Taxonomy)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:05", "method": "PATCH", "path": "/api/sql-attributes/5c645ce6-d845-4ae5-8db7-ff274e167b9b", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:05", "method": "PATCH", "path": "/api/sql-attributes/879600a3-0c38-49bf-b892-4e8c31fd6576", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:05", "method": "POST", "path": "/api/sql-attributes", "name": "Bash Calls (Opus 4.8, Subagent, H1 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:05", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Read Calls (Main Agent, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:05", "method": "PATCH", "path": "/api/sql-attributes/5bace850-b606-4bb6-bff3-2a01dcf27449", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:05", "method": "PATCH", "path": "/api/sql-attributes/1c8231af-736e-46e9-a1c9-b890b2996b58", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:05", "method": "POST", "path": "/api/sql-attributes", "name": "Over-Building Correction Messages (Sonnet 4.6, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:05", "method": "PATCH", "path": "/api/sql-attributes/59174060-1cf1-47ef-99a2-20d1f477afa0", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:05", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Calls (Haiku 4.5, Subagent, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:05", "method": "PATCH", "path": "/api/sql-attributes/2ddf9f95-ec60-44dc-846f-5a70da89fb8e", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:06", "method": "POST", "path": "/api/sql-attributes", "name": "Subagent Prompts (Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:06", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Read Calls (Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:06", "method": "PATCH", "path": "/api/sql-attributes/a26d86fe-e8dc-454d-b047-78438eedcadd", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:06", "method": "PATCH", "path": "/api/sql-attributes/7d7dd1f3-dabf-4c39-b350-60262bcb7fc0", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:06", "method": "POST", "path": "/api/sql-attributes", "name": "Edit Calls (Sonnet 5, Main Agent)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:06", "method": "PATCH", "path": "/api/sql-attributes/1337bb2c-57e2-4ddb-a394-0d3632b47ee7", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:06", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Read Calls (Fable 5, Main Agent)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:06", "method": "PATCH", "path": "/api/sql-attributes/550b48b1-af0c-4eee-82a1-c46d0343947d", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:06", "method": "POST", "path": "/api/sql-attributes", "name": "Errored File-Changing Calls (H1 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:06", "method": "PATCH", "path": "/api/sql-attributes/77929f85-fb67-46dd-a7be-d3809de7eac0", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:06", "method": "POST", "path": "/api/sql-attributes", "name": "Failed File-Changing Calls (Haiku 4.5, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:06", "method": "POST", "path": "/api/sql-attributes", "name": "Write Calls (Opus 5, Subagent)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:06", "method": "POST", "path": "/api/sql-attributes", "name": "Bash Calls Failure Rate (Haiku 4.5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:07", "method": "PATCH", "path": "/api/sql-attributes/e5fdb712-cae3-4e12-9ecf-3986bd538f4c", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:07", "method": "PATCH", "path": "/api/sql-attributes/dc801a18-f0cc-4359-8192-bae37451b975", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:07", "method": "PATCH", "path": "/api/sql-attributes/bc3e66fc-e0cb-4752-a254-cbfbb3c8fffd", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:07", "method": "POST", "path": "/api/sql-attributes", "name": "Risky Shell Commands (Sonnet 4.6, V1 Taxonomy)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:07", "method": "POST", "path": "/api/sql-attributes", "name": "Edit Calls Failure Rate (Fable 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:07", "method": "PATCH", "path": "/api/sql-attributes/321fee4e-9a1a-45ab-a3aa-ce53aec64fe7", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:07", "method": "PATCH", "path": "/api/sql-attributes/2887ad1b-05cf-44e6-a717-f35eed11c591", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:07", "method": "POST", "path": "/api/sql-attributes", "name": "Message Records (Opus 4.8, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:07", "method": "POST", "path": "/api/sql-attributes", "name": "Denied Bash Calls (Sonnet 5, Main Agent)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:07", "method": "PATCH", "path": "/api/sql-attributes/799b0bf6-2d67-4516-87f3-8de7d63b3d5d", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:07", "method": "PATCH", "path": "/api/sql-attributes/38027cc6-875f-4fb6-b4e9-68fc5fffd1da", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:08", "method": "POST", "path": "/api/sql-attributes", "name": "Web Fetch Calls Failure Rate", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:08", "method": "POST", "path": "/api/sql-attributes", "name": "Risky Shell Commands (Sonnet 5, V1 Taxonomy)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:08", "method": "PATCH", "path": "/api/sql-attributes/ab863d4f-7f05-4d92-a18c-27545798a655", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:08", "method": "POST", "path": "/api/sql-attributes", "name": "PowerShell Calls (Subagent, Opus Split)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:08", "method": "POST", "path": "/api/sql-attributes", "name": "Write Calls (Opus 4.7, Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:08", "method": "PATCH", "path": "/api/sql-attributes/6dbd2fbd-ff1c-4121-9556-5ea00b121762", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:08", "method": "PATCH", "path": "/api/sql-attributes/7e3cf08b-811b-4c01-b94f-c7c811c6e24d", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:08", "method": "POST", "path": "/api/sql-attributes", "name": "Failed PowerShell Calls (Haiku 4.5, Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:08", "method": "PATCH", "path": "/api/sql-attributes/3f52a6bd-b8b3-4186-86c2-d17f8c907991", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "POST", "path": "/api/sql-attributes", "name": "Correction Messages (Opus 4.7, Staging Hits)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "PATCH", "path": "/api/sql-attributes/540ca7c1-2dfe-41f4-8cdd-2cb3b2175bb5", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "POST", "path": "/api/sql-attributes", "name": "PowerShell Calls (Main Agent, Fable Split)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "POST", "path": "/api/sql-attributes", "name": "Errored MCP Tool Calls (Fable 5, Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "PATCH", "path": "/api/sql-attributes/dd9180ff-7cfa-4cc8-b357-a6f122d49469", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "PATCH", "path": "/api/sql-attributes/ca90a60c-fb2e-479b-81a2-d61f4ae46651", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "POST", "path": "/api/sql-attributes", "name": "Failed PowerShell Calls (Opus 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "PATCH", "path": "/api/sql-attributes/6ec14e3f-216e-474e-b0f3-900fc6998224", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Tool Calls (Opus 4.7, Main Agent, H1 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "PATCH", "path": "/api/sql-attributes/00094272-d40d-41a9-b218-82a14ffffd21", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Search Calls (Fable 5, Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "PATCH", "path": "/api/sql-attributes/03c353f6-18fe-4cd5-aa7c-e606855bfb50", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "POST", "path": "/api/sql-attributes", "name": "Noise Messages (Opus 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "POST", "path": "/api/sql-attributes", "name": "Errored PowerShell Calls (Opus 4.8, Main Agent, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "PATCH", "path": "/api/sql-attributes/865b456b-de4e-4c21-a26b-ac81252b2ae9", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:09", "method": "PATCH", "path": "/api/sql-attributes/b466f70f-3c58-41f1-b4ee-7a9f6942f693", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:10", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Grep Calls (Fable 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:10", "method": "PATCH", "path": "/api/sql-attributes/940dabbf-e0c8-4287-806b-26debe800fa2", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:10", "method": "POST", "path": "/api/sql-attributes", "name": "Grep Calls (Sonnet 5, Main Agent)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:10", "method": "PATCH", "path": "/api/sql-attributes/2a414e54-7b9a-4c23-a3e9-96044ee9449e", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:10", "method": "POST", "path": "/api/sql-attributes", "name": "Denied Read Calls (Fable 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:10", "method": "POST", "path": "/api/sql-attributes", "name": "Unsolicited-Edit Corrections (Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:10", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Search Calls (Opus 4.8, Main Agent, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:10", "method": "PATCH", "path": "/api/sql-attributes/6cdbe8ee-47a0-4409-955d-335b8c9e0845", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:10", "method": "PATCH", "path": "/api/sql-attributes/03d27a2b-bbbb-4599-b285-30140a8707db", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:10", "method": "PATCH", "path": "/api/sql-attributes/30ce8d6d-c4c8-422d-8e90-1c335c6536b1", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Calls (Fable 5, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "POST", "path": "/api/sql-attributes", "name": "Misread Correction Messages (Q3 2026, Staging Hits)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "PATCH", "path": "/api/sql-attributes/a3bd80c5-0017-43b2-859e-889c2706b593", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "PATCH", "path": "/api/sql-attributes/1e75f610-9b70-4523-adfc-5ad746cb89a7", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "POST", "path": "/api/sql-attributes", "name": "Web Fetch Calls (Opus 4.8, Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "POST", "path": "/api/sql-attributes", "name": "Stopped Early Correction Messages (Opus 4.7, Q2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "PATCH", "path": "/api/sql-attributes/742843d6-44b9-4d43-acd6-9b625999054e", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "PATCH", "path": "/api/sql-attributes/f607e761-0936-47ec-ab50-625c7fa9c9a8", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Search Calls (Haiku 4.5, Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "POST", "path": "/api/sql-attributes", "name": "Validation-Rejected Bash Calls (Fable 5, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "POST", "path": "/api/sql-attributes", "name": "Bash Calls (Opus 4.8, Main Agent, Daily Rollup)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Grep Calls (Opus 5, Main Agent, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "PATCH", "path": "/api/sql-attributes/09d8d4c6-51b9-46bd-a35b-66b5eebd254a", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "PATCH", "path": "/api/sql-attributes/83811863-2ece-44e1-9bf3-9051cf7829fa", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "PATCH", "path": "/api/sql-attributes/299e802e-06e7-41bb-8894-d871808842b0", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:11", "method": "PATCH", "path": "/api/sql-attributes/4ceffd1e-2223-482e-8a7c-e823f43969f6", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:12", "method": "POST", "path": "/api/sql-attributes", "name": "Subagent Prompts (Fable 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:12", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Bash Calls (Opus 5, Main Agent, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:12", "method": "PATCH", "path": "/api/sql-attributes/a5d02313-06ce-4c19-996e-131909666ace", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:12", "method": "PATCH", "path": "/api/sql-attributes/f8149f50-53d6-4266-964d-04b56cf0cc8a", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:12", "method": "POST", "path": "/api/sql-attributes", "name": "File-Changing Calls (Sonnet 4.6, Subagent)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:12", "method": "POST", "path": "/api/sql-attributes", "name": "Misread Correction Messages (Sonnet 5, Staging Hits)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:12", "method": "PATCH", "path": "/api/sql-attributes/0e64e891-2a3e-4462-95be-c17c86972b63", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:12", "method": "PATCH", "path": "/api/sql-attributes/b85090b8-cc8d-4a0d-8e22-ceb43d22e6fa", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:12", "method": "POST", "path": "/api/sql-attributes", "name": "Correction Messages (Opus 4.7)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:12", "method": "PATCH", "path": "/api/sql-attributes/9ff1384c-08ad-472a-bdf5-38400ec96403", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:13", "method": "POST", "path": "/api/sql-attributes", "name": "Subagent Launches (Subagent, Sonnet Split)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:13", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Bash Calls", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:13", "method": "PATCH", "path": "/api/sql-attributes/54822f73-5738-4b0b-ab84-526a7c15b5f1", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:13", "method": "PATCH", "path": "/api/sql-attributes/7c9eb3a8-9d67-464d-bb0e-27c65f276004", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:13", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Grep Calls (Sonnet 5, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:13", "method": "PATCH", "path": "/api/sql-attributes/bfdd7292-6d53-452a-987f-12139261c25e", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:13", "method": "POST", "path": "/api/sql-attributes", "name": "Misread Correction Messages (Fable 5, Q3 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:13", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Calls (Opus 4.7, H1 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:13", "method": "PATCH", "path": "/api/sql-attributes/70fd2c8a-80b5-4fbf-9adc-f334c0f1a4dc", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:13", "method": "PATCH", "path": "/api/sql-attributes/3664c9c0-e6dc-4ef9-8b55-db3231372529", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:13", "method": "POST", "path": "/api/sql-attributes", "name": "Denied MCP Tool Calls (Fable 5, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:13", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Glob Calls (Sonnet 4.6, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:14", "method": "PATCH", "path": "/api/sql-attributes/761ad312-f5e8-444c-99ab-cdc20d1da37e", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:14", "method": "PATCH", "path": "/api/sql-attributes/1476766b-bdd1-4f68-adf4-54f4a3a0e18c", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:14", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Glob Calls (Haiku 4.5, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:14", "method": "PATCH", "path": "/api/sql-attributes/ce9a72fe-8d64-42a9-8979-1e3852b275cc", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:14", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Tool Calls (Haiku 4.5, Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:14", "method": "PATCH", "path": "/api/sql-attributes/b679dd6a-f15d-46cc-992f-5139600c10e8", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:14", "method": "POST", "path": "/api/sql-attributes", "name": "Correction Rate (Opus 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:14", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Search Calls (Sonnet 5, Main Agent, Daily Rollup)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:14", "method": "PATCH", "path": "/api/sql-attributes/1fdb3bd5-623f-43d6-b821-776dea6b9949", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:14", "method": "PATCH", "path": "/api/sql-attributes/cea1bee7-2a48-4a15-a78f-7331bcdcc87b", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:14", "method": "POST", "path": "/api/sql-attributes", "name": "No-Verification Correction Messages (Sonnet 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:15", "method": "PATCH", "path": "/api/sql-attributes/75cbf194-39bc-4edf-ba84-95e785dfed6e", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:15", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Calls (Subagent, Daily Rollup)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:15", "method": "PATCH", "path": "/api/sql-attributes/4fc6f539-93ae-4822-aa33-39f18808d274", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:15", "method": "POST", "path": "/api/sql-attributes", "name": "Skill Calls (Opus 4.8, Subagent, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:15", "method": "POST", "path": "/api/sql-attributes", "name": "Regression Correction Messages (Opus 4.7, Q2 2026, Staging Hits)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:15", "method": "PATCH", "path": "/api/sql-attributes/d2c2c90b-9aab-459b-8688-ddcd555b2626", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:15", "method": "PATCH", "path": "/api/sql-attributes/eae70209-fd7e-48b0-b795-8983f348ee69", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:15", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Edit Calls (Sonnet 5, Main Agent, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:15", "method": "POST", "path": "/api/sql-attributes", "name": "Noise Messages (Daily Rollup)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:15", "method": "PATCH", "path": "/api/sql-attributes/45adf597-f835-4d0c-9f30-2c689f4ab80a", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:15", "method": "PATCH", "path": "/api/sql-attributes/5328392a-d969-447e-a981-591e07c3c8c1", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:16", "method": "POST", "path": "/api/sql-attributes", "name": "Write Calls (Sonnet 5, Main Agent, Sonnet Split)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:16", "method": "POST", "path": "/api/sql-attributes", "name": "Bash Calls (Sonnet 5, Daily Rollup)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:16", "method": "PATCH", "path": "/api/sql-attributes/0f4c8eec-0b32-4a6b-8298-9dfe1b86ad11", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:16", "method": "PATCH", "path": "/api/sql-attributes/aea0535c-0a3a-4f04-bf13-aee1b5293a6b", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:16", "method": "POST", "path": "/api/sql-attributes", "name": "Read Calls (Opus 4.7, Main Agent, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:16", "method": "PATCH", "path": "/api/sql-attributes/bbb62e2b-17b9-40bf-8e0c-68fcb600fd20", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:16", "method": "POST", "path": "/api/sql-attributes", "name": "Subagent Prompts (Opus 4.8, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:16", "method": "PATCH", "path": "/api/sql-attributes/3c94023d-381b-435f-a320-42da201351c2", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:16", "method": "POST", "path": "/api/sql-attributes", "name": "Grep Calls (Sonnet 5, Sonnet Split)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:16", "method": "PATCH", "path": "/api/sql-attributes/43bb1b5a-831f-4b22-a77a-2b01d9f83ad6", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:16", "method": "POST", "path": "/api/sql-attributes", "name": "Kill-By-PID Commands (Opus 4.8, H1 2026, V1 Taxonomy)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:16", "method": "PATCH", "path": "/api/sql-attributes/bb4b41f9-38d6-45ed-8ccd-d5b0115aa3c4", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:16", "method": "POST", "path": "/api/sql-attributes", "name": "Glob Calls (Opus 4.7, Main Agent, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:17", "method": "PATCH", "path": "/api/sql-attributes/fe86990d-83e1-4b18-b93b-a102e8f52e14", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:17", "method": "POST", "path": "/api/sql-attributes", "name": "Force Push Commands (Opus 4.8, H2 2026, V1 Taxonomy)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:17", "method": "PATCH", "path": "/api/sql-attributes/be18336b-e899-4dd2-aecd-6bf335487538", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:17", "method": "POST", "path": "/api/sql-attributes", "name": "Tool-Misuse Corrections (Sonnet 5, Staging Hits)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:17", "method": "POST", "path": "/api/sql-attributes", "name": "Corrections (Sonnet 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:17", "method": "PATCH", "path": "/api/sql-attributes/ebbe52fd-829a-4a12-8b85-b68df6d4bcc8", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:17", "method": "PATCH", "path": "/api/sql-attributes/505ee29b-2caf-43a7-a252-44764137e969", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:17", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Read Calls (Main Agent, H1 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:17", "method": "POST", "path": "/api/sql-attributes", "name": "Correction Messages (Staging Hits)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:17", "method": "PATCH", "path": "/api/sql-attributes/5266bc41-4f7e-49ca-ae41-5db1d2ac14dd", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:17", "method": "PATCH", "path": "/api/sql-attributes/572a9131-732a-4622-aa61-3e1adee500b4", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:18", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Edit Calls (Sonnet 5, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:18", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Tool Calls (Sonnet 5, Main Agent, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:18", "method": "PATCH", "path": "/api/sql-attributes/09350fcb-65c6-4ca9-9c5d-a15caae05d4b", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:18", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Write Calls (Opus 4.8, Main Agent, H1 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:18", "method": "POST", "path": "/api/sql-attributes", "name": "Failed MCP Tool Calls (Opus 5, Main Agent, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:18", "method": "PATCH", "path": "/api/sql-attributes/22af7f9b-2418-4b46-af4e-7b7a773dd1e7", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:18", "method": "PATCH", "path": "/api/sql-attributes/fca0de8d-c9eb-409c-a162-f25205799601", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:18", "method": "POST", "path": "/api/sql-attributes", "name": "Correction Messages (Sonnet 4.6, Archive, Staging Hits)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:18", "method": "POST", "path": "/api/sql-attributes", "name": "Hard Reset Commands (H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:18", "method": "POST", "path": "/api/sql-attributes", "name": "Noise Messages (Haiku 4.5, Daily Rollup)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:19", "method": "PATCH", "path": "/api/sql-attributes/c0da8e7c-f40f-4add-9569-eba4c455dfcc", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:19", "method": "PATCH", "path": "/api/sql-attributes/a77dfc30-a52e-4ef0-b769-3a1d671a4eee", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:19", "method": "PATCH", "path": "/api/sql-attributes/3671321d-80f6-456a-9d2a-a6ba3556d66f", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:19", "method": "POST", "path": "/api/sql-attributes", "name": "Over-Building Corrections (Sonnet 4.6, Archive, Staging Hits)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:19", "method": "PATCH", "path": "/api/sql-attributes/f8ee4ea7-623d-4684-ad03-b40948a3339a", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:19", "method": "POST", "path": "/api/sql-attributes", "name": "Force Push Commands (Fable 5, V1 Taxonomy)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:19", "method": "POST", "path": "/api/sql-attributes", "name": "Denied Read Calls (Sonnet 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:19", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Tool Calls (Sonnet 4.6, Main Agent)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:19", "method": "PATCH", "path": "/api/sql-attributes/e985390a-cf5d-4b48-acbf-a00f7ec6684f", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:19", "method": "PATCH", "path": "/api/sql-attributes/33870709-2c7a-4ea8-8ce5-b14dbbeb2407", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:19", "method": "PATCH", "path": "/api/sql-attributes/0fb014bc-fd2e-4b21-8b83-9ae63f2091ca", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Edit Calls (H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Tool Calls (Opus 5, Main Agent, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "PATCH", "path": "/api/sql-attributes/cb3496d6-ecbb-4cc3-a127-ff95da526c9b", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "PATCH", "path": "/api/sql-attributes/4863012d-7a5d-4559-a32d-fb19f44c6308", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Grep Calls (Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Grep Calls (Fable 5, Main Agent, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "PATCH", "path": "/api/sql-attributes/a17b3a99-22a5-40ff-aa56-8847be173e7e", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "PATCH", "path": "/api/sql-attributes/d0bd1307-f241-4d05-8bb2-aa0be758b1b9", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "POST", "path": "/api/sql-attributes", "name": "Bash Calls (Sonnet 4.6, Main Agent, Daily Rollup)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "PATCH", "path": "/api/sql-attributes/eaeb84b3-446f-4d99-9944-914afd2418e1", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "POST", "path": "/api/sql-attributes", "name": "Bash Calls (Fable 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "POST", "path": "/api/sql-attributes", "name": "Grep Calls (Sonnet Split)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Grep Calls (Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "PATCH", "path": "/api/sql-attributes/ae979523-07f4-456d-baaf-37000397969f", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "PATCH", "path": "/api/sql-attributes/6e16673f-2930-4ee2-8e07-ad94b64fa692", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:20", "method": "PATCH", "path": "/api/sql-attributes/ed0e1810-c3a4-43dd-bbbd-6ab4d24968dd", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "POST", "path": "/api/sql-attributes", "name": "Edit Calls (Opus 4.7, Main Agent, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "PATCH", "path": "/api/sql-attributes/6b3d5ef6-704f-4909-b9d1-74c72d3957f1", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "POST", "path": "/api/sql-attributes", "name": "Grep Calls (Main Agent, H1 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Tool Calls (Sonnet 4.6, Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "POST", "path": "/api/sql-attributes", "name": "Validation-Rejected Tool Calls (Sonnet 5, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "PATCH", "path": "/api/sql-attributes/6940fd19-b67b-4267-888c-95f404531a9b", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "PATCH", "path": "/api/sql-attributes/e943192a-fd9c-4518-94d3-41da273b5c9b", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "PATCH", "path": "/api/sql-attributes/da6eb9fd-53e1-4733-87b5-e08b9b52afee", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "POST", "path": "/api/sql-attributes", "name": "Bash Calls (Sonnet 4.6, Subagent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "PATCH", "path": "/api/sql-attributes/6cd9a45a-5431-436e-b54f-1f4b70305bc3", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Tool Calls (Haiku 4.5, Main Agent, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "POST", "path": "/api/sql-attributes", "name": "Failed MCP Tool Calls (Fable 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "POST", "path": "/api/sql-attributes", "name": "Tool-Misuse Corrections (Opus 4.8, Q3 2026, Staging Hits)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "PATCH", "path": "/api/sql-attributes/a27d0ec6-bb7b-4f5e-9e3c-94eba9187ac8", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "PATCH", "path": "/api/sql-attributes/96c4c296-f6c4-44b0-ada6-7750d615af9a", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:21", "method": "PATCH", "path": "/api/sql-attributes/e7df2e00-f92e-4092-9f6d-79603248aa8b", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:22", "method": "POST", "path": "/api/sql-attributes", "name": "Write Calls (Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:22", "method": "PATCH", "path": "/api/sql-attributes/b2928c4c-affa-4a9d-a1b3-b7563f9235e1", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:22", "method": "POST", "path": "/api/sql-attributes", "name": "Failed Edit Calls (H1 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:22", "method": "POST", "path": "/api/sql-attributes", "name": "Blunt-No Corrections (Opus 5, Q3 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:22", "method": "PATCH", "path": "/api/sql-attributes/67842dc4-45f5-44d0-b52e-67038efe7d42", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:22", "method": "PATCH", "path": "/api/sql-attributes/5dc641e9-ae36-496a-84e2-0b1911ca9dfe", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:22", "method": "POST", "path": "/api/sql-attributes", "name": "Tool Calls (H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:22", "method": "POST", "path": "/api/sql-attributes", "name": "MCP Tool Calls (Sonnet 5, Main Agent, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:22", "method": "PATCH", "path": "/api/sql-attributes/1c830117-4a1c-436d-9dea-cf1129c6399c", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:22", "method": "PATCH", "path": "/api/sql-attributes/a83c390f-8141-45ef-a3fa-7ae8b41cd997", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:22", "method": "POST", "path": "/api/sql-attributes", "name": "Stopped Early Corrections (Sonnet 5, Q3 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "PATCH", "path": "/api/sql-attributes/fd0c397f-73db-49e4-8b32-1dc4ed8b6d4f", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "POST", "path": "/api/sql-attributes", "name": "Over-Building Correction Messages (Opus 4.8, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "POST", "path": "/api/sql-attributes", "name": "Corrections (Opus 5, Q3 2026, Staging Hits)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "POST", "path": "/api/sql-attributes", "name": "Errored Write Calls (Fable 5, Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "PATCH", "path": "/api/sql-attributes/6aacc2c2-979b-415e-9bee-9d88365eb3e6", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "PATCH", "path": "/api/sql-attributes/95d6e09d-3c6e-4c7f-84a2-d58c3436c059", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "PATCH", "path": "/api/sql-attributes/c24bc953-2cd8-4b1e-beed-4c36e9bf667c", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "POST", "path": "/api/sql-attributes", "name": "Read Calls (Opus 5, Main Agent, Archive)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "PATCH", "path": "/api/sql-attributes/0d326f3f-0a58-48a5-bcd1-f62aff04b705", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "POST", "path": "/api/sql-attributes", "name": "Denied Tool Calls (Opus 5, Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "POST", "path": "/api/sql-attributes", "name": "Write Calls (Sonnet 5)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "POST", "path": "/api/sql-attributes", "name": "No-Verification Correction Messages (Fable 5, Archive, Staging Hits)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "PATCH", "path": "/api/sql-attributes/e3b94157-2337-4611-9353-b336cc383d0d", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "PATCH", "path": "/api/sql-attributes/9a62c3b6-7e5c-4462-97b2-88acedff30d1", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:23", "method": "PATCH", "path": "/api/sql-attributes/cacd53aa-4c0a-4969-a172-ffaf10bcb0cc", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:24", "method": "POST", "path": "/api/sql-attributes", "name": "Typed User Messages (Sonnet 4.6)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:24", "method": "PATCH", "path": "/api/sql-attributes/12d5fca7-c053-4397-968f-1b8d5013b034", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:24", "method": "POST", "path": "/api/sql-attributes", "name": "Chrome Browser Calls (Sonnet 5, Subagent)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:24", "method": "POST", "path": "/api/sql-attributes", "name": "Edit Calls (Opus 4.8, Subagent)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:24", "method": "PATCH", "path": "/api/sql-attributes/05dc196c-ef85-4a3f-a051-0a2958782024", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:24", "method": "PATCH", "path": "/api/sql-attributes/feb850dd-b18f-4855-8c18-850f66de4591", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:24", "method": "POST", "path": "/api/sql-attributes", "name": "Subagent Prompts (Sonnet 5, Daily Rollup)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:24", "method": "PATCH", "path": "/api/sql-attributes/35a236eb-2cc0-4470-a3b8-3521cd91a30c", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:24", "method": "POST", "path": "/api/sql-attributes", "name": "No-Verification Corrections (Opus 4.8, Staging, Staging Hits)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:24", "method": "PATCH", "path": "/api/sql-attributes/70ec46e7-ef0f-4da9-8d99-4e4309712188", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:24", "method": "POST", "path": "/api/sql-attributes", "name": "Glob Calls (Sonnet 4.6, Sonnet Split)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:24", "method": "PATCH", "path": "/api/sql-attributes/1f16b018-1aab-44c6-b540-2ce1295499da", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:24", "method": "POST", "path": "/api/sql-attributes", "name": "Force Push Commands (Fable 5, H2 2026)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:25", "method": "PATCH", "path": "/api/sql-attributes/73e03b16-ddbf-4a2b-a0a1-6a50de77fbd1", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:25", "method": "POST", "path": "/api/sql-attributes", "name": "Errored MCP Tool Calls (Opus 5, Main Agent, Staging)", "status": 201, "response": ""}
+{"at": "2026-11-07T21:51:25", "method": "PATCH", "path": "/api/sql-attributes/9ea68d85-31e4-4879-ae34-e7045b3f7ffb", "name": null, "status": 200, "response": ""}
+{"at": "2026-11-07T21:51:25", "method": "GET", "path": "/api/sql-attributes", "name": null, "status": 200, "response": ""}

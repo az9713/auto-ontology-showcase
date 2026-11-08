@@ -1,0 +1,178 @@
+a_local_ddl r1 human_msgs 41.9s refused=True err=False
+a_local_ddl r1 correction_msgs 2.2s refused=True err=False
+a_local_ddl r1 correction_rate 2.7s refused=True err=False
+a_local_ddl r1 stopped_early 0.7s refused=True err=False
+a_local_ddl r1 overbuild 0.7s refused=True err=False
+a_local_ddl r1 read_failures 0.7s refused=True err=False
+a_local_ddl r1 read_failure_rate 0.8s refused=True err=False
+a_local_ddl r1 questions 0.8s refused=True err=False
+a_local_ddl r1 question_violations 0.8s refused=True err=False
+a_local_ddl r1 kill_by_pattern 0.7s refused=True err=False
+a_local_ddl r1 kill_by_pattern_opus48 0.7s refused=True err=False
+a_local_ddl r1 tokens 0.7s refused=True err=False
+a_local_ddl r1 top_project 0.6s refused=True err=False
+a_local_ddl r1 git_commits 0.6s refused=True err=False
+a_local_ddl r1 common_word 0.6s refused=True err=False
+a_local_ddl r1 cost 0.7s refused=True err=False
+a_local_ddl r2 human_msgs 0.8s refused=True err=False
+a_local_ddl r2 correction_msgs 1.1s refused=True err=False
+a_local_ddl r2 correction_rate 0.7s refused=True err=False
+a_local_ddl r2 stopped_early 0.7s refused=True err=False
+a_local_ddl r2 overbuild 0.7s refused=True err=False
+a_local_ddl r2 read_failures 0.7s refused=True err=False
+a_local_ddl r2 read_failure_rate 0.8s refused=True err=False
+a_local_ddl r2 questions 0.7s refused=True err=False
+a_local_ddl r2 question_violations 0.6s refused=True err=False
+a_local_ddl r2 kill_by_pattern 0.6s refused=True err=False
+a_local_ddl r2 kill_by_pattern_opus48 0.6s refused=True err=False
+a_local_ddl r2 tokens 0.7s refused=True err=False
+a_local_ddl r2 top_project 0.6s refused=True err=False
+a_local_ddl r2 git_commits 0.6s refused=True err=False
+a_local_ddl r2 common_word 0.5s refused=True err=False
+a_local_ddl r2 cost 0.7s refused=True err=False
+a_local_ddl r3 human_msgs 0.8s refused=True err=False
+a_local_ddl r3 correction_msgs 1.0s refused=True err=False
+a_local_ddl r3 correction_rate 0.7s refused=True err=False
+a_local_ddl r3 stopped_early 0.6s refused=True err=False
+a_local_ddl r3 overbuild 0.7s refused=True err=False
+a_local_ddl r3 read_failures 0.7s refused=True err=False
+a_local_ddl r3 read_failure_rate 0.8s refused=True err=False
+a_local_ddl r3 questions 0.7s refused=True err=False
+a_local_ddl r3 question_violations 0.7s refused=True err=False
+a_local_ddl r3 kill_by_pattern 0.7s refused=True err=False
+a_local_ddl r3 kill_by_pattern_opus48 0.6s refused=True err=False
+a_local_ddl r3 tokens 0.7s refused=True err=False
+a_local_ddl r3 top_project 0.6s refused=True err=False
+a_local_ddl r3 git_commits 0.6s refused=True err=False
+a_local_ddl r3 common_word 0.6s refused=True err=False
+a_local_ddl r3 cost 0.7s refused=True err=False
+16 jobs, 1 workers
+b_ao_uncertified r1 human_msgs 22.7s err=False
+b_ao_uncertified r1 correction_msgs 31.3s err=False
+b_ao_uncertified r1 correction_rate 143.3s err=False
+b_ao_uncertified r1 stopped_early 33.7s err=False
+b_ao_uncertified r1 overbuild 37.6s err=False
+b_ao_uncertified r1 read_failures 38.9s err=False
+b_ao_uncertified r1 read_failure_rate 83.0s err=False
+b_ao_uncertified r1 questions 46.8s err=False
+b_ao_uncertified r1 question_violations 45.4s err=False
+b_ao_uncertified r1 kill_by_pattern 38.9s err=False
+b_ao_uncertified r1 kill_by_pattern_opus48 66.3s err=False
+b_ao_uncertified r1 tokens 276.4s err=False
+b_ao_uncertified r1 top_project 158.6s err=False
+b_ao_uncertified r1 git_commits 31.4s err=False
+b_ao_uncertified r1 common_word 47.8s err=False
+b_ao_uncertified r1 cost 214.2s err=False
+200 PATCH /api/terms/566b8f9f-4bc9-4cd6-a407-a037d86ae312 
+200 PATCH /api/terms/52323668-78d9-46d0-80cb-7ba44a9b711b 
+200 PATCH /api/terms/4c3fe7d2-e61a-455d-a7cb-947700a68d28 
+200 PATCH /api/terms/a44387fa-da47-41fc-9497-cac4f615b04f 
+201 POST /api/sql-attributes 
+201 POST /api/sql-attributes 
+201 POST /api/sql-attributes 
+201 POST /api/sql-attributes 
+201 POST /api/sql-attributes 
+201 POST /api/sql-attributes 
+201 POST /api/sql-attributes 
+201 POST /api/sql-attributes 
+201 POST /api/sql-attributes 
+16 jobs, 1 workers
+c_ao_certified r1 human_msgs 46.0s err=False
+c_ao_certified r1 correction_msgs 44.1s err=False
+c_ao_certified r1 correction_rate 51.7s err=False
+c_ao_certified r1 stopped_early 46.7s err=False
+c_ao_certified r1 overbuild 43.9s err=False
+c_ao_certified r1 read_failures 48.5s err=False
+c_ao_certified r1 read_failure_rate 42.6s err=False
+c_ao_certified r1 questions 51.3s err=False
+c_ao_certified r1 question_violations 74.4s err=False
+c_ao_certified r1 kill_by_pattern 77.0s err=False
+c_ao_certified r1 kill_by_pattern_opus48 64.6s err=False
+c_ao_certified r1 tokens 260.1s err=False
+c_ao_certified r1 top_project 147.0s err=False
+c_ao_certified r1 git_commits 38.8s err=False
+c_ao_certified r1 common_word 41.8s err=False
+c_ao_certified r1 cost 175.6s err=False
+32 jobs, 1 workers
+b_ao_uncertified r2 human_msgs 48.4s err=False
+b_ao_uncertified r2 correction_msgs 47.8s err=False
+b_ao_uncertified r2 correction_rate 260.6s err=False
+b_ao_uncertified r2 stopped_early 146.2s err=False
+b_ao_uncertified r2 overbuild 82.4s err=False
+b_ao_uncertified r2 read_failures 43.2s err=False
+b_ao_uncertified r2 read_failure_rate 29.7s err=False
+b_ao_uncertified r2 questions 79.2s err=False
+b_ao_uncertified r2 question_violations 137.4s err=False
+b_ao_uncertified r2 kill_by_pattern 49.8s err=False
+b_ao_uncertified r2 kill_by_pattern_opus48 62.3s err=False
+b_ao_uncertified r2 tokens 287.1s err=False
+b_ao_uncertified r2 top_project 157.7s err=False
+b_ao_uncertified r2 git_commits 38.2s err=False
+b_ao_uncertified r2 common_word 36.2s err=False
+b_ao_uncertified r2 cost 165.2s err=False
+b_ao_uncertified r3 human_msgs 61.0s err=False
+b_ao_uncertified r3 correction_msgs 87.3s err=False
+b_ao_uncertified r3 correction_rate 49.1s err=False
+b_ao_uncertified r3 stopped_early 81.3s err=False
+b_ao_uncertified r3 overbuild 82.7s err=False
+b_ao_uncertified r3 read_failures 46.8s err=False
+b_ao_uncertified r3 read_failure_rate 39.9s err=False
+b_ao_uncertified r3 questions 82.1s err=False
+b_ao_uncertified r3 question_violations 150.3s err=False
+b_ao_uncertified r3 kill_by_pattern 35.3s err=False
+b_ao_uncertified r3 kill_by_pattern_opus48 63.6s err=False
+b_ao_uncertified r3 tokens 286.3s err=False
+b_ao_uncertified r3 top_project 168.3s err=False
+b_ao_uncertified r3 git_commits 41.6s err=False
+b_ao_uncertified r3 common_word 39.1s err=False
+b_ao_uncertified r3 cost 181.4s err=False
+48 jobs, 1 workers
+c_ao_certified r1 human_msgs 66.8s err=False
+c_ao_certified r1 correction_msgs 90.6s err=False
+c_ao_certified r1 correction_rate 144.5s err=False
+c_ao_certified r1 stopped_early 86.8s err=False
+c_ao_certified r1 overbuild 86.9s err=False
+c_ao_certified r1 read_failures 51.8s err=False
+c_ao_certified r1 read_failure_rate 35.7s err=False
+c_ao_certified r1 questions 85.7s err=False
+c_ao_certified r1 question_violations 148.7s err=False
+c_ao_certified r1 kill_by_pattern 39.7s err=False
+c_ao_certified r1 kill_by_pattern_opus48 65.5s err=False
+c_ao_certified r1 tokens 294.4s err=False
+c_ao_certified r1 top_project 172.3s err=False
+c_ao_certified r1 git_commits 38.8s err=False
+c_ao_certified r1 common_word 38.5s err=False
+c_ao_certified r1 cost 178.7s err=False
+c_ao_certified r2 human_msgs 59.9s err=False
+c_ao_certified r2 correction_msgs 90.8s err=False
+c_ao_certified r2 correction_rate 53.8s err=False
+c_ao_certified r2 stopped_early 87.8s err=False
+c_ao_certified r2 overbuild 84.0s err=False
+c_ao_certified r2 read_failures 46.7s err=False
+c_ao_certified r2 read_failure_rate 31.2s err=False
+c_ao_certified r2 questions 83.6s err=False
+c_ao_certified r2 question_violations 141.2s err=False
+c_ao_certified r2 kill_by_pattern 35.1s err=False
+c_ao_certified r2 kill_by_pattern_opus48 68.0s err=False
+c_ao_certified r2 tokens 287.0s err=False
+c_ao_certified r2 top_project 160.2s err=False
+c_ao_certified r2 git_commits 43.7s err=False
+c_ao_certified r2 common_word 39.1s err=False
+c_ao_certified r2 cost 184.8s err=False
+c_ao_certified r3 human_msgs 59.6s err=False
+c_ao_certified r3 correction_msgs 88.9s err=False
+c_ao_certified r3 correction_rate 50.1s err=False
+c_ao_certified r3 stopped_early 83.3s err=False
+c_ao_certified r3 overbuild 85.5s err=False
+c_ao_certified r3 read_failures 47.6s err=False
+c_ao_certified r3 read_failure_rate 32.1s err=False
+c_ao_certified r3 questions 81.7s err=False
+c_ao_certified r3 question_violations 140.4s err=False
+c_ao_certified r3 kill_by_pattern 36.3s err=False
+c_ao_certified r3 kill_by_pattern_opus48 61.5s err=False
+c_ao_certified r3 tokens 283.7s err=False
+c_ao_certified r3 top_project 165.0s err=False
+c_ao_certified r3 git_commits 36.0s err=False
+c_ao_certified r3 common_word 36.2s err=False
+c_ao_certified r3 cost 188.2s err=False
+ALL_DONE

@@ -1,0 +1,1063 @@
+data_layer:
+  databases:
+  - id: f48583a5-79a2-454e-b9e0-4056bb968eb2
+    dialect: postgres
+    schemas:
+    - id: ea6e9249-42ac-44de-851c-cf8a44755eee
+      name: public
+      database_name: sec
+      tables:
+      - id: 66d960ec-6d4e-45ff-905e-84b65baf257e
+        name: num
+        description: ''
+        pk: []
+        type: base table
+        columns:
+        - id: 80e777e8-6536-4953-95d6-e5fd38180fca
+          name: adsh
+          description: ''
+          type: text
+          sample_values:
+          - 0000006201-26-000014
+          - 0000007084-26-000011
+          - 0000006845-26-000010
+          - 0000007789-26-000071
+          - 0000006955-26-000025
+          is_nullable: true
+          is_unique: false
+        - id: 455cb859-f1b3-4034-af93-75d6e63a3ed1
+          name: tag
+          description: ''
+          type: text
+          sample_values:
+          - StockholdersEquity
+          - Revenues
+          is_nullable: true
+          is_unique: false
+        - id: eb9374db-128b-4f00-a4de-d00ac878fabe
+          name: version
+          description: ''
+          type: text
+          sample_values:
+          - us-gaap/2025
+          - 0000007084-26-000011
+          - 0000007789-26-000071
+          - 0000006201-26-000014
+          - 0000006955-26-000025
+          is_nullable: true
+          is_unique: false
+        - id: 9d510831-ba00-467e-bf31-813e2c3c3e0a
+          name: ddate
+          description: ''
+          type: date
+          sample_values: []
+          is_nullable: true
+          is_unique: false
+        - id: cbf0451a-35c3-4277-bf19-7bc66db32df5
+          name: qtrs
+          description: ''
+          type: integer
+          sample_values:
+          - 4
+          - 0
+          - 1
+          - 3
+          - 2
+          is_nullable: true
+          is_unique: false
+        - id: 0eed90a0-7dff-4945-a1ad-71f54c5ad34e
+          name: uom
+          description: ''
+          type: text
+          sample_values:
+          - USD
+          - shares
+          - pure
+          is_nullable: true
+          is_unique: false
+        - id: d50511ba-c615-4f7c-9319-c1d9f15e9d83
+          name: segments
+          description: ''
+          type: text
+          sample_values:
+          - EquityComponents=CommonStock;
+          is_nullable: true
+          is_unique: false
+        - id: c957210a-4709-4adb-aa0b-f5219755673b
+          name: coreg
+          description: ''
+          type: text
+          sample_values:
+          - AmericanAirlinesInc
+          is_nullable: true
+          is_unique: false
+        - id: 82011dfa-9aa7-4573-a7d8-1dd6e5afc1c6
+          name: value
+          description: ''
+          type: numeric
+          sample_values:
+          - 0
+          - 8811000
+          - 176000000
+          - 7000000
+          - 1000
+          is_nullable: true
+          is_unique: false
+        - id: a79ef6d6-350c-4712-9ba6-0a18c62e3c79
+          name: footnote
+          description: ''
+          type: text
+          sample_values: []
+          is_nullable: true
+          is_unique: false
+      - id: b469e8bb-3cf1-42b8-bb46-5f114a69f8cf
+        name: pre
+        description: ''
+        pk: []
+        type: base table
+        columns:
+        - id: 62cc6506-7d31-4bd2-94f3-e22f53056dc6
+          name: adsh
+          description: ''
+          type: text
+          sample_values:
+          - 0000011544-26-000005
+          - 0000008947-26-000010
+          - 0000009326-26-000007
+          - 0000012659-26-000008
+          - 0000008818-26-000015
+          is_nullable: true
+          is_unique: false
+        - id: b3ccc057-3ea9-4fa0-bb71-73aa9c2a28b1
+          name: report
+          description: ''
+          type: integer
+          sample_values:
+          - 4
+          - 3
+          - 5
+          - 7
+          - 6
+          is_nullable: true
+          is_unique: false
+        - id: 20f9172c-4815-4248-8736-1a95ae7b2f79
+          name: line
+          description: ''
+          type: integer
+          sample_values:
+          - 10
+          - 6
+          - 7
+          - 13
+          - 12
+          is_nullable: true
+          is_unique: false
+        - id: b019f091-00a9-4591-9197-704d9adc0317
+          name: stmt
+          description: ''
+          type: text
+          sample_values:
+          - BS
+          - CF
+          - IS
+          - EQ
+          - CI
+          is_nullable: true
+          is_unique: false
+        - id: fc63de1f-82fb-41fd-a257-d386a5f6f0b8
+          name: inpth
+          description: ''
+          type: boolean
+          sample_values:
+          - false
+          - true
+          is_nullable: true
+          is_unique: false
+        - id: ddc153e0-9857-409e-9a2f-90c5c2d3ea57
+          name: rfile
+          description: ''
+          type: text
+          sample_values:
+          - H
+          is_nullable: true
+          is_unique: false
+        - id: 2731aff7-3d2b-418c-bd01-f6aff39a0ba7
+          name: tag
+          description: ''
+          type: text
+          sample_values:
+          - NetIncomeLoss
+          - StockholdersEquity
+          - CommonStockSharesIssued
+          is_nullable: true
+          is_unique: false
+        - id: 9592c370-0d5c-4aa9-8d28-c124f52c409a
+          name: version
+          description: ''
+          type: text
+          sample_values:
+          - us-gaap/2025
+          - us-gaap/2024
+          - 0000011544-26-000005
+          - 0000008670-26-000011
+          - 0000012659-26-000008
+          is_nullable: true
+          is_unique: false
+        - id: 6bc9b87d-945e-4606-8bbd-de8ce31f9963
+          name: plabel
+          description: ''
+          type: text
+          sample_values:
+          - Net income
+          - Deferred income taxes
+          - Cash and cash equivalents
+          - Other, net
+          - Goodwill
+          is_nullable: true
+          is_unique: false
+        - id: f7e6f826-85cc-4514-9290-e3d9d7132f89
+          name: negating
+          description: ''
+          type: boolean
+          sample_values:
+          - false
+          - true
+          is_nullable: true
+          is_unique: false
+      - id: ee7a3a4d-8609-41a8-9e56-8d8eb067e4ab
+        name: sub
+        description: ''
+        pk: []
+        type: base table
+        columns:
+        - id: 39811566-bce5-4e1b-bef6-60d8411ddbf3
+          name: adsh
+          description: ''
+          type: text
+          sample_values:
+          - 0000006955-26-000025
+          - 0000014693-26-000010
+          - 0000014846-26-000007
+          - 0000015847-26-000003
+          - 0000016732-26-000006
+          is_nullable: true
+          is_unique: true
+        - id: 4f834cbd-354c-46ad-a390-d9e9c25c689f
+          name: cik
+          description: ''
+          type: bigint
+          sample_values:
+          - 812796
+          - 32604
+          - 1721056
+          - 928054
+          - 1838028
+          is_nullable: true
+          is_unique: false
+        - id: a5370af5-819c-4794-8613-9c09f0a3f337
+          name: name
+          description: ''
+          type: text
+          sample_values:
+          - SOLIGENIX, INC.
+          - EMERSON ELECTRIC CO
+          - HOOPS SCOUTING USA
+          - FLOTEK INDUSTRIES INC/CN/
+          - VANECK BITCOIN ETF
+          is_nullable: true
+          is_unique: false
+        - id: 93148ee8-3c36-4ef0-8a41-d6e46f956ed8
+          name: sic
+          description: ''
+          type: integer
+          sample_values:
+          - 2834.0
+          - 6022.0
+          - 2836.0
+          - 6770.0
+          - 6798.0
+          is_nullable: true
+          is_unique: false
+        - id: f75cfcf9-1ad4-403a-bd2c-66dafd8596fe
+          name: countryba
+          description: ''
+          type: text
+          sample_values:
+          - US
+          - CA
+          - IL
+          - GB
+          - CH
+          is_nullable: true
+          is_unique: false
+        - id: 5e767aa4-5fb3-4e27-a9e6-41747403da6f
+          name: stprba
+          description: ''
+          type: text
+          sample_values:
+          - CA
+          - NY
+          - TX
+          - MA
+          - PA
+          is_nullable: true
+          is_unique: false
+        - id: 958e5d2e-00cc-43ad-be41-03107ccf6354
+          name: cityba
+          description: ''
+          type: text
+          sample_values:
+          - NEW YORK
+          - TORONTO
+          - VANCOUVER
+          - HOUSTON
+          - DALLAS
+          is_nullable: true
+          is_unique: false
+        - id: d03945f9-c019-47b1-a096-eb4ac963bb1b
+          name: zipba
+          description: ''
+          type: text
+          sample_values:
+          - '10017'
+          - '10019'
+          - '94080'
+          - '10022'
+          - '10036'
+          is_nullable: true
+          is_unique: false
+        - id: c74c2271-2282-45f5-ba06-083154266697
+          name: bas1
+          description: ''
+          type: text
+          sample_values:
+          - 290 HARBOR DRIVE
+          - C/O VANECK DIGITAL ASSETS, LLC
+          - 29 EMMONS DRIVE
+          - 1585 BROADWAY
+          - 200 WEST STREET
+          is_nullable: true
+          is_unique: false
+        - id: f1b50e19-5fd2-4ae2-8f8b-1772e3e41e0b
+          name: bas2
+          description: ''
+          type: text
+          sample_values:
+          - SUITE 300
+          - SUITE 400
+          - SUITE 100
+          - SUITE 200
+          - 4TH FLOOR
+          is_nullable: true
+          is_unique: false
+        - id: 4d0cda21-cfd1-4abe-b1b0-ad704a45d796
+          name: baph
+          description: ''
+          type: text
+          sample_values:
+          - 212-668-1427
+          - 212-293-2048
+          - 609-538-8200
+          - '6512277333'
+          - 305-695-5500
+          is_nullable: true
+          is_unique: false
+        - id: b28fff41-dfb9-46b7-a45b-f9ec5ba9b12a
+          name: countryma
+          description: ''
+          type: text
+          sample_values:
+          - US
+          - CA
+          - IL
+          - GB
+          - CH
+          is_nullable: true
+          is_unique: false
+        - id: ab2ed686-1f00-44cf-87fa-598ea04bb861
+          name: stprma
+          description: ''
+          type: text
+          sample_values:
+          - CA
+          - NY
+          - TX
+          - MA
+          - PA
+          is_nullable: true
+          is_unique: false
+        - id: 047d889f-5006-4cb0-a419-44ee3fb3b22b
+          name: cityma
+          description: ''
+          type: text
+          sample_values:
+          - NEW YORK
+          - VANCOUVER
+          - TORONTO
+          - HOUSTON
+          - BOSTON
+          is_nullable: true
+          is_unique: false
+        - id: 2e2e00ed-5cf0-4dd2-9c9d-5838ea2d3796
+          name: zipma
+          description: ''
+          type: text
+          sample_values:
+          - '10017'
+          - '10019'
+          - '10036'
+          - '94080'
+          - '10022'
+          is_nullable: true
+          is_unique: false
+        - id: 14c2a5ea-3f73-4a22-8ee5-1a9ee49d45b4
+          name: mas1
+          description: ''
+          type: text
+          sample_values:
+          - 290 HARBOR DRIVE
+          - C/O VANECK DIGITAL ASSETS, LLC
+          - 29 EMMONS DRIVE
+          - 1585 BROADWAY
+          - 200 WEST STREET
+          is_nullable: true
+          is_unique: false
+        - id: 55172d3d-17eb-40b0-9b17-9a4af6f9142e
+          name: mas2
+          description: ''
+          type: text
+          sample_values:
+          - SUITE 300
+          - SUITE 400
+          - SUITE 100
+          - SUITE 200
+          - 4TH FLOOR
+          is_nullable: true
+          is_unique: false
+        - id: d2bd92ac-108c-4831-b90e-fd963d30a0d2
+          name: countryinc
+          description: ''
+          type: text
+          sample_values:
+          - US
+          - CA
+          - KY
+          - IL
+          - MH
+          is_nullable: true
+          is_unique: false
+        - id: 9cffca69-b339-4321-82e1-0c103bd4e0f0
+          name: stprinc
+          description: ''
+          type: text
+          sample_values:
+          - DE
+          - MD
+          - NV
+          - BC
+          - PA
+          is_nullable: true
+          is_unique: false
+        - id: 86ea8aff-fc12-4745-862a-9c55eab31fa8
+          name: ein
+          description: ''
+          type: bigint
+          sample_values:
+          - 0
+          - 411505029
+          - 430259330
+          - 346520107
+          - 900023731
+          is_nullable: true
+          is_unique: false
+        - id: f4bb7be7-223b-4647-9e84-1cee8e936e05
+          name: former
+          description: ''
+          type: text
+          sample_values:
+          - DOR BIOPHARMA INC
+          - VANECK BITCOIN TRUST
+          - AMERICAS SILVER CORP
+          - INTERNATIONAL URANIUM CORP
+          is_nullable: true
+          is_unique: false
+        - id: 64145291-26b9-4412-b6ec-7a41ed9603e5
+          name: changed
+          description: ''
+          type: date
+          sample_values: []
+          is_nullable: true
+          is_unique: false
+        - id: f96f61e9-84c1-4549-9658-cdd008a2f1b2
+          name: afs
+          description: ''
+          type: text
+          sample_values:
+          - 4-NON
+          - 2-ACC
+          - 1-LAF
+          is_nullable: true
+          is_unique: false
+        - id: 0240800e-3e1b-4640-8671-7e94e569aa3b
+          name: wksi
+          description: ''
+          type: boolean
+          sample_values:
+          - false
+          - true
+          is_nullable: true
+          is_unique: false
+        - id: c25bc6ce-8256-4aad-9e92-d5c01528f5f2
+          name: fye
+          description: ''
+          type: text
+          sample_values:
+          - '1231'
+          - '0131'
+          - '0430'
+          - '0731'
+          - '1031'
+          is_nullable: true
+          is_unique: false
+        - id: db4a50df-a5ee-4c7b-936e-a371f3afbcb5
+          name: form
+          description: ''
+          type: text
+          sample_values:
+          - 10-K
+          - 20-F
+          - 10-Q
+          - 40-F
+          - 11-K
+          is_nullable: true
+          is_unique: false
+        - id: dc06f66c-a487-4c8b-babb-b639a0f1c790
+          name: period
+          description: ''
+          type: date
+          sample_values: []
+          is_nullable: true
+          is_unique: false
+        - id: 283d940b-97bd-4acf-afae-ac7183db0b97
+          name: fy
+          description: ''
+          type: integer
+          sample_values:
+          - 2025.0
+          - 2026.0
+          - 2024.0
+          is_nullable: true
+          is_unique: false
+        - id: 2b98a4b1-fc3f-45b5-ba17-01104c5dd40d
+          name: fp
+          description: ''
+          type: text
+          sample_values:
+          - FY
+          - Q3
+          - Q2
+          - Q1
+          is_nullable: true
+          is_unique: false
+        - id: 53497fd3-ba8e-421c-a488-bb6b398304e3
+          name: filed
+          description: ''
+          type: date
+          sample_values: []
+          is_nullable: true
+          is_unique: false
+        - id: d97f3f0c-a082-4d8e-8ed1-18a2223469d9
+          name: accepted
+          description: ''
+          type: timestamp without time zone
+          sample_values: []
+          is_nullable: true
+          is_unique: false
+        - id: ab960b4d-a917-4022-b565-b633fbaad48f
+          name: prevrpt
+          description: ''
+          type: boolean
+          sample_values:
+          - false
+          is_nullable: true
+          is_unique: false
+        - id: 9ce74e49-4400-4cde-9c49-35835c9e6e08
+          name: detail
+          description: ''
+          type: boolean
+          sample_values:
+          - true
+          - false
+          is_nullable: true
+          is_unique: false
+        - id: 3c610ff1-9b3f-4a25-91a9-a5a3260ad1f3
+          name: instance
+          description: ''
+          type: text
+          sample_values:
+          - tmb-20251231x10k_htm.xml
+          - form40f_htm.xml
+          - form10k_htm.xml
+          - sngx-20251231xposam_htm.xml
+          - tmb-20251231x40f_htm.xml
+          is_nullable: true
+          is_unique: false
+        - id: b39f044d-f446-4602-a750-748aef1556ae
+          name: nciks
+          description: ''
+          type: integer
+          sample_values:
+          - 1
+          - 2
+          - 4
+          is_nullable: true
+          is_unique: false
+        - id: c1a67095-4b41-4b7c-8e62-86551541329d
+          name: aciks
+          description: ''
+          type: text
+          sample_values:
+          - '1125259'
+          - '18672'
+          - 1012493 922360 922359
+          - '2091991'
+          - '1953940'
+          is_nullable: true
+          is_unique: true
+      - id: 6e9fbe30-5a65-4868-b20b-8d22236f439b
+        name: tag
+        description: ''
+        pk: []
+        type: base table
+        columns:
+        - id: 0c9e4e6c-1b44-4830-8684-327907237992
+          name: tag
+          description: ''
+          type: text
+          sample_values:
+          - NotesAndLoansPayableCurrent
+          - AccountsAndNotesReceivableNet
+          is_nullable: true
+          is_unique: false
+        - id: a17f7d73-6f34-4cd4-a302-85334df9f4d5
+          name: version
+          description: ''
+          type: text
+          sample_values:
+          - us-gaap/2024
+          - 0001144879-26-000006
+          - 0000759944-26-000028
+          - 0001213900-26-005908
+          - us-gaap/2025
+          is_nullable: true
+          is_unique: false
+        - id: 5327664c-7cde-408c-beb5-c0cab4f0c6e8
+          name: custom
+          description: ''
+          type: boolean
+          sample_values:
+          - false
+          - true
+          is_nullable: true
+          is_unique: false
+        - id: 6b982c61-92d9-4ceb-bf1e-b017a9827f9b
+          name: abstract
+          description: ''
+          type: boolean
+          sample_values:
+          - false
+          is_nullable: true
+          is_unique: false
+        - id: 3b2834f0-be45-4c39-9931-4e454677e9b5
+          name: datatype
+          description: ''
+          type: text
+          sample_values:
+          - monetary
+          - perShare
+          - shares
+          - percent
+          - decimal
+          - perUnit
+          - integer
+          - mass
+          - pure
+          is_nullable: true
+          is_unique: false
+        - id: 2d96858b-d44d-4d02-98f8-d5b33bebfab5
+          name: iord
+          description: ''
+          type: text
+          sample_values:
+          - D
+          - I
+          is_nullable: true
+          is_unique: false
+        - id: d1255c81-8f0c-43ca-8675-49a0be3390f1
+          name: crdr
+          description: ''
+          type: text
+          sample_values:
+          - D
+          - C
+          is_nullable: true
+          is_unique: false
+        - id: eb3afead-b8a8-4515-8eef-671ffab67d24
+          name: tlabel
+          description: ''
+          type: text
+          sample_values: []
+          is_nullable: true
+          is_unique: false
+        - id: 2f7f58ce-ed51-4942-8013-20d47e10ca1f
+          name: doc
+          description: ''
+          type: text
+          sample_values: []
+          is_nullable: true
+          is_unique: false
+  foreign_keys: []
+  joins: []
+semantic_layer:
+  terms:
+  - id: e5bf4301-417a-46ef-80d7-0a5a85ed1d96
+    name: Financial Filing Submission
+    description: A unique identifier for a specific financial filing submission, formatted
+      as a CIK-year-period code.
+    represents:
+    - b469e8bb-3cf1-42b8-bb46-5f114a69f8cf
+    columns_attributes:
+    - id: 0faa069e-39d6-40ff-a104-e035967a29ac
+      name: File Type
+      description: The file type or format identifier for the submitted financial
+        filing document.
+      column_id: ddc153e0-9857-409e-9a2f-90c5c2d3ea57
+    - id: 3a7e7ba3-6b7c-41e6-b177-5f24c2c3912b
+      name: Statement Type
+      description: The type of financial statement associated with the reported data,
+        such as Balance Sheet (BS) or Income Statement (IS).
+      column_id: b019f091-00a9-4591-9197-704d9adc0317
+    - id: 408174f5-0602-4229-8a13-e90ad977dd4b
+      name: Filing Submission Identifier
+      description: A unique identifier for a specific financial filing submission,
+        formatted as a CIK-year-period code.
+      column_id: 62cc6506-7d31-4bd2-94f3-e22f53056dc6
+    - id: 75a34df9-8718-404c-b971-1256d14cc2a3
+      name: Line Number
+      description: The line number within a financial statement where a specific tag
+        or concept is reported.
+      column_id: 20f9172c-4815-4248-8736-1a95ae7b2f79
+    - id: b58fdaf2-f7e7-4f2d-aefb-72ea27beddc8
+      name: Taxonomy Version
+      description: The reporting taxonomy version and year, or a specific CIK filing
+        identifier, indicating the regulatory framework used.
+      column_id: 9592c370-0d5c-4aa9-8d28-c124f52c409a
+    - id: bb60050a-b3dd-41bc-a633-278f8c98d510
+      name: plabel
+      description: The plain-text label describing the financial item, providing a
+        human-readable name for the associated tag.
+      column_id: 6bc9b87d-945e-4606-8bbd-de8ce31f9963
+    - id: c7542144-81f4-4cdf-ba3c-eb991d9d9d27
+      name: Negating Flag
+      description: A boolean flag indicating whether the reported monetary value should
+        be treated as negative in calculations.
+      column_id: f7e6f826-85cc-4514-9290-e3d9d7132f89
+    - id: e8cf669f-5b83-4e94-b6b9-f2c7254ae3be
+      name: Report Number
+      description: The sequential report number assigned to a filing within a given
+        fiscal year and period.
+      column_id: b3ccc057-3ea9-4fa0-bb71-73aa9c2a28b1
+    - id: f04e8d2b-59e4-487c-b08c-5fa9ca580339
+      name: Financial Concept Tag
+      description: The specific financial concept or line item tag, such as Net Income
+        or Stockholders' Equity, as defined by the taxonomy.
+      column_id: 2731aff7-3d2b-418c-bd01-f6aff39a0ba7
+    - id: ff85f24c-0886-48cb-91d5-5296b925eb07
+      name: inpth
+      description: A flag indicating whether the reported value represents an in-depth
+        or detailed breakdown of a concept.
+      column_id: fc63de1f-82fb-41fd-a257-d386a5f6f0b8
+  - id: 6f09e8da-cac2-4afb-a47d-65abb53edf8e
+    name: Financial Reporting Tag
+    description: A financial reporting tag that identifies the specific line item
+      or concept in an XBRL filing, such as AccountsPayableAndAccruedLiabilitiesCurrent
+      or NotesAndLoansPayableCurrent.
+    represents:
+    - 6e9fbe30-5a65-4868-b20b-8d22236f439b
+    columns_attributes:
+    - id: 10a043ed-7a7e-4a1a-81e0-fabd0adf27d4
+      name: Is Custom Element
+      description: A flag indicating whether the column represents a user-defined
+        or non-standard element, with True signaling a custom element and False a
+        standard taxonomy element.
+      column_id: 5327664c-7cde-408c-beb5-c0cab4f0c6e8
+    - id: 17468a4e-ef21-4a5d-9fa6-04a6310f081b
+      name: Documentation String
+      description: The official documentation string that defines the calculation,
+        scope, and inclusion rules for the financial concept, such as specifying what
+        is included in Notes and Loans Payable Current.
+      column_id: 2f7f58ce-ed51-4942-8013-20d47e10ca1f
+    - id: 3edc1fc6-c508-4e2c-94f7-1426fdba7e58
+      name: iord
+      description: Indicates the inclusion or exclusion direction of the financial
+        fact, with values D (debit) or I (investment/other) determining the sign convention
+        for the value.
+      column_id: 2d96858b-d44d-4d02-98f8-d5b33bebfab5
+    - id: 52f91520-5031-49bd-93c0-9f29cb100a57
+      name: tlabel
+      description: A human-readable label describing the financial concept, such as
+        Accounts and Financing Receivable after Allowance for Credit Loss, Current,
+        providing context for the tagged data.
+      column_id: eb3afead-b8a8-4515-8eef-671ffab67d24
+    - id: 7cb847ac-0e0f-4f3f-86a7-f1a2e2cf3372
+      name: Reporting Framework Version
+      description: The reporting framework version and entity identifier, formatted
+        as us-gaap/YYYY or a CIK/accession number, indicating the GAAP taxonomy version
+        and reporting entity.
+      column_id: a17f7d73-6f34-4cd4-a302-85334df9f4d5
+    - id: bb64dcec-d2fe-4bf8-bb61-bfbc334ac14f
+      name: Data Type
+      description: The data type of the financial fact, such as monetary, perShare,
+        integer, or percent, specifying how the value should be interpreted and presented.
+      column_id: 3b2834f0-be45-4c39-9931-4e454677e9b5
+    - id: d1a40f3d-e3b9-4e0c-931a-b34149d83caa
+      name: crdr
+      description: The credit or debit direction of the financial fact, with values
+        C (credit) or D (debit) defining whether the amount increases or decreases
+        the account balance.
+      column_id: d1255c81-8f0c-43ca-8675-49a0be3390f1
+    - id: dacc522c-f079-4d9b-b8ca-752540138888
+      name: Tag Name
+      description: A financial reporting tag that identifies the specific line item
+        or concept in an XBRL filing, such as AccountsPayableAndAccruedLiabilitiesCurrent
+        or NotesAndLoansPayableCurrent.
+      column_id: 0c9e4e6c-1b44-4830-8684-327907237992
+    - id: f191b844-265f-4b1a-a273-f7fc6b1ac196
+      name: Is Abstract Concept
+      description: A boolean flag indicating whether the column is an abstract concept
+        in the taxonomy hierarchy, with False meaning it is a concrete, leaf-level
+        element.
+      column_id: 6b982c61-92d9-4ceb-bf1e-b017a9827f9b
+  - id: c951d593-a77b-4499-882d-9c3e3784df17
+    name: Num
+    description: A unique identifier for a specific financial filing or reporting
+      entity.
+    represents:
+    - 66d960ec-6d4e-45ff-905e-84b65baf257e
+    columns_attributes:
+    - id: 2088e5b8-0f43-4bec-8dcd-88d57e9356ed
+      name: Tag
+      description: The financial or accounting concept tag associated with the reported
+        value.
+      column_id: 455cb859-f1b3-4034-af93-75d6e63a3ed1
+    - id: 55a8df82-b259-42ad-8411-bf7584a80438
+      name: Company
+      description: The company or registrant identifier linked to the filing.
+      column_id: c957210a-4709-4adb-aa0b-f5219755673b
+    - id: 57740e70-bc97-4d83-bb36-cf9a5a5e669a
+      name: Quarters
+      description: The number of quarters represented in the reporting period.
+      column_id: cbf0451a-35c3-4277-bf19-7bc66db32df5
+    - id: 5d8602ad-e23e-4819-a8a0-972da4e64adf
+      name: Num
+      description: A unique identifier for a specific financial filing or reporting
+        entity.
+      column_id: 80e777e8-6536-4953-95d6-e5fd38180fca
+    - id: 71dcf80a-d366-476c-89b4-99f19cc23737
+      name: Version
+      description: The reporting framework version or taxonomy used for the filing.
+      column_id: eb9374db-128b-4f00-a4de-d00ac878fabe
+    - id: 7f9703d3-ecb0-4be7-8f4b-0bbd1402cde5
+      name: Date
+      description: "The date associated with the financial reporting period. \u2014\
+        \ format: YYYY-MM-DD"
+      column_id: 9d510831-ba00-467e-bf31-813e2c3c3e0a
+    - id: b316cf1c-fd6d-48d4-9ded-e1a4d0851113
+      name: Value
+      description: The numeric monetary or unit value reported for the tagged concept.
+      column_id: 82011dfa-9aa7-4573-a7d8-1dd6e5afc1c6
+    - id: c11b1d48-5cb7-498b-b96e-2ee13c25e802
+      name: Segments
+      description: The business segment or component tag describing the reporting
+        entity's structure.
+      column_id: d50511ba-c615-4f7c-9319-c1d9f15e9d83
+    - id: d2da0fc4-93d7-4a3d-8b9e-349012761b80
+      name: Footnote
+      description: Additional textual notes or explanations accompanying the reported
+        value.
+      column_id: a79ef6d6-350c-4712-9ba6-0a18c62e3c79
+    - id: fed58842-2f75-47b8-a241-ec5026027a13
+      name: Unit Of Measure
+      description: The unit of measure specifying how the value should be interpreted.
+      column_id: 0eed90a0-7dff-4945-a1ad-71f54c5ad34e
+  - id: 3fd7c639-adc5-4c90-80c6-e6c357f48e46
+    name: Subsidiary Information
+    description: Core entity data for a subsidiary company filing
+    represents:
+    - ee7a3a4d-8609-41a8-9e56-8d8eb067e4ab
+    columns_attributes:
+    - id: 0040aa1b-baea-4d31-b7a5-45c5da5868c2
+      name: Mailing Address City
+      description: The city of the mailing address, provided as text with sample values
+        NEW YORK, VANCOUVER, TORONTO, HOUSTON, and BOSTON.
+      column_id: 047d889f-5006-4cb0-a419-44ee3fb3b22b
+    - id: 07df7a3a-e06d-41c2-bccd-7e1ce5e1641f
+      name: Previous Report Version
+      description: A boolean flag indicating if this is a previous report version.
+      column_id: ab960b4d-a917-4022-b565-b633fbaad48f
+    - id: 11822153-0b23-4bb4-a4f1-b4809173a369
+      name: detail
+      description: A boolean flag indicating whether the record contains detailed
+        line-item data.
+      column_id: 9ce74e49-4400-4cde-9c49-35835c9e6e08
+    - id: 12a1ede4-4972-4306-912c-a0580d4a38cc
+      name: Business Address ZIP Code
+      description: The postal code or ZIP code of the business address, stored as
+        text with numeric samples such as 10017, 10019, and 94080.
+      column_id: d03945f9-c019-47b1-a096-eb4ac963bb1b
+    - id: 134cc7cf-f9fb-40fd-9254-14a4a38215ff
+      name: Filing Form Type
+      description: The SEC or regulatory filing form type used for the submission.
+      column_id: db4a50df-a5ee-4c7b-936e-a371f3afbcb5
+    - id: 17f77f8b-cac4-4628-bd3a-f1f3e684749a
+      name: CIK Count
+      description: The count of distinct CIK (Central Index Key) identifiers associated
+        with a filing, indicating the number of unique companies or entities involved.
+      column_id: b39f044d-f446-4602-a750-748aef1556ae
+    - id: 228da174-18c6-4f72-ada9-a33fc6381b51
+      name: stprba
+      description: The state or province of the business address, represented as text
+        with examples including CA, NY, TX, MA, and PA.
+      column_id: 5e767aa4-5fb3-4e27-a9e6-41747403da6f
+    - id: 23aa7e0c-82f4-41f3-adf1-a8d9a286d5f4
+      name: Filing Date
+      description: "The date the document was officially filed with the regulator.\
+        \ \u2014 format: YYYY-MM-DD"
+      column_id: 53497fd3-ba8e-421c-a488-bb6b398304e3
+    - id: 2453f590-9edf-44d6-9066-e51583cd5d3b
+      name: Last Modified Date
+      description: "The date when the filing record was last modified. \u2014 format:\
+        \ YYYY-MM-DD"
+      column_id: 64145291-26b9-4412-b6ec-7a41ed9603e5
+    - id: 33edd040-bb2c-4c80-bebb-af6f205739c9
+      name: Former Legal Name
+      description: The previous legal name of the filing entity.
+      column_id: f4bb7be7-223b-4647-9e84-1cee8e936e05
+    - id: 3585e0a1-7a07-40be-8290-856f1b21c4da
+      name: Business Address Country
+      description: The country of the business address, provided as text with values
+        such as US, CA, IL, GB, and CH.
+      column_id: f75cfcf9-1ad4-403a-bd2c-66dafd8596fe
+    - id: 396c613f-710b-40d1-b55c-4e1d4defa61a
+      name: Mailing Address Country
+      description: The country of the mailing address, given as text with values including
+        US, CA, IL, GB, and CH.
+      column_id: b28fff41-dfb9-46b7-a45b-f9ec5ba9b12a
+    - id: 416db269-4c5c-4ec2-966b-2c0781dc60f3
+      name: wksi
+      description: A flag denoting whether the entity is a Wholly-Kept Subsidiary
+        Interest.
+      column_id: 0240800e-3e1b-4640-8671-7e94e569aa3b
+    - id: 530014e7-1b1f-4d51-8adc-ed4a8d5d30a7
+      name: Fiscal Year End
+      description: The fiscal year end month and day in MMDD format.
+      column_id: c25bc6ce-8256-4aad-9e92-d5c01528f5f2
+    - id: 567435d9-ff1d-4bec-8468-8816c610d656
+      name: Filing Period Type
+      description: The filing period type, such as annual (FY) or quarterly (Q1-Q3).
+      column_id: 2b98a4b1-fc3f-45b5-ba17-01104c5dd40d
+    - id: 6a3dd2b3-c58f-42cc-9164-56504e89c2fb
+      name: Mailing Address ZIP Code
+      description: The postal code or ZIP code of the mailing address, stored as text
+        with numeric samples such as 10017, 10019, and 94080.
+      column_id: 2e2e00ed-5cf0-4dd2-9c9d-5838ea2d3796
+    - id: 6b10da9d-7931-4c02-abb8-5f5f816ac4b3
+      name: stprinc
+      description: The state or province of incorporation for the filing entity.
+      column_id: 9cffca69-b339-4321-82e1-0c103bd4e0f0
+    - id: 748a4d3b-06d9-4583-8b84-8fa7ebd1be43
+      name: Business Address City
+      description: The city of the business address, given as text with sample values
+        like NEW YORK, TORONTO, VANCOUVER, HOUSTON, and DALLAS.
+      column_id: 958e5d2e-00cc-43ad-be41-03107ccf6354
+    - id: 75527255-eebb-4d3d-83f0-828365b96875
+      name: stprma
+      description: The state or province of the mailing address, represented as text
+        with examples CA, NY, TX, MA, and PA.
+      column_id: ab2ed686-1f00-44cf-87fa-598ea04bb861
+    - id: 78215199-e755-46a2-ae74-4498af493abf
+      name: Legal Name
+      description: The legal or trading name of the entity, represented as text and
+        including corporate names such as SOLIGENIX, INC. and exchange-traded products
+        like VANECK BITCOIN ETF.
+      column_id: a5370af5-819c-4794-8613-9c09f0a3f337
+    - id: 7a639822-16ab-43a3-8028-d8e42bd6ad7a
+      name: Acceptance Timestamp
+      description: "The timestamp when the filing was accepted by the regulatory system.\
+        \ \u2014 format: YYYY-MM-DD HH:MM:SS"
+      column_id: d97f3f0c-a082-4d8e-8ed1-18a2223469d9
+    - id: 898b2451-bb95-44f6-b35c-5cdd1665f840
+      name: Accounting Filing Status
+      description: The accounting filing status code indicating the type of submission.
+      column_id: f96f61e9-84c1-4549-9658-cdd008a2f1b2
+    - id: a6d51dfb-fbc8-427d-b3ed-b521f784b445
+      name: SIC Code
+      description: The Standard Industrial Classification code as an integer, with
+        values like 2834 and 6022 indicating the primary industry sector of the entity.
+      column_id: 93148ee8-3c36-4ef0-8a41-d6e46f956ed8
+    - id: a7688260-88c3-485c-8e44-854c0f29ae04
+      name: Country Of Incorporation
+      description: The country of incorporation for the filing entity.
+      column_id: d2bd92ac-108c-4831-b90e-fd963d30a0d2
+    - id: add6d704-ed68-44a1-b9c9-5b694e048d96
+      name: Reporting Period End Date
+      description: "The reporting period end date for the financial data. \u2014 format:\
+        \ YYYY-MM-DD"
+      column_id: dc06f66c-a487-4c8b-babb-b639a0f1c790
+    - id: ae834b0c-f8dd-4c0e-86dd-0b3b1cef0d55
+      name: bas2
+      description: The secondary business address line, stored as text with values
+        such as SUITE 300, SUITE 400, and 4TH FLOOR.
+      column_id: f1b50e19-5fd2-4ae2-8f8b-1772e3e41e0b
+    - id: b1f582ec-ccc7-4308-998b-9779dbc9a150
+      name: bas1
+      description: The primary business address line one, provided as text with samples
+        including 290 HARBOR DRIVE and 1585 BROADWAY.
+      column_id: c74c2271-2282-45f5-ba06-083154266697
+    - id: b983cdb5-c3e5-42d8-9caf-96b774f82cc5
+      name: mas2
+      description: The secondary mailing address line, represented as text with values
+        such as SUITE 300, SUITE 400, and 4TH FLOOR.
+      column_id: 55172d3d-17eb-40b0-9b17-9a4af6f9142e
+    - id: c4ef49d2-cf1a-4844-bbc5-595d420e510c
+      name: Company Identifier
+      description: A numeric identifier, likely a CIK or internal reference number,
+        used to uniquely identify a company or entity within the dataset.
+      column_id: c1a67095-4b41-4b7c-8e62-86551541329d
+    - id: c668a87c-c830-4731-9a17-29bf08c34270
+      name: Business Phone Number
+      description: The business phone number in text format, with sample values like
+        212-668-1427 and 609-538-8200.
+      column_id: 4d0cda21-cfd1-4abe-b1b0-ad704a45d796
+    - id: d5d8f008-2cb3-438a-ba53-ea947e934858
+      name: mas1
+      description: The primary mailing address line one, given as text with samples
+        including 290 HARBOR DRIVE and 1585 BROADWAY.
+      column_id: 14c2a5ea-3f73-4a22-8ee5-1a9ee49d45b4
+    - id: d8d8ea2b-a0ec-46a1-aaf9-68b6f9ceb54d
+      name: XML Filename
+      description: The XML filename of a financial filing document, representing the
+        specific instance of a regulatory submission.
+      column_id: 3c610ff1-9b3f-4a25-91a9-a5a3260ad1f3
+    - id: ec6d6803-2d3c-420c-a520-03f013032371
+      name: Fiscal Year
+      description: The fiscal year number associated with the filing.
+      column_id: 283d940b-97bd-4acf-afae-ac7183db0b97
+  semantic_fks: []
+  sql_attributes:
+    manual: []
+    table: []
+    sql: []
+    bridge_table: []
+  custom_analyses: []
+zones: []

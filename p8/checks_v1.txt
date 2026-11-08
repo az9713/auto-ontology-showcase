@@ -1,0 +1,58 @@
+c01 target 'Bash Calls (Subagent)' = 9192.0; pool definitions with the same truth: 1 ['Bash Calls (Subagent, Daily Rollup)']
+c02 target 'Failed Write Calls' = 116.0; pool definitions with the same truth: 1 ['Long User Messages (Sonnet 5, Archive)']
+c03 target 'Misread Corrections' = 95.0; pool definitions with the same truth: 8 ['Tool Search Calls (Opus 4.8, Subagent, H2 2026)', 'Errored Edit Calls (Opus 4.8)', 'Errored Read Calls (Opus 4.8, Staging)', 'Failed Edit Calls (H2 2026)', 'Failed Web Fetch Calls (H2 2026)', 'Errored Edit Calls (Opus 4.8, Archive)']
+c04 target 'User Questions (Fable 5)' = 171.0; pool definitions with the same truth: 5 ['Grep Calls (Fable 5, Main Agent)', 'Grep Calls (Main Agent, Fable Split)', 'Grep Calls (Fable 5, Main Agent, Fable Split)', 'User Questions (Fable 5, Archive)', 'Grep Calls (Fable 5, Main Agent, Daily Rollup)']
+c05 target 'Denied Bash Calls' = 35.0; pool definitions with the same truth: 23 ['Subagent Launches (Opus 5)', 'Subagent Launches (Opus 5, Staging)', 'Subagent Launches (Opus 5, H2 2026)', 'Read Calls (Haiku 4.5, H2 2026)', 'Subagent Launches (Opus 5, Opus Split)', 'Subagent Launches (Opus 5, Archive)']
+c06 target 'Force Push Commands' = 15.0; pool definitions with the same truth: 64 ['Subagent Launches (Fable 5, Subagent)', 'Glob Calls (Opus 5)', 'Web Search Calls (Haiku 4.5)', 'Web Search Calls (Haiku 4.5, Subagent)', 'Web Search Calls (Haiku 4.5, Staging)', 'Web Search Calls (Haiku 4.5, Subagent, Staging)']
+c07 target 'Recursive Delete Commands (Opus 5)' = 33.0; pool definitions with the same truth: 20 ['Web Fetch Calls (Haiku 4.5, H2 2026)', 'Failed PowerShell Calls (Opus 5)', 'Errored PowerShell Calls (Opus 5)', 'Failed PowerShell Calls (Opus 5, Staging)', 'Errored PowerShell Calls (Opus 5, Staging)', 'Validation-Rejected Tool Calls (Opus 4.8, Staging)']
+c08 target 'No-Verification Corrections' = 55.0; pool definitions with the same truth: 23 ['PowerShell Calls (Opus 4.8, Subagent)', 'Tool Calls (Haiku 4.5, Main Agent)', 'Tool Calls (Haiku 4.5, Main Agent, Staging)', 'PowerShell Calls (Subagent, H1 2026)', 'Tool Calls (Haiku 4.5, Main Agent, H2 2026)', 'PowerShell Calls (Opus 4.8, Subagent, Opus Split)']
+c09 target 'Long User Messages' = 1887.0; pool definitions with the same truth: 4 ['Web Fetch Calls', 'Web Fetch Calls (Archive)', 'Web Fetch Calls (Main Agent, Archive)', 'Web Fetch Calls (Daily Rollup)']
+c10 target 'Subagent Launches (Main Agent)' = 467.0; pool definitions with the same truth: 2 ['Errored Tool Calls (Fable 5, Main Agent, Staging)', 'Subagent Launches (Main Agent, Daily Rollup)']
+c11 target 'Bash Calls Failure Rate' = 5.0198; pool definitions with the same truth: 138 ['Skill Calls (Sonnet 5, Subagent)', 'Read Calls (Sonnet 4.6, Subagent)', 'Edit Calls (Haiku 4.5)', 'Skill Calls (Sonnet 5, Subagent, Staging)', 'Chrome Browser Calls (Sonnet 5, Main Agent, Staging)', 'Read Calls (Sonnet 4.6, Subagent, Staging)']
+c12 target 'Tool Calls (Haiku 4.5)' = 1221.0; pool definitions with the same truth: 3 ['Tool Calls (Haiku 4.5, Archive)', 'Tool Calls (Haiku 4.5, Main Agent, Archive)', 'Tool Calls (Haiku 4.5, Daily Rollup)']
+c13 target 'Stopped Early Correction Messages' = 250.0; pool definitions with the same truth: 8 ['Tool Search Calls (Fable 5, Subagent)', 'Tool Search Calls (Fable 5, Subagent, H2 2026)', 'Tool Search Calls (Subagent, Fable Split)', 'Tool Search Calls (Fable 5, Subagent, Fable Split)', 'Stopped Early Correction Messages (Staging)', 'Stopped Early Correction Messages (Staging Hits)']
+c14 target 'File-Changing Calls (Subagent)' = 2748.0; pool definitions with the same truth: 1 ['File-Changing Calls (Subagent, Daily Rollup)']
+c15 target 'Questions Followed By A Bash Call' = 176.0; pool definitions with the same truth: 3 ['Grep Calls (Fable 5, Main Agent, Staging)', 'Questions Followed By A Bash Call (Staging)', 'Questions Followed By A Bash Call (Archive)']
+n01 target 'Failed Read Calls (Main Agent)' = 369.0; pool definitions with the same truth: 0 []
+n01 trap 'Failed Read Calls' = 493.0 -> DIFFERENT (ok)
+n02 target 'Errored Read Calls' = 512.0; pool definitions with the same truth: 1 ['Errored Read Calls (Archive)']
+n02 trap 'Failed Read Calls' = 493.0 -> DIFFERENT (ok)
+n03 target 'Kill-By-Pattern Commands (Fable 5)' = 27.0; pool definitions with the same truth: 29 ['Grep Calls (Haiku 4.5)', 'Grep Calls (Haiku 4.5, Subagent)', 'Read Calls (Haiku 4.5, Subagent, H2 2026)', 'Grep Calls (Haiku 4.5, Archive)', 'Grep Calls (Haiku 4.5, Main Agent, Archive)', 'Errored Write Calls (Opus 4.8)']
+n03 trap 'Kill-By-Pattern Commands' = 106.0 -> DIFFERENT (ok)
+n04 target 'Typed User Messages (Opus 4.8)' = 2542.0; pool definitions with the same truth: 1 ['Typed User Messages (Opus 4.8, Daily Rollup)']
+n04 trap 'Typed User Messages' = 6498.0 -> DIFFERENT (ok)
+n05 target 'Questions Followed By A Tool Call' = 299.0; pool definitions with the same truth: 2 ['Questions Followed By A Tool Call (Staging)', 'Questions Followed By A Tool Call (Archive)']
+n05 trap 'Questions Followed By An Edit' = 92.0 -> DIFFERENT (ok)
+n06 target 'Over-Building Correction Messages' = 218.0; pool definitions with the same truth: 4 ['Corrections (Fable 5, Staging)', 'Over-Building Correction Messages (Staging)', 'Over-Building Correction Messages (Staging Hits)', 'Over-Building Correction Messages (Staging, Staging Hits)']
+n06 trap 'Over-Building Corrections' = 246.0 -> DIFFERENT (ok)
+n07 target 'Stopped Early Corrections (Opus 5)' = 28.0; pool definitions with the same truth: 45 ['Web Search Calls (Sonnet 5)', 'Grep Calls (Haiku 4.5, Staging)', 'Grep Calls (Haiku 4.5, Subagent, Staging)', 'Web Search Calls (Sonnet 5, H2 2026)', 'Web Search Calls (Sonnet Split)', 'Web Search Calls (Sonnet 5, Sonnet Split)']
+n07 trap 'Stopped Early Corrections' = 261.0 -> DIFFERENT (ok)
+n08 target 'Read Calls (Subagent)' = 8107.0; pool definitions with the same truth: 1 ['Read Calls (Subagent, Daily Rollup)']
+n08 trap 'Read Calls' = 13933.0 -> DIFFERENT (ok)
+n09 target 'Kill-By-PID Commands' = 71.0; pool definitions with the same truth: 17 ['MCP Tool Calls (Haiku 4.5)', 'Chrome Browser Calls (Haiku 4.5)', 'MCP Tool Calls (Haiku 4.5, H2 2026)', 'Chrome Browser Calls (Haiku 4.5, H2 2026)', 'MCP Tool Calls (Haiku 4.5, Archive)', 'MCP Tool Calls (Haiku 4.5, Main Agent, Archive)']
+n09 trap 'Kill-By-Pattern Commands' = 106.0 -> DIFFERENT (ok)
+n10 target 'Messages Ending With A Question Mark' = 255.0; pool definitions with the same truth: 5 ['MCP Tool Calls (Sonnet 5, Staging)', 'Failed Read Calls (Sonnet 4.6, Staging)', 'Failed Read Calls (Sonnet 4.6, Main Agent, Staging)', 'Messages Ending With A Question Mark (Archive)', 'Over-Building Corrections (Staging)']
+n10 trap 'User Questions' = 585.0 -> DIFFERENT (ok)
+n11 target 'Read Calls Failure Rate (Opus 4.8)' = 1.6419; pool definitions with the same truth: 0 []
+n11 trap 'Read Calls Failure Rate' = 3.5384 -> DIFFERENT (ok)
+n12 target 'Corrections' = 855.0; pool definitions with the same truth: 0 []
+n12 trap 'Correction Messages' = 601.0 -> DIFFERENT (ok)
+n13 target 'Failed Edit Calls (Main Agent)' = 119.0; pool definitions with the same truth: 7 ['Glob Calls (Subagent, H1 2026)', 'Failed File-Changing Calls (Opus 4.8)', 'Failed Tool Calls (Opus 4.7)', 'Failed Tool Calls (Opus 4.7, Main Agent)', 'Failed Write Calls (Staging)', 'Failed MCP Tool Calls (Fable 5, Main Agent, H2 2026)']
+n13 trap 'Failed Edit Calls' = 137.0 -> DIFFERENT (ok)
+n14 target 'Tool Calls (Sonnet 4.6, Main Agent)' = 1664.0; pool definitions with the same truth: 2 ['Tool Calls (Sonnet 4.6, Main Agent, Sonnet Split)', 'Tool Calls (Sonnet 4.6, Main Agent, Daily Rollup)']
+n14 trap 'Tool Calls (Sonnet 4.6)' = 1710.0 -> DIFFERENT (ok)
+n15 target 'Validation-Rejected Tool Calls' = 65.0; pool definitions with the same truth: 16 ['Failed MCP Tool Calls (Opus 5)', 'Errored PowerShell Calls (Fable 5, Main Agent)', 'Errored MCP Tool Calls (Opus 5)', 'Denied Tool Calls (Opus 4.8)', 'Failed MCP Tool Calls (Opus 5, H2 2026)', 'Errored MCP Tool Calls (Opus 5, H2 2026)']
+n15 trap 'Denied Tool Calls' = 109.0 -> DIFFERENT (ok)
+m01 compose truth 15.7265 alt None
+m02 compose truth 391.0 alt 391.0
+m03 compose truth 43.3962 alt None
+m04 compose truth 9.9201 alt None
+m05 compose truth 127.0 alt None
+m06 compose truth 32.1101 alt None
+m07 compose truth 124.0 alt None
+m08 compose truth 325.0 alt None
+m09 compose truth 21.0 alt None
+m10 compose truth 18788.0 alt None
+|K| = 50; level sizes L0 50, L1 200, L2 1000, L3 5000
+sha256 questions.json 35885cb5f99c793f51f02052c221259425b2a4516e411ba83e152d6a4f60e848
+sha256 levels.json 58b93164d2dd5ae0a85b16fae56ede779ddda26920f1d564f7b8b1303d0cfb41

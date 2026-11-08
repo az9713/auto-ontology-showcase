@@ -1,0 +1,128 @@
+{
+ "written": "2026-11-07, before any run",
+ "database": "cchist",
+ "truth_source": "p7/truth.sql (output p7/truth_sql.out) = p7/truth_scan.json",
+ "scoring": "answerable: correct if |value - truth| <= tolerance (counts exact, percentages within 0.05 points); unanswerable: correct if refused",
+ "n_answerable": 11,
+ "n_unanswerable": 5,
+ "questions": [
+  {
+   "id": "human_msgs",
+   "type": "answerable",
+   "text": "How many messages did the user type to the agents?",
+   "truth": 6498,
+   "tolerance": 0,
+   "truth_sql": "T1"
+  },
+  {
+   "id": "correction_msgs",
+   "type": "answerable",
+   "text": "How many of the user's messages contained at least one correction?",
+   "truth": 601,
+   "tolerance": 0,
+   "truth_sql": "T2"
+  },
+  {
+   "id": "correction_rate",
+   "type": "answerable",
+   "text": "What percentage of the user's messages contained at least one correction?",
+   "truth": 9.249,
+   "tolerance": 0.05,
+   "truth_sql": "T2/T1"
+  },
+  {
+   "id": "stopped_early",
+   "type": "answerable",
+   "text": "How many 'stopped early' corrections did the user make?",
+   "truth": 261,
+   "tolerance": 0,
+   "truth_sql": "T3"
+  },
+  {
+   "id": "overbuild",
+   "type": "answerable",
+   "text": "How many 'over-building' corrections did the user make?",
+   "truth": 246,
+   "tolerance": 0,
+   "truth_sql": "T4"
+  },
+  {
+   "id": "read_failures",
+   "type": "answerable",
+   "text": "How many Read calls failed?",
+   "truth": 493,
+   "tolerance": 0,
+   "truth_sql": "T5"
+  },
+  {
+   "id": "read_failure_rate",
+   "type": "answerable",
+   "text": "What percentage of Read calls failed?",
+   "truth": 3.5384,
+   "tolerance": 0.05,
+   "truth_sql": "T5/T6"
+  },
+  {
+   "id": "questions",
+   "type": "answerable",
+   "text": "How many questions did the user ask?",
+   "truth": 585,
+   "tolerance": 0,
+   "truth_sql": "T7"
+  },
+  {
+   "id": "question_violations",
+   "type": "answerable",
+   "text": "How many of the user's questions were followed by an edit?",
+   "truth": 92,
+   "tolerance": 0,
+   "truth_sql": "T8"
+  },
+  {
+   "id": "kill_by_pattern",
+   "type": "answerable",
+   "text": "How many kill-by-pattern commands did the agents run?",
+   "truth": 106,
+   "tolerance": 0,
+   "truth_sql": "T9 sum"
+  },
+  {
+   "id": "kill_by_pattern_opus48",
+   "type": "answerable",
+   "text": "How many kill-by-pattern commands did Opus 4.8 run?",
+   "truth": 46,
+   "tolerance": 0,
+   "truth_sql": "T9 claude-opus-4-8"
+  },
+  {
+   "id": "tokens",
+   "type": "unanswerable",
+   "text": "How many tokens did the agents use in total?",
+   "why": "no token counts in cchist"
+  },
+  {
+   "id": "top_project",
+   "type": "unanswerable",
+   "text": "Which project had the most corrections?",
+   "why": "no project names in cchist (file_id only)"
+  },
+  {
+   "id": "git_commits",
+   "type": "unanswerable",
+   "text": "How many git commits did the agents make?",
+   "why": "no command text; danger patterns do not include commit"
+  },
+  {
+   "id": "common_word",
+   "type": "unanswerable",
+   "text": "What word appears most often in the user's corrections?",
+   "why": "no message text in cchist"
+  },
+  {
+   "id": "cost",
+   "type": "unanswerable",
+   "text": "How much did the sessions cost in US dollars?",
+   "why": "no cost data in cchist"
+  }
+ ]
+}

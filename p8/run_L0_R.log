@@ -1,0 +1,20 @@
+R_L0_r1_b0: exit 0, 344 s, prompt 6058 chars
+R_L0_r1_b1: exit 0, 723 s, prompt 6032 chars
+R_L0_r1_b2: exit 0, 330 s, prompt 6023 chars
+R_L0_r2_b0: exit 0, 327 s, prompt 6058 chars
+R_L0_r2_b1: exit 0, 273 s, prompt 6032 chars
+R_L0_r2_b2: exit 0, 180 s, prompt 6023 chars
+R_L0_r3_b0: exit 0, 240 s, prompt 6058 chars
+R_L0_r3_b1: exit 0, 145 s, prompt 6032 chars
+R_L0_r3_b2: exit 0, 153 s, prompt 6023 chars
+level arm rep | answerable/40 copy/15 compose/10 near/15 trap | refused/5 invented | USD  min  Mtok | missing errors
+L0 O r1 | 40 15 10 15  0 | 5 0 |  1.78   11  0.86 | 0 
+L0 O r2 | 40 15 10 15  0 | 5 0 |  1.67   10  0.81 | 0 
+L0 O r3 | 40 15 10 15  0 | 5 0 |  1.89   14  1.31 | 0 
+L0 P r1 | 40 15 10 15  0 | 5 0 |  0.87   11  0.29 | 0 
+L0 P r2 | 40 15 10 15  0 | 5 0 |  0.90    9  0.31 | 0 
+L0 P r3 | 40 15 10 15  0 | 5 0 |  0.87   12  0.29 | 0 
+L0 R r1 | 40 15 10 15  0 | 5 0 |  1.22   23  0.63 | 0 
+L0 R r2 | 40 15 10 15  0 | 5 0 |  0.98   13  0.45 | 0 
+L0 R r3 | 40 15 10 15  0 | 5 0 |  1.20    9  0.64 | 0 
+LEVEL_DONE L0

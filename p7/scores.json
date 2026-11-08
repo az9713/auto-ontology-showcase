@@ -1,0 +1,2786 @@
+[
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "human_msgs",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "correction_msgs",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "correction_rate",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "stopped_early",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "overbuild",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "read_failures",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "read_failure_rate",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "questions",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "question_violations",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "kill_by_pattern",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "kill_by_pattern_opus48",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "top_project",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "git_commits",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "common_word",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 1,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "human_msgs",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "correction_msgs",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "Not enough information to determine how many user messages contained at least one correction.",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "correction_rate",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "stopped_early",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "overbuild",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "read_failures",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "read_failure_rate",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "questions",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "question_violations",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "kill_by_pattern",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "kill_by_pattern_opus48",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "top_project",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "git_commits",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "common_word",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 2,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "human_msgs",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "correction_msgs",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "Not enough information to determine how many user messages contained at least one correction.",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "correction_rate",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "stopped_early",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "overbuild",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "read_failures",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "read_failure_rate",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "questions",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "question_violations",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "kill_by_pattern",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "kill_by_pattern_opus48",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "top_project",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "git_commits",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "common_word",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "a_local_ddl",
+  "repeat": 3,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "human_msgs",
+  "value": 10569.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This calculates the total number of messages typed by a user to agents, based on the human_message table. It uses the msg_id column to count each unique message, as each row represents one message. No filters or time windows are applied because the question does not specify a time range or user iden",
+  "sql": "SELECT COUNT(msg_id) AS message_count FROM cchist.public.human_message"
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "correction_msgs",
+  "value": 1660.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query counts how many messages contained at least one correction. It uses the human_message table, focusing on the msg_id to identify each message. The message correction is inferred from the message_pattern_hit table, which links each message (via msg_id) to a pattern that may represent a corr",
+  "sql": "SELECT COUNT(*) AS message_count\nFROM cchist.public.human_message AS h\nINNER JOIN cchist.public.message_pattern_hit AS m\n  ON h.msg_id = m.msg_id\nWHERE m.pattern_id IS NOT NULL;"
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "correction_rate",
+  "value": 15.1556651146,
+  "label": "wrong",
+  "error": null,
+  "answer": "This calculates the percentage of user messages that contain at least one correction. It uses the human_message table, focusing on the msg_id as the unique identifier for each message. The presence of a correction is inferred from the message pattern hits (message_pattern_hit table), where a pattern",
+  "sql": "SELECT CAST(SUM(CASE WHEN mp.msg_id IS NOT NULL THEN 1 ELSE 0 END) AS REAL) * 100.0 / COUNT(*) AS percentage\nFROM cchist.public.human_message AS hm\nLEFT JOIN cchist.public.message_pattern_hit AS mp ON hm.msg_id = mp.msg_id;"
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "stopped_early",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Error Flag, Denied Mark, Validated Mark, Starts With Question.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "overbuild",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Starts With Question, Validated Mark, Is Sidechain.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "read_failures",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Call ID, Tool Name.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "read_failure_rate",
+  "value": 4.0874980042,
+  "label": "wrong",
+  "error": null,
+  "answer": "The query calculates the percentage of Read calls that failed by identifying all calls where the tool_name is 'Read' and then checking if the call resulted in an error (indicated by is_error = TRUE in the tool_result table). The failure rate is computed as the ratio of failed Read calls to total Rea",
+  "sql": "SELECT CAST(SUM(CASE WHEN t2.is_error THEN 1 ELSE 0 END) AS REAL) * 100 / COUNT(*) AS percentage\nFROM cchist.public.tool_call AS t\nJOIN cchist.public.tool_result AS t2 ON t.call_id = t2.call_id\nWHERE t.tool_name = 'Read';"
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "questions",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Starts With Question, Ends With Question Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "question_violations",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Starts With Question, Ends With Question Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "kill_by_pattern",
+  "value": 0.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "The question asks for the count of 'kill-by-pattern' commands executed by agents. The 'tool_name' column in the tool_call table contains the name of the tool used, and 'kill-by-pattern' is a likely tool name. The call_danger_hit table links calls to patterns via call_id and pattern_id, but since the",
+  "sql": "SELECT COUNT(*) AS kill_by_pattern_command_count FROM cchist.public.tool_call WHERE tool_name = 'kill-by-pattern'"
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "kill_by_pattern_opus48",
+  "value": 0.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query counts how many times the 'kill' tool was used by the 'Opus 4.8' model in the system. It uses the tool_call table to find entries where the model is 'claude-opus-4-8' and the tool name is 'kill', and links these to pattern records via the call_id. The result is the total number of such co",
+  "sql": "SELECT COUNT(*) AS kill_by_pattern_count\nFROM cchist.public.tool_call\nJOIN cchist.public.call_danger_hit ON cchist.public.tool_call.call_id = cchist.public.call_danger_hit.call_id\nWHERE cchist.public.tool_call.model = 'claude-opus-4-8'\n  AND cchist.public.tool_call.tool_name = 'kill';"
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "SQL can't be constructed from the data.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "top_project",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Validated Mark, Starts With Question, Event Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "git_commits",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Tool Name, Is Shell, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "common_word",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Imperative Verb Form, Starts With Question.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ao_uncertified",
+  "repeat": 1,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "SQL can't be constructed from the data.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "human_msgs",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Message ID, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "correction_msgs",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Message ID, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "correction_rate",
+  "value": 12.6629146919,
+  "label": "wrong",
+  "error": null,
+  "answer": "This calculates the percentage of user messages that contained at least one correction by first counting the number of messages with corrections (using the message_pattern_hit table) and dividing by the total number of typed user messages (filtered by non-sidechain, non-noise, and non-empty messages",
+  "sql": "SELECT CAST(SUM(CASE WHEN p.pattern_id IS NOT NULL THEN 1 ELSE 0 END) AS REAL) * 100.0 / COUNT(*) AS percentage\nFROM cchist.public.human_message h\nLEFT JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id\nWHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0;"
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "stopped_early",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Error Flag, Validated Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "overbuild",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Message ID, Validated Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "read_failures",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Call ID, Tool Name.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "read_failure_rate",
+  "value": 58.1856025264,
+  "label": "wrong",
+  "error": null,
+  "answer": "This calculates the percentage of Read tool calls that failed. It uses the tool_call table to filter only those calls where the tool_name is 'Read', then counts how many of those calls have a failed status (indicated by is_sidechain or is_shell flags, but no explicit failure flag exists). Since no e",
+  "sql": "SELECT\n  CAST(SUM(CASE WHEN c.is_sidechain THEN 1 ELSE 0 END) AS REAL) * 100.0 / COUNT(*) AS percentage\nFROM cchist.public.tool_call c\nWHERE c.tool_name = 'Read';"
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "questions",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Starts With Question, Ends With Question Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "question_violations",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Starts With Question, Ends With Question Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "kill_by_pattern",
+  "value": 106.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query counts the number of 'kill-by-pattern' commands executed by agents. It joins the tool_call and call_danger_hit tables on call_id to link tool actions with danger patterns. It filters for pattern_id values 1 or 2, which are defined as 'kill-by-pattern' in the evidence. The result is a sing",
+  "sql": "SELECT COUNT(*) AS kill_by_pattern_commands FROM cchist.public.call_danger_hit d JOIN cchist.public.tool_call c ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2)"
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "kill_by_pattern_opus48",
+  "value": 46.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query counts the number of 'kill-by-pattern' commands executed by the 'Opus 4.8' model. It uses the tool_call table to identify commands and the call_danger_hit table to filter for pattern IDs 1 or 2, which define 'kill-by-pattern' commands. The model name is filtered to match 'claude-opus-4-8'",
+  "sql": "SELECT COUNT(*) AS kill_by_pattern_commands\nFROM cchist.public.tool_call AS c\nJOIN cchist.public.call_danger_hit AS d ON c.call_id = d.call_id\nWHERE d.pattern_id IN (1, 2)\n  AND c.model = 'claude-opus-4-8';"
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "SQL can't be constructed from the data.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "top_project",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Validated Mark, Event Timestamp, Starts With Question.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "git_commits",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Tool Name, Is Shell, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "common_word",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Imperative Verb Form, Starts With Question.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 2,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "SQL can't be constructed from the data.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "human_msgs",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Message ID, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "correction_msgs",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Message ID, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "correction_rate",
+  "value": 100.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This calculates the percentage of user messages that contained at least one correction. It uses the human_message table to identify typed user messages (filtered by is_sidechain and is_noise flags) and joins with message_pattern_hit to find messages with corrections. The result is derived from the c",
+  "sql": "SELECT (COUNT(DISTINCT h.msg_id) * 100.0 / COUNT(*)) AS percentage FROM cchist.public.human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "stopped_early",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Error Flag, Validated Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "overbuild",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Message ID, Validated Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "read_failures",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Call ID, Tool Name.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "read_failure_rate",
+  "value": 58.1856025264,
+  "label": "wrong",
+  "error": null,
+  "answer": "This calculates the percentage of Read tool calls that failed. It uses the tool_call table to filter calls where the tool_name is 'Read' and then determines the percentage of those calls where the is_sidechain flag is true (indicating a failure). The result is computed as a percentage of total Read ",
+  "sql": "SELECT\n  CAST(\n    SUM(\n      CASE WHEN c.is_sidechain THEN 1 ELSE 0 END\n    ) AS REAL\n  ) * 100.0 / COUNT(*) AS percentage\nFROM cchist.public.tool_call AS c\nWHERE c.tool_name = 'Read';"
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "questions",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Starts With Question, Ends With Question Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "question_violations",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Starts With Question, Ends With Question Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "kill_by_pattern",
+  "value": 106.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query counts the number of 'kill-by-pattern' commands executed by agents. It joins the tool_call and call_danger_hit tables on call_id to link tool actions with danger patterns. It filters for pattern_id values 1 or 2, which are defined as 'kill-by-pattern' in the evidence. The result is a sing",
+  "sql": "SELECT COUNT(*) AS kill_by_pattern_commands FROM cchist.public.call_danger_hit d JOIN cchist.public.tool_call c ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2)"
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "kill_by_pattern_opus48",
+  "value": 46.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query counts how many 'kill-by-pattern' commands were executed by the 'Opus 4.8' model. It uses the tool_call table to identify actions where the model is 'claude-opus-4-8' and joins with call_danger_hit to filter only those commands where the pattern_id is 1 or 2. The result is the total count",
+  "sql": "SELECT COUNT(*) AS kill_by_pattern_commands FROM cchist.public.tool_call AS c JOIN cchist.public.call_danger_hit AS d ON c.call_id = d.call_id WHERE c.model = 'claude-opus-4-8' AND d.pattern_id IN (1, 2)"
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "SQL can't be constructed from the data.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "top_project",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Validated Mark, Event Timestamp, Starts With Question.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "git_commits",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Tool Name, Is Shell, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "common_word",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Imperative Verb Form, Starts With Question.",
+  "sql": ""
+ },
+ {
+  "arm": "b_ran_in_certified_store",
+  "repeat": 3,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "SQL can't be constructed from the data.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "human_msgs",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Message ID, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "correction_msgs",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Message ID, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "correction_rate",
+  "value": 70.2923976608,
+  "label": "wrong",
+  "error": null,
+  "answer": "The query calculates the percentage of user messages that contained at least one correction by first counting the number of distinct messages with corrections (via message_pattern_hit) and dividing it by the total number of typed user messages (excluding sidechain and noise messages with positive ch",
+  "sql": "SELECT (CAST(COUNT(DISTINCT h.msg_id) AS REAL) * 100 / COUNT(*)) AS percentage FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "stopped_early",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Error Flag, Validated Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "overbuild",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Message ID, Validated Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "read_failures",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Call ID, Tool Name.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "read_failure_rate",
+  "value": 58.1856025264,
+  "label": "wrong",
+  "error": null,
+  "answer": "This calculates the percentage of Read tool calls that failed. It uses the tool_call table to filter calls where the tool_name is 'Read' and then determines the percentage of those calls where the is_sidechain flag is true (indicating a failure). The result is computed as a percentage of total Read ",
+  "sql": "SELECT\n  CAST(\n    SUM(\n      CASE WHEN c.is_sidechain THEN 1 ELSE 0 END\n    ) AS REAL\n  ) * 100.0 / COUNT(*) AS percentage\nFROM cchist.public.tool_call AS c\nWHERE c.tool_name = 'Read';"
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "questions",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Starts With Question, Ends With Question Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "question_violations",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Starts With Question, Ends With Question Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "kill_by_pattern",
+  "value": 106.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query counts the number of 'kill-by-pattern' commands executed by agents. It joins the tool_call and call_danger_hit tables on call_id to link tool actions with danger patterns. It filters for pattern_id values 1 or 2, which are defined as 'kill-by-pattern' in the evidence. The result is a sing",
+  "sql": "SELECT COUNT(*) AS kill_by_pattern_commands FROM cchist.public.call_danger_hit d JOIN cchist.public.tool_call c ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2)"
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "kill_by_pattern_opus48",
+  "value": 46.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query counts the number of 'kill-by-pattern' commands executed by the 'Opus 4.8' model. It uses the tool_call table to identify commands (via tool_name) and the model name (via model), and joins with call_danger_hit to filter only commands associated with danger patterns 1 or 2, which are defin",
+  "sql": "SELECT COUNT(*) AS kill_by_pattern_commands FROM cchist.public.tool_call AS c JOIN cchist.public.call_danger_hit AS d ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2) AND c.model = 'claude-opus-4-8';"
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "SQL can't be constructed from the data.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "top_project",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Validated Mark, Event Timestamp, Starts With Question.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "git_commits",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Tool Name, Is Shell, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "common_word",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Imperative Verb Form, Starts With Question.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 1,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "SQL can't be constructed from the data.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "human_msgs",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Message ID, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "correction_msgs",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Message ID, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "correction_rate",
+  "value": 70.2923976608,
+  "label": "wrong",
+  "error": null,
+  "answer": "This calculates the percentage of user messages that contained at least one correction. It uses the 'Correction Messages' metric from the schema, which counts distinct messages with at least one correction, and divides it by the total count of typed user messages, then multiplies by 100 to get a per",
+  "sql": "SELECT (CAST(COUNT(DISTINCT h.msg_id) AS REAL) * 100 / COUNT(h.msg_id)) AS percentage FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "stopped_early",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Error Flag, Validated Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "overbuild",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Message ID, Validated Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "read_failures",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Call ID, Tool Name.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "read_failure_rate",
+  "value": 58.1856025264,
+  "label": "wrong",
+  "error": null,
+  "answer": "This calculates the percentage of Read tool calls that failed. It uses the tool_call table to filter calls where the tool_name is 'Read' and then determines the percentage of those calls where the is_sidechain flag is true (indicating a failure). The result is computed as a percentage of total Read ",
+  "sql": "SELECT\n  CAST(\n    SUM(\n      CASE WHEN c.is_sidechain THEN 1 ELSE 0 END\n    ) AS REAL\n  ) * 100.0 / COUNT(*) AS percentage\nFROM cchist.public.tool_call AS c\nWHERE c.tool_name = 'Read';"
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "questions",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Starts With Question, Ends With Question Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "question_violations",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Starts With Question, Ends With Question Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "kill_by_pattern",
+  "value": 106.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query counts the number of 'kill-by-pattern' commands executed by agents. It joins the tool_call and call_danger_hit tables on call_id to link tool actions with danger patterns. It filters for pattern_id values 1 or 2, which are defined as 'kill-by-pattern' in the evidence. The result is a sing",
+  "sql": "SELECT COUNT(*) AS kill_by_pattern_commands FROM cchist.public.call_danger_hit d JOIN cchist.public.tool_call c ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2)"
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "kill_by_pattern_opus48",
+  "value": 46.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query counts the number of 'kill-by-pattern' commands executed by the 'Opus 4.8' model. It uses the tool_call table to identify actions and joins with call_danger_hit to filter for pattern_id 1 or 2, which defines 'kill-by-pattern' commands. The model column is filtered to match 'claude-opus-4-",
+  "sql": "SELECT COUNT(*) AS kill_by_pattern_commands FROM cchist.public.tool_call c JOIN cchist.public.call_danger_hit d ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2) AND c.model = 'claude-opus-4-8'"
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "SQL can't be constructed from the data.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "top_project",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Validated Mark, Event Timestamp, Starts With Question.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "git_commits",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Tool Name, Is Shell, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "common_word",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Imperative Verb Form, Starts With Question.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 2,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "SQL can't be constructed from the data.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "human_msgs",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Message ID, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "correction_msgs",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Message ID, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "correction_rate",
+  "value": 70.2923976608,
+  "label": "wrong",
+  "error": null,
+  "answer": "This calculates the percentage of user messages that contained at least one correction. It uses the human_message and message_pattern_hit tables to identify messages with corrections, filtering out sidechain and noise messages, and only counting messages with at least one character. The result is de",
+  "sql": "SELECT (COUNT(DISTINCT h.msg_id) * 100.0 / COUNT(*)) AS percentage FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0;"
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "stopped_early",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Error Flag, Validated Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "overbuild",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Message ID, Validated Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "read_failures",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Call ID, Tool Name.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "read_failure_rate",
+  "value": 58.1856025264,
+  "label": "wrong",
+  "error": null,
+  "answer": "This calculates the percentage of Read tool calls that failed. It uses the tool_call table to filter calls where the tool_name is 'Read' and then determines the percentage of those calls where the is_sidechain flag is true (indicating a failure). The result is computed as a percentage of total Read ",
+  "sql": "SELECT\n  CAST(\n    SUM(\n      CASE WHEN c.is_sidechain THEN 1 ELSE 0 END\n    ) AS REAL\n  ) * 100.0 / COUNT(*) AS percentage\nFROM cchist.public.tool_call AS c\nWHERE c.tool_name = 'Read';"
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "questions",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Starts With Question, Ends With Question Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "question_violations",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Starts With Question, Ends With Question Mark.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "kill_by_pattern",
+  "value": 106.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query counts the number of 'kill-by-pattern' commands executed by agents. It joins the tool_call and call_danger_hit tables on call_id to link tool actions with danger patterns. It filters for pattern_id values 1 or 2, which are defined as 'kill-by-pattern' in the evidence. The result is a sing",
+  "sql": "SELECT COUNT(*) AS kill_by_pattern_commands FROM cchist.public.call_danger_hit d JOIN cchist.public.tool_call c ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2)"
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "kill_by_pattern_opus48",
+  "value": 46.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query counts the number of 'kill-by-pattern' commands executed by the 'Opus 4.8' model. It uses the tool_call table to identify actions and joins with call_danger_hit to filter for pattern_id 1 or 2, which defines 'kill-by-pattern' commands. The model column is filtered to match 'claude-opus-4-",
+  "sql": "SELECT COUNT(*) AS kill_by_pattern_commands FROM cchist.public.tool_call c JOIN cchist.public.call_danger_hit d ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2) AND c.model = 'claude-opus-4-8'"
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "SQL can't be constructed from the data.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "top_project",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Pattern ID, Validated Mark, Event Timestamp, Starts With Question.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "git_commits",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Tool Name, Is Shell, Message Timestamp.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "common_word",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Imperative Verb Form, Starts With Question.",
+  "sql": ""
+ },
+ {
+  "arm": "c_ao_certified",
+  "repeat": 3,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "SQL can't be constructed from the data.",
+  "sql": ""
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "human_msgs",
+  "value": 6498.0,
+  "label": "correct",
+  "error": null,
+  "answer": "typed_user_messages",
+  "sql": "SELECT count(*) AS typed_user_messages FROM cchist.public.human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "correction_msgs",
+  "value": 601.0,
+  "label": "correct",
+  "error": null,
+  "answer": "123",
+  "sql": "SELECT count(DISTINCT h.msg_id) AS correction_messages FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "correction_rate",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "stopped_early",
+  "value": 261.0,
+  "label": "correct",
+  "error": null,
+  "answer": "SELECT count(*) AS stopped_early_corrections FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 12 AND 15",
+  "sql": "SELECT count(*) AS stopped_early_corrections FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 12 AND 15"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "overbuild",
+  "value": 246.0,
+  "label": "correct",
+  "error": null,
+  "answer": "SELECT count(*) AS overbuilding_corrections FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 9 AND 11",
+  "sql": "SELECT count(*) AS overbuilding_corrections FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 9 AND 11"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "read_failures",
+  "value": 493.0,
+  "label": "correct",
+  "error": null,
+  "answer": "123",
+  "sql": "SELECT count(*) AS failed_read_calls FROM cchist.public.tool_result r JOIN cchist.public.tool_call c ON c.call_id = r.call_id WHERE c.tool_name = 'Read' AND r.is_error AND NOT r.denied_mark AND NOT r.validation_mark"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "read_failure_rate",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "questions",
+  "value": 585.0,
+  "label": "correct",
+  "error": null,
+  "answer": "SELECT count(*) AS questions FROM cchist.public.human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative",
+  "sql": "SELECT count(*) AS questions FROM cchist.public.human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "question_violations",
+  "value": 92.0,
+  "label": "correct",
+  "error": null,
+  "answer": "SELECT count(*) AS questions_followed_by_edit FROM c AS c WHERE c.is_q AND EXISTS (SELECT 1 FROM cchist.public.tool_call t WHERE t.file_id = c.file_id AND t.line_no > c.line_no AND (c.next_line IS NULL OR t.line_no < c.next_line) AND t.tool_name IN ('Edit', 'Write', 'NotebookEdit', 'MultiEdit') AND ",
+  "sql": "WITH c AS (SELECT h.file_id, h.line_no, h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative AS is_q, lead(h.line_no) OVER (PARTITION BY h.file_id ORDER BY h.line_no) AS next_line FROM cchist.public.human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0) SELECT count(*) AS questions_followed_by_edit FROM c WHERE c.is_q AND EXISTS (SELECT 1 FROM cchist.public.tool_call t WHERE t.file_id = c.file_id AND t.line_no > c.line_no AND (c.next_line IS NULL OR t.line_no < c.next_line) AND t.tool_name IN ('Edit', 'Write', 'NotebookEdit', 'MultiEdit') AND NOT t.is_sidechain)"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "kill_by_pattern",
+  "value": 106.0,
+  "label": "correct",
+  "error": null,
+  "answer": "The query to count kill-by-pattern commands is already provided in the certified SQL section. It counts the hits with pattern_id in (1, 2) from the call_danger_hit table, joined with tool_call to ensure the commands are actual tool calls. The result is the total number of such commands across all mo",
+  "sql": "SELECT count(*) AS kill_by_pattern_commands FROM cchist.public.call_danger_hit d JOIN cchist.public.tool_call c ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2)"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "kill_by_pattern_opus48",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "top_project",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": "null"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "git_commits",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "common_word",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 1,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "human_msgs",
+  "value": 6498.0,
+  "label": "correct",
+  "error": null,
+  "answer": "123",
+  "sql": "SELECT count(*) AS typed_user_messages FROM cchist.public.human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "correction_msgs",
+  "value": 601.0,
+  "label": "correct",
+  "error": null,
+  "answer": "123",
+  "sql": "SELECT count(DISTINCT h.msg_id) AS correction_messages FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "correction_rate",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "stopped_early",
+  "value": 261.0,
+  "label": "correct",
+  "error": null,
+  "answer": "SELECT count(*) AS stopped_early_corrections FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 12 AND 15",
+  "sql": "SELECT count(*) AS stopped_early_corrections FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 12 AND 15"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "overbuild",
+  "value": 246.0,
+  "label": "correct",
+  "error": null,
+  "answer": "SELECT count(*) AS overbuilding_corrections FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 9 AND 11",
+  "sql": "SELECT count(*) AS overbuilding_corrections FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 9 AND 11"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "read_failures",
+  "value": 493.0,
+  "label": "correct",
+  "error": null,
+  "answer": "123",
+  "sql": "SELECT count(*) AS failed_read_calls FROM cchist.public.tool_result r JOIN cchist.public.tool_call c ON c.call_id = r.call_id WHERE c.tool_name = 'Read' AND r.is_error AND NOT r.denied_mark AND NOT r.validation_mark"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "read_failure_rate",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "questions",
+  "value": 585.0,
+  "label": "correct",
+  "error": null,
+  "answer": "SELECT count(*) AS questions FROM cchist.public.human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative",
+  "sql": "SELECT count(*) AS questions FROM cchist.public.human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "question_violations",
+  "value": 92.0,
+  "label": "correct",
+  "error": null,
+  "answer": "SELECT count(*) AS questions_followed_by_edit FROM c AS c WHERE c.is_q AND EXISTS (SELECT 1 FROM cchist.public.tool_call t WHERE t.file_id = c.file_id AND t.line_no > c.line_no AND (c.next_line IS NULL OR t.line_no < c.next_line) AND t.tool_name IN ('Edit', 'Write', 'NotebookEdit', 'MultiEdit') AND ",
+  "sql": "WITH c AS (SELECT h.file_id, h.line_no, h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative AS is_q, lead(h.line_no) OVER (PARTITION BY h.file_id ORDER BY h.line_no) AS next_line FROM cchist.public.human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0) SELECT count(*) AS questions_followed_by_edit FROM c WHERE c.is_q AND EXISTS (SELECT 1 FROM cchist.public.tool_call t WHERE t.file_id = c.file_id AND t.line_no > c.line_no AND (c.next_line IS NULL OR t.line_no < c.next_line) AND t.tool_name IN ('Edit', 'Write', 'NotebookEdit', 'MultiEdit') AND NOT t.is_sidechain)"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "kill_by_pattern",
+  "value": 106.0,
+  "label": "correct",
+  "error": null,
+  "answer": "The query to count kill-by-pattern commands is already provided in the certified SQL section. It counts the hits with pattern_id in (1, 2) from the call_danger_hit table, joined with tool_call to ensure the commands are actual tool calls. The result is the total number of such commands across all mo",
+  "sql": "SELECT count(*) AS kill_by_pattern_commands FROM cchist.public.call_danger_hit d JOIN cchist.public.tool_call c ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2)"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "kill_by_pattern_opus48",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "top_project",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": "null"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "git_commits",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "common_word",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 2,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "human_msgs",
+  "value": 6498.0,
+  "label": "correct",
+  "error": null,
+  "answer": "123",
+  "sql": "SELECT count(*) AS typed_user_messages FROM cchist.public.human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "correction_msgs",
+  "value": 601.0,
+  "label": "correct",
+  "error": null,
+  "answer": "123",
+  "sql": "SELECT count(DISTINCT h.msg_id) AS correction_messages FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "correction_rate",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "stopped_early",
+  "value": 261.0,
+  "label": "correct",
+  "error": null,
+  "answer": "SELECT count(*) AS stopped_early_corrections FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 12 AND 15",
+  "sql": "SELECT count(*) AS stopped_early_corrections FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 12 AND 15"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "overbuild",
+  "value": 246.0,
+  "label": "correct",
+  "error": null,
+  "answer": "SELECT count(*) AS overbuilding_corrections FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 9 AND 11",
+  "sql": "SELECT count(*) AS overbuilding_corrections FROM cchist.public.human_message h JOIN cchist.public.message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 9 AND 11"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "read_failures",
+  "value": 493.0,
+  "label": "correct",
+  "error": null,
+  "answer": "123",
+  "sql": "SELECT count(*) AS failed_read_calls FROM cchist.public.tool_result r JOIN cchist.public.tool_call c ON c.call_id = r.call_id WHERE c.tool_name = 'Read' AND r.is_error AND NOT r.denied_mark AND NOT r.validation_mark"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "read_failure_rate",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "questions",
+  "value": 585.0,
+  "label": "correct",
+  "error": null,
+  "answer": "SELECT count(*) AS questions FROM cchist.public.human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative",
+  "sql": "SELECT count(*) AS questions FROM cchist.public.human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "question_violations",
+  "value": 92.0,
+  "label": "correct",
+  "error": null,
+  "answer": "SELECT count(*) AS questions_followed_by_edit FROM c AS c WHERE c.is_q AND EXISTS (SELECT 1 FROM cchist.public.tool_call t WHERE t.file_id = c.file_id AND t.line_no > c.line_no AND (c.next_line IS NULL OR t.line_no < c.next_line) AND t.tool_name IN ('Edit', 'Write', 'NotebookEdit', 'MultiEdit') AND ",
+  "sql": "WITH c AS (SELECT h.file_id, h.line_no, h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative AS is_q, lead(h.line_no) OVER (PARTITION BY h.file_id ORDER BY h.line_no) AS next_line FROM cchist.public.human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0) SELECT count(*) AS questions_followed_by_edit FROM c WHERE c.is_q AND EXISTS (SELECT 1 FROM cchist.public.tool_call t WHERE t.file_id = c.file_id AND t.line_no > c.line_no AND (c.next_line IS NULL OR t.line_no < c.next_line) AND t.tool_name IN ('Edit', 'Write', 'NotebookEdit', 'MultiEdit') AND NOT t.is_sidechain)"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "kill_by_pattern",
+  "value": 106.0,
+  "label": "correct",
+  "error": null,
+  "answer": "The query to count kill-by-pattern commands is already provided in the certified SQL section. It counts the hits with pattern_id in (1, 2) from the call_danger_hit table, joined with tool_call to ensure the commands are actual tool calls. The result is the total number of such commands across all mo",
+  "sql": "SELECT count(*) AS kill_by_pattern_commands FROM cchist.public.call_danger_hit d JOIN cchist.public.tool_call c ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2)"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "kill_by_pattern_opus48",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "top_project",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": "null"
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "git_commits",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "common_word",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "e_local_ddl_defs",
+  "repeat": 3,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "refused",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "human_msgs",
+  "value": 6498.0,
+  "label": "correct",
+  "answer": "The user typed 6498 messages (excluding noise and sidechain messages).",
+  "sql": "select count(*) from human_message where not is_noise and not is_sidechain;"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "correction_msgs",
+  "value": 601.0,
+  "label": "correct",
+  "answer": "601 user messages had at least one pattern hit, assuming every message_pattern_hit is a correction pattern.",
+  "sql": "select count(distinct m.msg_id) from human_message m join message_pattern_hit p using(msg_id) where not is_noise and not is_sidechain;"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "correction_rate",
+  "value": 9.25,
+  "label": "correct",
+  "answer": "About 9.25% of user messages (601 of 6498) contained at least one correction pattern hit.",
+  "sql": "select round(100.0*(select count(distinct m.msg_id) from human_message m join message_pattern_hit p using(msg_id) where not is_noise and not is_sidechain)/(select count(*) from human_message where not is_noise and not is_sidechain),2);"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "stopped_early",
+  "value": null,
+  "label": "refused",
+  "answer": "The pattern_id values are not labelled in the schema, so the 'stopped early' pattern cannot be identified.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "overbuild",
+  "value": null,
+  "label": "refused",
+  "answer": "The pattern_id values are not labelled in the schema, so the 'over-building' pattern cannot be identified.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "read_failures",
+  "value": 512.0,
+  "label": "wrong",
+  "answer": "512 Read calls returned an error result.",
+  "sql": "select sum(r.is_error::int) from tool_call c join tool_result r using(call_id) where c.tool_name='Read';"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "read_failure_rate",
+  "value": 4.09,
+  "label": "wrong",
+  "answer": "4.09% of Read calls that have a result failed (512 of 12526).",
+  "sql": "select round(100.0*sum(r.is_error::int)/count(*),2) from tool_call c join tool_result r using(call_id) where c.tool_name='Read';"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "questions",
+  "value": 865.0,
+  "label": "wrong",
+  "answer": "The user asked 865 questions (messages ending with '?' or starting with a question word).",
+  "sql": "select count(*) from human_message where not is_noise and not is_sidechain and (ends_with_q or question_start);"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "question_violations",
+  "value": 189.0,
+  "label": "wrong",
+  "answer": "189 user questions were followed by an Edit/Write call before the user's next message.",
+  "sql": "with h as (select msg_id,file_id,line_no,(ends_with_q or question_start) isq, lead(line_no) over (partition by file_id order by line_no) nxt from human_message where not is_noise and not is_sidechain), e as (select file_id,line_no from tool_call where tool_name in ('Edit','Write','MultiEdit','NotebookEdit')) select count(*) from h where isq and exists (select 1 from e where e.file_id=h.file_id and e.line_no>h.line_no and (h.nxt is null or e.line_no<h.nxt));"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "kill_by_pattern",
+  "value": null,
+  "label": "refused",
+  "answer": "The danger pattern_id values are not labelled, so kill-by-pattern commands cannot be identified.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "kill_by_pattern_opus48",
+  "value": null,
+  "label": "refused",
+  "answer": "The danger pattern_id values are not labelled, so kill-by-pattern commands by Opus 4.8 cannot be identified.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no token usage data.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "top_project",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no project names (only an opaque file_id) and no correction labels.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "git_commits",
+  "value": null,
+  "label": "refused",
+  "answer": "Command text is not stored, so git commits cannot be identified.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "common_word",
+  "value": null,
+  "label": "refused",
+  "answer": "Message text is not stored, so word frequencies cannot be computed.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 1,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no token or price data, so cost cannot be computed.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "human_msgs",
+  "value": 6498.0,
+  "label": "correct",
+  "answer": "The user typed 6498 messages (excluding noise and sidechain messages).",
+  "sql": "select count(*) from human_message where not is_noise and not is_sidechain;"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "correction_msgs",
+  "value": null,
+  "label": "refused",
+  "answer": "The schema has unlabeled pattern_id values with no lookup table, so I can't tell which patterns are corrections.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "correction_rate",
+  "value": null,
+  "label": "refused",
+  "answer": "The pattern_id values have no labels, so I can't identify correction messages or work out their rate.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "stopped_early",
+  "value": null,
+  "label": "refused",
+  "answer": "Nothing in the schema maps a pattern_id to the 'stopped early' correction type.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "overbuild",
+  "value": null,
+  "label": "refused",
+  "answer": "Nothing in the schema maps a pattern_id to the 'over-building' correction type.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "read_failures",
+  "value": 512.0,
+  "label": "wrong",
+  "answer": "512 Read calls returned an error result.",
+  "sql": "select sum(r.is_error::int) from tool_call c left join tool_result r on r.call_id=c.call_id where c.tool_name='Read';"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "read_failure_rate",
+  "value": 3.67,
+  "label": "wrong",
+  "answer": "3.67% of Read calls failed (512 of 13933).",
+  "sql": "select round(100.0*sum(r.is_error::int)/count(*),2) from tool_call c left join tool_result r on r.call_id=c.call_id where c.tool_name='Read';"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "questions",
+  "value": 865.0,
+  "label": "wrong",
+  "answer": "The user asked 865 questions (non-noise, non-sidechain messages that end with '?' or start like a question).",
+  "sql": "select count(*) from human_message where not is_noise and not is_sidechain and (ends_with_q or question_start);"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "question_violations",
+  "value": 189.0,
+  "label": "wrong",
+  "answer": "189 questions were followed by an Edit, Write, MultiEdit or NotebookEdit call before the user's next message.",
+  "sql": "with ev as (select file_id,line_no,1 k,msg_id,(ends_with_q or question_start) isq,false ised from human_message where not is_noise and not is_sidechain union all select file_id,line_no,2,null,false,tool_name in ('Edit','Write','MultiEdit','NotebookEdit') from tool_call where not is_sidechain), g as (select *, sum(case when k=1 then 1 else 0 end) over (partition by file_id order by line_no,k) grp from ev), s as (select file_id,grp,bool_or(isq) q,bool_or(ised) e from g group by 1,2) select count(*) filter (where q and e) from s;"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "kill_by_pattern",
+  "value": null,
+  "label": "refused",
+  "answer": "The call_danger_hit pattern_id values have no labels, so I can't identify kill-by-pattern commands.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "kill_by_pattern_opus48",
+  "value": null,
+  "label": "refused",
+  "answer": "The call_danger_hit pattern_id values have no labels, so I can't identify kill-by-pattern commands for Opus 4.8.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "answer": "The database stores no token counts.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "top_project",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no project names, only file_id, and no labeled corrections.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "git_commits",
+  "value": null,
+  "label": "refused",
+  "answer": "The database stores no command text, so I can't identify git commits.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "common_word",
+  "value": null,
+  "label": "refused",
+  "answer": "The database stores no message text.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 2,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "answer": "The database stores no token usage or cost data.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "human_msgs",
+  "value": 6498.0,
+  "label": "correct",
+  "answer": "The user typed 6498 messages (excluding noise and sidechain messages).",
+  "sql": "select count(*) from human_message where not is_noise and not is_sidechain"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "correction_msgs",
+  "value": null,
+  "label": "refused",
+  "answer": "The pattern ids in message_pattern_hit have no labels, so which ones mean corrections cannot be determined from the schema.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "correction_rate",
+  "value": null,
+  "label": "refused",
+  "answer": "Correction patterns are unlabeled pattern ids, so the correction rate cannot be determined.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "stopped_early",
+  "value": null,
+  "label": "refused",
+  "answer": "No label maps any pattern_id to 'stopped early', so this cannot be answered.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "overbuild",
+  "value": null,
+  "label": "refused",
+  "answer": "No label maps any pattern_id to 'over-building', so this cannot be answered.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "read_failures",
+  "value": 512.0,
+  "label": "wrong",
+  "answer": "512 Read calls returned an error result.",
+  "sql": "select count(*) from tool_result r join tool_call c using(call_id) where c.tool_name='Read' and r.is_error"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "read_failure_rate",
+  "value": 3.67,
+  "label": "wrong",
+  "answer": "512 of 13933 Read calls failed, about 3.67%.",
+  "sql": "select 100.0*(select count(*) from tool_result r join tool_call c using(call_id) where c.tool_name='Read' and r.is_error)/(select count(*) from tool_call where tool_name='Read')"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "questions",
+  "value": 255.0,
+  "label": "wrong",
+  "answer": "The user asked 255 questions (non-noise, non-sidechain messages ending with a question mark).",
+  "sql": "select count(*) from human_message where not is_noise and not is_sidechain and ends_with_q"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "question_violations",
+  "value": 55.0,
+  "label": "wrong",
+  "answer": "55 of the user's questions were followed by an Edit/Write call before the next user message in the same session.",
+  "sql": "with q as (select h.*, lead(line_no) over (partition by file_id order by line_no) nxt from human_message h where not is_noise and not is_sidechain) select count(*) from q where ends_with_q and exists (select 1 from tool_call c where c.file_id=q.file_id and c.line_no>q.line_no and (q.nxt is null or c.line_no<q.nxt) and c.tool_name in ('Edit','Write','MultiEdit','NotebookEdit') and not c.is_sidechain)"
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "kill_by_pattern",
+  "value": null,
+  "label": "refused",
+  "answer": "call_danger_hit pattern ids are unlabeled, so kill-by-pattern commands cannot be identified.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "kill_by_pattern_opus48",
+  "value": null,
+  "label": "refused",
+  "answer": "Danger pattern ids are unlabeled, so kill-by-pattern commands by Opus 4.8 cannot be identified.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no token usage data.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "top_project",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no project information and correction patterns are unlabeled.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "git_commits",
+  "value": null,
+  "label": "refused",
+  "answer": "Command text is not stored and danger patterns are unlabeled, so git commits cannot be counted.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "common_word",
+  "value": null,
+  "label": "refused",
+  "answer": "Message text is not stored, so word frequency cannot be computed.",
+  "sql": null
+ },
+ {
+  "arm": "d_claude_ddl",
+  "repeat": 3,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no token or cost data.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "human_msgs",
+  "value": 6498.0,
+  "label": "correct",
+  "answer": "The user typed 6498 messages to the agents.",
+  "sql": "SELECT count(*) FROM human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "correction_msgs",
+  "value": 601.0,
+  "label": "correct",
+  "answer": "601 of the user's typed messages contained at least one correction.",
+  "sql": "SELECT count(DISTINCT h.msg_id) FROM human_message h JOIN message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "correction_rate",
+  "value": 9.249,
+  "label": "correct",
+  "answer": "About 9.25% (601 of 6498) of the user's messages contained at least one correction.",
+  "sql": "SELECT 100.0*(SELECT count(DISTINCT h.msg_id) FROM human_message h JOIN message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0)/(SELECT count(*) FROM human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0)"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "stopped_early",
+  "value": 261.0,
+  "label": "correct",
+  "answer": "The user made 261 'stopped early' corrections.",
+  "sql": "SELECT count(*) FROM human_message h JOIN message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 12 AND 15"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "overbuild",
+  "value": 246.0,
+  "label": "correct",
+  "answer": "The user made 246 'over-building' corrections.",
+  "sql": "SELECT count(*) FROM human_message h JOIN message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 9 AND 11"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "read_failures",
+  "value": 493.0,
+  "label": "correct",
+  "answer": "493 Read calls failed.",
+  "sql": "SELECT count(*) FROM tool_result r JOIN tool_call c ON c.call_id = r.call_id WHERE c.tool_name = 'Read' AND r.is_error AND NOT r.denied_mark AND NOT r.validation_mark"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "read_failure_rate",
+  "value": 3.538,
+  "label": "correct",
+  "answer": "About 3.54% (493 of 13933) of Read calls failed.",
+  "sql": "SELECT 100.0*(SELECT count(*) FROM tool_result r JOIN tool_call c ON c.call_id = r.call_id WHERE c.tool_name = 'Read' AND r.is_error AND NOT r.denied_mark AND NOT r.validation_mark)/(SELECT count(*) FROM tool_call c WHERE c.tool_name = 'Read')"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "questions",
+  "value": 585.0,
+  "label": "correct",
+  "answer": "The user asked 585 questions.",
+  "sql": "SELECT count(*) FROM human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "question_violations",
+  "value": 92.0,
+  "label": "correct",
+  "answer": "92 of the user's questions were followed by an edit before the next typed message.",
+  "sql": "WITH c AS (SELECT h.file_id, h.line_no, h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative AS is_q, lead(h.line_no) OVER (PARTITION BY h.file_id ORDER BY h.line_no) AS next_line FROM human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0) SELECT count(*) FROM c WHERE c.is_q AND EXISTS (SELECT 1 FROM tool_call t WHERE t.file_id = c.file_id AND t.line_no > c.line_no AND (c.next_line IS NULL OR t.line_no < c.next_line) AND t.tool_name IN ('Edit','Write','NotebookEdit','MultiEdit') AND NOT t.is_sidechain)"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "kill_by_pattern",
+  "value": 106.0,
+  "label": "correct",
+  "answer": "The agents ran 106 kill-by-pattern commands.",
+  "sql": "SELECT count(*) FROM call_danger_hit d JOIN tool_call c ON c.call_id = d.call_id WHERE d.pattern_id IN (1,2)"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "kill_by_pattern_opus48",
+  "value": 46.0,
+  "label": "correct",
+  "answer": "Opus 4.8 ran 46 kill-by-pattern commands.",
+  "sql": "SELECT count(*) FROM call_danger_hit d JOIN tool_call c ON c.call_id = d.call_id WHERE d.pattern_id IN (1,2) AND c.model = 'claude-opus-4-8'"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no token usage data, so this cannot be answered.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "top_project",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no project information (only opaque file_id), so this cannot be answered.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "git_commits",
+  "value": null,
+  "label": "refused",
+  "answer": "The database stores no command text and no commit pattern, so git commits cannot be counted.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "common_word",
+  "value": null,
+  "label": "refused",
+  "answer": "The database stores no message text, so the most common word cannot be determined.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 1,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no token or pricing data, so cost cannot be computed.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "human_msgs",
+  "value": 6498.0,
+  "label": "correct",
+  "answer": "The user typed 6498 messages.",
+  "sql": "SELECT count(*) FROM human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "correction_msgs",
+  "value": 601.0,
+  "label": "correct",
+  "answer": "601 typed user messages contained at least one correction.",
+  "sql": "SELECT count(DISTINCT h.msg_id) FROM human_message h JOIN message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "correction_rate",
+  "value": 9.25,
+  "label": "correct",
+  "answer": "9.25% of typed user messages (601 of 6498) contained at least one correction.",
+  "sql": "SELECT round(100.0*601/6498,2)"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "stopped_early",
+  "value": 261.0,
+  "label": "correct",
+  "answer": "The user made 261 'stopped early' corrections.",
+  "sql": "SELECT count(*) FROM human_message h JOIN message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 12 AND 15"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "overbuild",
+  "value": 246.0,
+  "label": "correct",
+  "answer": "The user made 246 'over-building' corrections.",
+  "sql": "SELECT count(*) FROM human_message h JOIN message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 9 AND 11"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "read_failures",
+  "value": 493.0,
+  "label": "correct",
+  "answer": "493 Read calls failed.",
+  "sql": "SELECT count(*) FROM tool_result r JOIN tool_call c ON c.call_id = r.call_id WHERE c.tool_name = 'Read' AND r.is_error AND NOT r.denied_mark AND NOT r.validation_mark"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "read_failure_rate",
+  "value": 3.54,
+  "label": "correct",
+  "answer": "3.54% of Read calls failed (493 of 13933).",
+  "sql": "SELECT round(100.0*493/13933,2)"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "questions",
+  "value": 585.0,
+  "label": "correct",
+  "answer": "The user asked 585 questions.",
+  "sql": "SELECT count(*) FROM human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "question_violations",
+  "value": 92.0,
+  "label": "correct",
+  "answer": "92 of the user's questions were followed by an edit before the next typed message.",
+  "sql": "WITH c AS (SELECT h.file_id, h.line_no, h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative AS is_q, lead(h.line_no) OVER (PARTITION BY h.file_id ORDER BY h.line_no) AS next_line FROM human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0) SELECT count(*) FROM c WHERE c.is_q AND EXISTS (SELECT 1 FROM tool_call t WHERE t.file_id = c.file_id AND t.line_no > c.line_no AND (c.next_line IS NULL OR t.line_no < c.next_line) AND t.tool_name IN ('Edit','Write','NotebookEdit','MultiEdit') AND NOT t.is_sidechain)"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "kill_by_pattern",
+  "value": 106.0,
+  "label": "correct",
+  "answer": "The agents ran 106 kill-by-pattern commands.",
+  "sql": "SELECT count(*) FROM call_danger_hit d JOIN tool_call c ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2)"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "kill_by_pattern_opus48",
+  "value": 46.0,
+  "label": "correct",
+  "answer": "Opus 4.8 ran 46 kill-by-pattern commands.",
+  "sql": "SELECT count(*) FROM call_danger_hit d JOIN tool_call c ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2) AND c.model = 'claude-opus-4-8'"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no token usage data, so total tokens cannot be determined.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "top_project",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no project names (only file_id), so the top project cannot be determined.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "git_commits",
+  "value": null,
+  "label": "refused",
+  "answer": "The database stores no command text or commit pattern, so git commits cannot be counted.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "common_word",
+  "value": null,
+  "label": "refused",
+  "answer": "The database stores no message text, so the most common word cannot be determined.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 2,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no token or pricing data, so cost cannot be determined.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "human_msgs",
+  "value": 6498.0,
+  "label": "correct",
+  "answer": "The user typed 6498 messages to the agents.",
+  "sql": "SELECT count(*) FROM human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "correction_msgs",
+  "value": 601.0,
+  "label": "correct",
+  "answer": "601 typed user messages contained at least one correction.",
+  "sql": "SELECT count(DISTINCT h.msg_id) FROM human_message h JOIN message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "correction_rate",
+  "value": 9.25,
+  "label": "correct",
+  "answer": "About 9.25% of typed user messages (601 of 6498) contained at least one correction.",
+  "sql": "SELECT 100.0 * (SELECT count(DISTINCT h.msg_id) FROM human_message h JOIN message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0) / (SELECT count(*) FROM human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0)"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "stopped_early",
+  "value": 261.0,
+  "label": "correct",
+  "answer": "The user made 261 'stopped early' corrections.",
+  "sql": "SELECT count(*) FROM human_message h JOIN message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 12 AND 15"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "overbuild",
+  "value": 246.0,
+  "label": "correct",
+  "answer": "The user made 246 'over-building' corrections.",
+  "sql": "SELECT count(*) FROM human_message h JOIN message_pattern_hit p ON p.msg_id = h.msg_id WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND p.pattern_id BETWEEN 9 AND 11"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "read_failures",
+  "value": 493.0,
+  "label": "correct",
+  "answer": "493 Read calls failed.",
+  "sql": "SELECT count(*) FROM tool_result r JOIN tool_call c ON c.call_id = r.call_id WHERE c.tool_name = 'Read' AND r.is_error AND NOT r.denied_mark AND NOT r.validation_mark"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "read_failure_rate",
+  "value": 3.54,
+  "label": "correct",
+  "answer": "About 3.54% of Read calls failed (493 of 13933).",
+  "sql": "SELECT 100.0 * (SELECT count(*) FROM tool_result r JOIN tool_call c ON c.call_id = r.call_id WHERE c.tool_name = 'Read' AND r.is_error AND NOT r.denied_mark AND NOT r.validation_mark) / (SELECT count(*) FROM tool_call c WHERE c.tool_name = 'Read')"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "questions",
+  "value": 585.0,
+  "label": "correct",
+  "answer": "The user asked 585 questions.",
+  "sql": "SELECT count(*) FROM human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0 AND h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "question_violations",
+  "value": 92.0,
+  "label": "correct",
+  "answer": "92 of the user's questions were followed by an edit before the next typed user message.",
+  "sql": "WITH c AS (SELECT h.file_id, h.line_no, h.chars < 400 AND (h.ends_with_q OR h.question_start) AND NOT h.imperative AS is_q, lead(h.line_no) OVER (PARTITION BY h.file_id ORDER BY h.line_no) AS next_line FROM human_message h WHERE NOT h.is_sidechain AND NOT h.is_noise AND h.chars > 0) SELECT count(*) FROM c WHERE c.is_q AND EXISTS (SELECT 1 FROM tool_call t WHERE t.file_id = c.file_id AND t.line_no > c.line_no AND (c.next_line IS NULL OR t.line_no < c.next_line) AND t.tool_name IN ('Edit','Write','NotebookEdit','MultiEdit') AND NOT t.is_sidechain)"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "kill_by_pattern",
+  "value": 106.0,
+  "label": "correct",
+  "answer": "The agents ran 106 kill-by-pattern commands.",
+  "sql": "SELECT count(*) FROM call_danger_hit d JOIN tool_call c ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2)"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "kill_by_pattern_opus48",
+  "value": 46.0,
+  "label": "correct",
+  "answer": "Opus 4.8 ran 46 kill-by-pattern commands.",
+  "sql": "SELECT count(*) FROM call_danger_hit d JOIN tool_call c ON c.call_id = d.call_id WHERE d.pattern_id IN (1, 2) AND c.model = 'claude-opus-4-8'"
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "tokens",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no token usage data, so total tokens cannot be determined.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "top_project",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no project information (only file_id), so the project with the most corrections cannot be determined.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "git_commits",
+  "value": null,
+  "label": "refused",
+  "answer": "The database does not store command text, and no danger pattern covers git commit, so git commits cannot be counted.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "common_word",
+  "value": null,
+  "label": "refused",
+  "answer": "The database does not store message text, so the most common word in corrections cannot be determined.",
+  "sql": null
+ },
+ {
+  "arm": "f_claude_ddl_defs",
+  "repeat": 3,
+  "qid": "cost",
+  "value": null,
+  "label": "refused",
+  "answer": "The database has no token or pricing data, so session cost cannot be determined.",
+  "sql": null
+ }
+]

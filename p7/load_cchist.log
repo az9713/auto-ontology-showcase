@@ -1,0 +1,13 @@
+info bigline_fastpath now 3271 truth 3274
+info files now 5335 truth 5337
+info lines now 1182811 truth 1183305
+info parse_fail now 1 truth 1
+info sessions now 2283 truth 2285
+rows {'human_message': 10569, 'message_pattern_hit': 1660, 'tool_call': 64461, 'tool_result': 67967, 'call_danger_hit': 413}
+COUNTERS EQUAL truth_scan.json
+DONE C:\Users\<user>\Downloads\auto_ontology_nvidia\p7\cchist_csv
+files 5335 lines 1182811 fastpath 3271 parsefail 1
+sessions 2283 projects 393
+human msgs 6498 window 2026-05-25T14:33:33.768Z -> 2026-08-12T10:13:40.761Z
+tool_results 67967 errors 2788
+models {'claude-fable-5': 30354, 'claude-opus-5': 26182, 'claude-sonnet-5': 12796, 'claude-haiku-4-5-20251001': 2028, 'claude-opus-4-8': 51550, 'claude-sonnet-4-6': 2653, 'claude-opus-4-7': 1743, 'gpt-5.6-sol': 345, 'gpt-5.6-terra': 209, 'z-ai/glm-5.2-20260616': 9}

@@ -1,0 +1,1 @@
+{"sql": "", "rows": null, "answer": "SQL can't be constructed from the data.", "error": null, "sql_attempts": [], "condition": "b_ao_uncertified", "repeat": 1, "qid": "human_msgs", "question": "How many messages did the user type to the agents?", "seconds": 1289.5, "at": "2026-11-07T10:10:55"}

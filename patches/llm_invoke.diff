@@ -1,0 +1,64 @@
+diff --git a/auto_ontology/utils/llm_invoke.py b/auto_ontology/utils/llm_invoke.py
+index bc1694f2..0bffff5c 100644
+--- a/auto_ontology/utils/llm_invoke.py
++++ b/auto_ontology/utils/llm_invoke.py
+@@ -225,20 +225,57 @@ def _build_client(
+     ``ChatOpenAI``, which supports structured output. Everything else uses
+     ``ChatNVIDIA``.
+     """
+-    if model.startswith(("openai/", "azure/", "aws/")):
++    # Local patch (showcase P2, 2026-11-06): integrate.api.nvidia.com rejects the
++    # nvext.guided_json field ChatNVIDIA sends for structured output (HTTP 400), but
++    # accepts response_format json_schema, so send it through ChatOpenAI too.
++    hosted_nim = "integrate.api.nvidia.com" in (base_url or "")
++    # Local patch 4 (showcase P7, 2026-11-07): a local OpenAI-compatible server (Ollama)
++    # also goes through ChatOpenAI (response_format json_schema), with temperature.
++    local = any(h in (base_url or "") for h in ("host.docker.internal", "localhost", "127.0.0.1"))
++    if local:
+         from langchain_openai import ChatOpenAI
+ 
+         return ChatOpenAI(
+             model=model,
+             api_key=api_key,
+             base_url=base_url,
++            temperature=temperature,
++            # P7: cap at 2048. The 4B model loops on some FK prompts (>5,000 tokens at
++            # ~9 tokens/s, past the 600 s timeout); a capped loop fails fast and the
++            # caller's None fallback applies. Real answers measured at 74-310 tokens.
++            max_tokens=min(max_tokens, 2048),
++            # langchain-openai 1.3.4 sends max_completion_tokens, which Ollama 0.40.15
++            # ignores (n_predict stayed unbounded); send max_tokens as well.
++            extra_body={"max_tokens": min(max_tokens, 2048)},
++            timeout=LLM_INVOKE_TIMEOUT_S,
++            max_retries=2,
++        )
++    if model.startswith(("openai/", "azure/", "aws/")) or hosted_nim:
++        from langchain_openai import ChatOpenAI
++
++        return ChatOpenAI(
++            model=model,
++            api_key=api_key,
++            base_url=base_url,
++            # Local patch 2: thinking off on hosted NIM. Its reasoning tokens count
++            # against max_tokens (1024/4096 in term_extractor.py) and overflowed them.
++            **(
++                {
++                    "temperature": temperature,
++                    "extra_body": {"chat_template_kwargs": {"enable_thinking": False}},
++                }
++                if hosted_nim
++                else {}
++            ),
+             # temperature omitted: gpt-5.x/o-series reject any explicit value and
+             # only allow the server default (1). Unset => langchain sends no
+             # temperature field, so the provider default applies.
+             # temperature=temperature,
+             max_tokens=max_tokens,
+             timeout=LLM_INVOKE_TIMEOUT_S,
+-            max_retries=0,
++            # Local patch 3: the hosted free tier answers bursts with HTTP 429; let the
++            # OpenAI SDK back off and retry (it honours Retry-After) before failing.
++            max_retries=8 if hosted_nim else 0,
+         )
+ 
+     from langchain_nvidia_ai_endpoints import ChatNVIDIA

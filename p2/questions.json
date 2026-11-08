@@ -1,0 +1,279 @@
+{
+ "written": "2026-11-05, before any run",
+ "n_answerable": 30,
+ "n_unanswerable": 15,
+ "n_holdout": 10,
+ "holdout_rule": "All questions for Amazon, Exxon Mobil and Berkshire Hathaway, plus TESLA.net_income. No correction is ever certified for a holdout question.",
+ "questions": [
+  {
+   "id": "ALPHABET.revenue",
+   "type": "answerable",
+   "text": "What was Alphabet's total revenue for the fiscal year ended December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "ALPHABET.net_income",
+   "type": "answerable",
+   "text": "What was Alphabet's net income for the fiscal year ended December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "ALPHABET.total_assets",
+   "type": "answerable",
+   "text": "What were Alphabet's total assets as of December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "AMAZON.revenue",
+   "type": "answerable",
+   "text": "What was Amazon's total revenue for the fiscal year ended December 31, 2025?",
+   "holdout": true
+  },
+  {
+   "id": "AMAZON.net_income",
+   "type": "answerable",
+   "text": "What was Amazon's net income for the fiscal year ended December 31, 2025?",
+   "holdout": true
+  },
+  {
+   "id": "AMAZON.total_assets",
+   "type": "answerable",
+   "text": "What were Amazon's total assets as of December 31, 2025?",
+   "holdout": true
+  },
+  {
+   "id": "BERKSHIRE.revenue",
+   "type": "answerable",
+   "text": "What was Berkshire Hathaway's total revenue for the fiscal year ended December 31, 2025?",
+   "holdout": true
+  },
+  {
+   "id": "BERKSHIRE.net_income",
+   "type": "answerable",
+   "text": "What was Berkshire Hathaway's net income for the fiscal year ended December 31, 2025?",
+   "holdout": true
+  },
+  {
+   "id": "BERKSHIRE.total_assets",
+   "type": "answerable",
+   "text": "What were Berkshire Hathaway's total assets as of December 31, 2025?",
+   "holdout": true
+  },
+  {
+   "id": "CATERPILLAR.revenue",
+   "type": "answerable",
+   "text": "What was Caterpillar's total revenue for the fiscal year ended December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "CATERPILLAR.net_income",
+   "type": "answerable",
+   "text": "What was Caterpillar's net income for the fiscal year ended December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "CATERPILLAR.total_assets",
+   "type": "answerable",
+   "text": "What were Caterpillar's total assets as of December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "COCACOLA.revenue",
+   "type": "answerable",
+   "text": "What was Coca-Cola's total revenue for the fiscal year ended December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "COCACOLA.net_income",
+   "type": "answerable",
+   "text": "What was Coca-Cola's net income for the fiscal year ended December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "COCACOLA.total_assets",
+   "type": "answerable",
+   "text": "What were Coca-Cola's total assets as of December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "EXXON.revenue",
+   "type": "answerable",
+   "text": "What was Exxon Mobil's total revenue for the fiscal year ended December 31, 2025?",
+   "holdout": true
+  },
+  {
+   "id": "EXXON.net_income",
+   "type": "answerable",
+   "text": "What was Exxon Mobil's net income for the fiscal year ended December 31, 2025?",
+   "holdout": true
+  },
+  {
+   "id": "EXXON.total_assets",
+   "type": "answerable",
+   "text": "What were Exxon Mobil's total assets as of December 31, 2025?",
+   "holdout": true
+  },
+  {
+   "id": "JPMORGAN.revenue",
+   "type": "answerable",
+   "text": "What was JPMorgan Chase's total revenue for the fiscal year ended December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "JPMORGAN.net_income",
+   "type": "answerable",
+   "text": "What was JPMorgan Chase's net income for the fiscal year ended December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "JPMORGAN.total_assets",
+   "type": "answerable",
+   "text": "What were JPMorgan Chase's total assets as of December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "PFIZER.revenue",
+   "type": "answerable",
+   "text": "What was Pfizer's total revenue for the fiscal year ended December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "PFIZER.net_income",
+   "type": "answerable",
+   "text": "What was Pfizer's net income for the fiscal year ended December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "PFIZER.total_assets",
+   "type": "answerable",
+   "text": "What were Pfizer's total assets as of December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "TESLA.revenue",
+   "type": "answerable",
+   "text": "What was Tesla's total revenue for the fiscal year ended December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "TESLA.net_income",
+   "type": "answerable",
+   "text": "What was Tesla's net income for the fiscal year ended December 31, 2025?",
+   "holdout": true
+  },
+  {
+   "id": "TESLA.total_assets",
+   "type": "answerable",
+   "text": "What were Tesla's total assets as of December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "WALMART.revenue",
+   "type": "answerable",
+   "text": "What was Walmart's total revenue for the fiscal year ended January 31, 2026?",
+   "holdout": false
+  },
+  {
+   "id": "WALMART.net_income",
+   "type": "answerable",
+   "text": "What was Walmart's net income for the fiscal year ended January 31, 2026?",
+   "holdout": false
+  },
+  {
+   "id": "WALMART.total_assets",
+   "type": "answerable",
+   "text": "What were Walmart's total assets as of January 31, 2026?",
+   "holdout": false
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "text": "What was Alphabet's closing stock price on December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "text": "What was Amazon's market capitalization on February 6, 2026?",
+   "holdout": false
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "text": "What is the analyst consensus earnings-per-share estimate for Tesla for fiscal year 2026?",
+   "holdout": false
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "text": "What was Coca-Cola's dividend yield on March 1, 2026?",
+   "holdout": false
+  },
+  {
+   "id": "U05",
+   "type": "unanswerable",
+   "text": "Who is the chief executive officer of Pfizer?",
+   "holdout": false
+  },
+  {
+   "id": "U06",
+   "type": "unanswerable",
+   "text": "What was Exxon Mobil's price-to-earnings ratio on December 31, 2025?",
+   "holdout": false
+  },
+  {
+   "id": "U07",
+   "type": "unanswerable",
+   "text": "What is JPMorgan Chase's long-term credit rating from Moody's?",
+   "holdout": false
+  },
+  {
+   "id": "U08",
+   "type": "unanswerable",
+   "text": "What was Caterpillar's total revenue for the quarter ended March 31, 2026?",
+   "holdout": false
+  },
+  {
+   "id": "U09",
+   "type": "unanswerable",
+   "text": "What revenue does Berkshire Hathaway forecast for fiscal year 2027?",
+   "holdout": false
+  },
+  {
+   "id": "U10",
+   "type": "unanswerable",
+   "text": "What was Alphabet's daily trading volume on January 15, 2026?",
+   "holdout": false
+  },
+  {
+   "id": "U11",
+   "type": "unanswerable",
+   "text": "What is Amazon's Net Promoter Score?",
+   "holdout": false
+  },
+  {
+   "id": "U12",
+   "type": "unanswerable",
+   "text": "What was Coca-Cola's market share in carbonated soft drinks in 2025?",
+   "holdout": false
+  },
+  {
+   "id": "U13",
+   "type": "unanswerable",
+   "text": "What was the short interest in Pfizer stock on January 31, 2026?",
+   "holdout": false
+  },
+  {
+   "id": "U14",
+   "type": "unanswerable",
+   "text": "What was Netflix's monthly subscriber churn rate in 2025?",
+   "holdout": false
+  },
+  {
+   "id": "U15",
+   "type": "unanswerable",
+   "text": "What was Walmart's 52-week high stock price as of January 31, 2026?",
+   "holdout": false
+  }
+ ]
+}

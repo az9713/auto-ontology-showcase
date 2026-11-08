@@ -1,0 +1,12 @@
+T1_human_msgs 6498
+T2_correction_msgs 601
+T3_stopped_early 261
+T4_overbuild 246
+T5_read_failures 493
+T6_read_calls 13933
+T7_questions 585
+T8_question_violations 92
+T9_kill_by_pattern|claude-fable-5 27
+T9_kill_by_pattern|claude-opus-4-8 46
+T9_kill_by_pattern|claude-opus-5 31
+T9_kill_by_pattern|claude-sonnet-5 2

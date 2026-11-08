@@ -1,0 +1,2164 @@
+[
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "ALPHABET.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Alphabet's total assets value from the SEC XBRL filing data. It joins the numeric values table with the tag metadata table on the financial concept tag, then joins to the entity registration table to filter for Alphabet Inc. The value is filtered to the reporting period ending D"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "AMAZON.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Amazon's total revenue for the fiscal year ended December 31, 2025 by joining the numeric financial data (sec.public.num) with entity metadata (sec.public.sub). It filters for fiscal year 2025, fiscal year end date of 12/31, the Revenue tag, Amazon's CIK identifier (1953940), an"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "ALPHABET.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Alphabet's total revenue for the fiscal year ended December 31, 2025 by joining the SEC filing sub entity data with the financial values and tags. It filters for Alphabet Inc by name, uses the fiscal year end code 1231 (December 31) and fiscal year 2025, and sums the numeric val"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "AMAZON.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Amazon's total assets value from SEC filings as of December 31, 2025. It joins the num table (financial values) with the tag table (taxonomy definitions) and the sub table (company identifiers), filtering for Amazon's name, the TotalAssets concept tag, and the reporting date of "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "BERKSHIRE.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query calculates Berkshire Hathaway's total revenue for the fiscal year ended December 31, 2025 by identifying the entity in the SEC sub table, filtering for FY2025 with a Dec 31 fiscal year end, and summing the revenue values tagged as 'Revenues' from the num table, with human-readable labels "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "ALPHABET.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Alphabet's net income for the fiscal year ended December 31, 2025 by joining the sec.public.pre and sec.public.num tables on the adsh filing identifier. It filters for Net Income line items using either the tag 'NetIncomeLoss' or the plain-text label 'Net income', restricts resu"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "AMAZON.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Amazon's net income value and associated filing metadata for the fiscal year ended December 31, 2025. It joins the SEC XBRL pre-filing concept table with the num filing data on the unique filing identifier adsh, filters for the Net Income concept tag and 'Net income' plain-text "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "BERKSHIRE.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Berkshire Hathaway's total assets value as of December 31, 2025, by joining the financial reporting data tables. It combines sec.public.num (containing the reported values and tags) with sec.public.sub (containing entity names and reporting periods) and sec.public.tag (containin"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "BERKSHIRE.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Berkshire Hathaway's net income for the fiscal year ended December 31, 2025, by joining the SEC filing tables on the unique filing identifier (adsh). It filters sec.public.pre for the Net Income Loss financial concept tag, joins with sec.public.num to access the numeric value, a"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "CATERPILLAR.revenue",
+  "value": 4390000000.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves Caterpillar's total revenue for the fiscal year ended December 31, 2025. It joins sec.public.sub (to identify Caterpillar by name and filter fy=2025, fye=1231), sec.public.pre (to filter tag and negating), sec.public.tag (to match the 'Revenues' concept), and sec.public.num (to "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "COCACOLA.revenue",
+  "value": 18775436000089.16,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves Coca-Cola's total revenue for the fiscal year ended December 31, 2025, by summing the numeric values tagged as Revenues in XBRL filings. It joins the sec.public.num and sec.public.pre tables on adsh and version to access both the tag and plain-text label, filters for the Revenue"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "CATERPILLAR.total_assets",
+  "value": 9668000000.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves Caterpillar's total assets value as of December 31, 2025, by joining the SEC filing subsidiary record (sub) with the financial concept tag data (num) and the tag human-readable labels (tag). It filters for the reporting period ending December 31, 2025, and selects values tagged "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "CATERPILLAR.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Caterpillar's net income value for the fiscal year ended December 31, 2025, by joining the financial tag data (sec.public.pre) with company metadata (sec.public.sub) and numeric values (sec.public.num). It filters for Caterpillar Inc by name, fiscal year 2025, fiscal year end De"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "COCACOLA.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Coca-Cola's total assets value as reported in SEC filings. It joins the num, tag, and sub tables on their respective keys, filters for the company named Coca-Cola in the sub table, matches the TotalAssets financial concept tag, and limits to the reporting period ending December "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "COCACOLA.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query identifies Coca-Cola's net income for the fiscal year ending December 31, 2025, by filtering the SEC filing metadata (sec.public.sub) for the company name 'Coca-Cola', fiscal year 2025, and fiscal year end date of December 31 (fye='1231'). It then joins to the financial tag values (sec.pu"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "EXXON.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query extracts Exxon Mobil's total revenue value for the fiscal year ended December 31, 2025. It joins the financial filing data (sec.public.num) with the plain-text labels (sec.public.pre) on matching tags, then joins to the entity metadata (sec.public.sub) on the adsh filing identifier. The q"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "JPMORGAN.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves JPMorgan Chase's total revenue for the fiscal year ended December 31, 2025 by joining the SEC filing metadata (sec.public.pre) with the financial values (sec.public.num). It filters for the company CIK 0000019617, the Revenues tag, income statement statement type, full-year quar"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "EXXON.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Exxon Mobil's total assets value as reported in SEC XBRL filings for the period ending December 31, 2025. It filters the sec.public.num table directly for the 'TotalAssets' tag, the specific filing date, and Exxon Mobil's company identifier (coreg), returning the reported value,"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "JPMORGAN.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves JPMorgan Chase's total assets as of December 31, 2025, by joining the SEC XBRL filing numbers with their corresponding tags to get human-readable labels. It filters for the company using the coreg column (using 'JPM' as the likely ticker identifier), the financial concept using "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "PFIZER.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Pfizer's total revenue for the fiscal year ended December 31, 2025 by joining the SEC filing tables. It filters for the entity named 'Pfizer, INC.' in the sec.public.sub table, restricts to fiscal year end month/day '1231' (December 31) and fiscal year 2025, identifies the Reven"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "JPMORGAN.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves JPMorgan Chase's net income for the fiscal year ended December 31, 2025, by identifying the company in sec.public.sub, matching the Net Income tag or plain label in sec.public.pre, and extracting the monetary value from sec.public.num. It filters for the company name 'JPMorgan C"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "PFIZER.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Pfizer's net income value for the fiscal year ending December 31, 2025 by joining the sec.public.num and sec.public.pre tables on the adsh filing identifier. It filters for the company registrant identifier 'Pfizer' in the coreg column, the Net Income Loss tag and 'Net income' p"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "TESLA.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Tesla's total revenue for the fiscal year ended December 31, 2025 by first identifying Tesla's CIK from the SEC sub table, then joining to the pre table to filter for Income Statement (IS) filings from fiscal year 2025 with a December 31 year-end, and finally joining to the num "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "PFIZER.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Pfizer's total assets value as reported in an XBRL filing for the period ending December 31, 2025. It joins the sec.public.num and sec.public.tag tables on the financial reporting tag, filters for Pfizer as the company identifier (coreg), the specific reporting date, and the tag"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "TESLA.total_assets",
+  "value": 0.0397,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves Tesla's total assets filing data by joining the sec.public.num and sec.public.tag tables on the tag column. It filters for financial reports dated December 31, 2025, and searches for the Total Assets concept either by the numeric tag 'TotalAssets' or by the human-readable tlabel"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "TESLA.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Tesla's net income value for the fiscal year ended December 31, 2025 by joining the pre and num tables on the filing identifier adsh. It filters for the NetIncomeLoss tag, uses Tesla's CIK accession number '0001213900-26-005908' (known from the schema's version column samples) t"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "WALMART.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Walmart's total revenue for the fiscal year ended January 31, 2026 by summing the 'value' column from the SEC filing table sec.public.num where the tag is 'Revenues', the company identifier (coreg) is 'WALMART', and the reporting period covers 4 quarters (full fiscal year). It f"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "WALMART.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Walmart's total assets value as reported in their SEC filing for the period ending January 31, 2026. It joins the num table (containing the financial values) with the tag table (to identify the TotalAssets concept) and the sub table (to identify Walmart by name). The filter uses"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "WALMART.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Walmart's net income for the fiscal year ended January 31, 2026 by joining the SEC filing tables sec.public.num and sec.public.pre on the filing identifier adsh. It filters for Walmart using the coreg column in num, identifies the net income concept using the tag 'NetIncomeLoss'"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U01",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Alphabet Inc's SEC regulatory filings with associated financial data values near the specified date. It joins the company filing metadata (sec.public.sub) with the financial reporting numbers (sec.public.num) on the shared adsh identifier, filters for Alphabet Inc by name, and s"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U02",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query identifies Amazon's SEC filing records by filtering for the entity name 'AMAZON.COM, INC.' in the sec.public.sub table and joining with sec.public.num on the entity identifier (aciks/coreg). It filters filings filed on or before February 6, 2026, and orders by filed date descending to ret"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "EXXON.net_income",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "SQL can't be constructed from the data."
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U04",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query calculates Coca-Cola's dividend yield on March 1, 2026 by dividing dividend per share by stock price per share. It joins sec.public.num n (dividend data) with sec.public.tag t to filter dividend-related tags (DividendsPerShare, DividendPerCommonShare, CashDividendPerShare) where tlabel co"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U03",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves the most recent analyst consensus earnings-per-share estimate for Tesla (CIK 1318605) for fiscal year 2026. It joins the SEC filing sub table with the tag table on matching CIK numbers (with proper text-to-bigint casting), then joins to the num table to get the perShare EPS valu"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U05",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Company, Company Identifier, Business Address Country."
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U08",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query calculates Caterpillar's total revenue for Q1 2026 by filtering the sec.public.num table for the Revenues tag, qtrs=1 (representing a single quarter), the specific date of March 31, 2026, and Caterpillar's coreg identifier. The SUM of the value column provides the total revenue amount for"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U06",
+  "value": 0.0,
+  "label": "refused",
+  "error": null,
+  "answer": "This query retrieves the available financial filing data for Exxon Mobil (or similar-named entities) on the reporting period end date of December 31, 2025. It joins the SEC XBRL filing tables (num, sub, tag, pre) to associate each reported value with the company name, tag description, data type, and",
+  "override": true
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U07",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: crdr, tlabel, Company, Segments, Tag."
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U11",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Value, Tag, Company, Company Identifier."
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U12",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "This query attempts to find Coca-Cola-related financial filings from 2025 with percent or monetary datatype values. It joins the company submission data (sec.public.sub) with financial facts (sec.public.num) and their tags (sec.public.tag) to filter for Coca-Cola name matches and fiscal year 2025. H"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U09",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Berkshire Hathaway's revenue forecast data for fiscal year 2027 by joining the SEC filing number table (sec.public.num) with the subsidiary information table (sec.public.sub) on the shared adsh identifier. It filters for the company identifier 'BERKSHIRE HATHAWAY INC', the reven"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U14",
+  "value": 3.0,
+  "label": "invented",
+  "error": null,
+  "answer": "This query retrieves the total number of SEC filings and the count/fraction filtered to fiscal year 2025 from the sec.public.sub table. It calculates the ratio of 2025 filings to total filings as a proxy for a monthly subscriber churn rate, though the available schema does not contain Netflix-specif"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U10",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Alphabet Inc's financial filing data from the SEC dataset for January 15, 2026. It joins the num and sub tables on the company identifier (coreg/cik), filters for Alphabet Inc by name, and selects the value column as the best available proxy for daily trading volume, along with "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U13",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves the short interest data for Pfizer on January 31, 2026, from the sec.public.num table. It filters records by the specific date, identifies Pfizer company via the coreg column containing 'Pfizer', and looks for short interest representation through tag values like 'ShortInterest'"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "A",
+  "repeat": 1,
+  "qid": "U15",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Walmart's 52-week high stock price as of January 31, 2026, from SEC filing data. It joins the num and sub tables on adsh, filters for stock price-related tags (containing 'Price'), coreg identifier 'WALMART', USD unit of measure, and reporting dates on or before 2026-01-31 with "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "ALPHABET.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Alphabet's total revenue for the fiscal year ended December 31, 2025 by filtering the SEC filing submissions for the company named 'Alphabet' with fiscal year 2025 and fiscal year end month 1231 (December 31), then joining to the numeric values and tag tables to sum the Revenue "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "ALPHABET.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Alphabet's total assets value as reported in an SEC filing. It starts from the primary entity table (pre) to find the plabel 'Total assets', joins to the tag table to identify the financial concept, then to the num table to get the monetary value and the filing date, and finally"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "AMAZON.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Amazon's total revenue for the fiscal year ended December 31, 2025, by filtering SEC filings for the company name 'AMAZON.COM, INC.', fiscal year end month '1231' (December 31), and fiscal year 2025. It joins the submission, numeric value, and tag tables to identify revenue-rela"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "ALPHABET.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Alphabet's net income value for the fiscal year ended December 31, 2025. It joins the SEC filing metadata (pre), company submissions (sub), financial reporting tags (tag), and numerical values (num) to locate the net income line item. Filters identify Alphabet Inc by name, restr"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "AMAZON.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Amazon's net income for the fiscal year ended December 31, 2025 by joining the SEC filing submission table (sec.public.sub) with the financial values table (sec.public.num) to get the monetary amount, and joining through sec.public.pre and sec.public.tag to access the human-read"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "BERKSHIRE.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query calculates Berkshire Hathaway's total revenue for the fiscal year ended December 31, 2025 by joining the pre, sub, tag, and num tables on their shared adsh and tag keys. It filters for the company name 'Berkshire Hathaway, Inc.', fiscal year end month '1231' (December 31), fiscal year 202"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "AMAZON.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Amazon's total assets metric from the SEC filing data. It joins the pre table (financial reporting data) with sub (company metadata) on the adsh filing identifier to filter for Amazon by name, then joins to tag to access the plabel metric. The filter selects Amazon company name,"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "BERKSHIRE.total_assets",
+  "value": 24.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves Berkshire Hathaway's Total assets metric from its most recent 2025 annual SEC filing. It joins the pre and sub tables on the adsh filing identifier, filters for the company name BERKSHIRE HATHAWAY INC, the Total assets line item, fiscal year 2025, and annual period type FY, then"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "BERKSHIRE.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Berkshire Hathaway's net income value and unit of measure for the fiscal year ended December 31, 2025. It joins the pre, sub, tag, and num tables on their respective keys (adsh and tag), filters for the company name 'BERKSHIRE HATHAWAY INC' (matching the database's exact case), "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "CATERPILLAR.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Caterpillar's total revenue for the fiscal year ended December 31, 2025 by joining the SEC filing metadata (pre) with company information (sub) to identify Caterpillar Inc, joining to the tag taxonomy to filter for revenue-related concepts, and then joining to the numeric values"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "CATERPILLAR.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Caterpillar's total assets value from the SEC XBRL filing data. It joins the tag table to identify the 'TotalAssets' line item, the num table to get the monetary value and financial date, and the sub table to filter for Caterpillar Inc. by name. The results are filtered to the s"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "COCACOLA.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query calculates Coca-Cola's total revenue for the fiscal year ended December 31, 2025 by joining the SEC filing submission table (sec.public.sub) with the financial values table (sec.public.num) on the filing identifier (adsh). It filters for Coca-Cola (CIK 1144879), fiscal year 2025, and fisc"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "CATERPILLAR.net_income",
+  "value": 31.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves Caterpillar's net income (plabel = 'Net income (loss)') from the Income Statement (stmt = 'IS') for the fiscal year 2025 by joining the SEC filing metadata table (sec.public.pre) with the tag table (sec.public.tag) on the tag identifier. It filters for version strings containing"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "COCACOLA.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query identifies Coca-Cola's net income (loss) line item records for fiscal year 2025 with a fiscal year end of December 31 (1231). It joins the SEC filing detail table (sec.public.pre) with the company submission table (sec.public.sub) on the filing identifier adsh, filters for the company nam"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "EXXON.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query calculates Exxon Mobil's total revenue for the fiscal year ending December 31, 2025, by summing the monetary values from the num table. It joins the pre, sub, tag, and num tables to filter for the company name, revenue tag label, fiscal year end month of December (represented as '12' as t"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "COCACOLA.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query finds Coca-Cola's total assets by first identifying the company name from the SEC filing subsidiary table, then joining to the primary filing data table on the unique filing identifier (adsh). It filters for the company name 'THE COCA-COLA COMPANY', the plabel 'Total assets' which identif"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "EXXON.total_assets",
+  "value": -6158270000.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves Exxon Mobil's total assets value as of December 31, 2025, by joining the pre, tag, and num SEC filing tables to access the financial metric label, date, and value, while filtering for the 'Total assets' line item on the specified date and identifying Exxon Mobil through its CIK "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "JPMORGAN.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves JPMorgan Chase's total revenue for the fiscal year ending December 31, 2025, from SEC XBRL filing data. It joins the pre, sub, tag, and num tables using the verified adsh and tag pathways to connect the company filing to its revenue line item. The filter uses the exact company n"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "JPMORGAN.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves JPMorgan Chase's net income value for the fiscal year ended December 31, 2025, from SEC XBRL filing data. It joins the pre, sub, tag, and num tables using the adsh filing identifier, tag identifier, and tag-to-num coregistration path. The filter identifies JPMorgan Chase by name"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "EXXON.net_income",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "SQL can't be constructed from the data."
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "PFIZER.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Pfizer's total revenue for the fiscal year ended December 31, 2025, by joining the filing metadata (pre), tag definitions (tag), company identifiers (sub), and monetary values (num). It filters for the company named 'Pfizer, Inc.', a fiscal year end of December 31 (fye = '1231')"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "JPMORGAN.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Metric Label, tlabel, Financial Date, Fiscal Year, Coregistration Entity."
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "PFIZER.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Pfizer's total assets as of December 31, 2025, by filtering the 'Total assets' metric (plabel) from financial filings, joining through the tag bridge to access the monetary value (value) keyed to the report date (ddate), and attributing the filing to Pfizer Inc. via the company "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "PFIZER.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Pfizer's net income line items from the income statement for the fiscal year 2025 with a December 31 fiscal year-end. It joins the pre table (containing financial reporting tags and metric labels) with the sub table (containing company identifiers and fiscal year information) on"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "TESLA.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Tesla's total revenue for the fiscal year ended December 31, 2025 by joining the SEC pre and sub tables on the adsh filing identifier, filtering for Tesla's CIK (1018413), the fiscal year 2025, and the December 31 fiscal year end (fye=1231). It sums the plabel values matching 'r"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "TESLA.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Tesla's total assets value as reported in an SEC filing. It joins the pre, tag, num, and sub tables to connect the 'Total assets' metric label (pre.plabel) with its monetary value (num.value), filters for Tesla's CIK (381600), the December 31 fiscal year-end (fye='1231'), and th"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "WALMART.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query calculates Walmart's total revenue for the fiscal year ended January 31, 2026 by joining the SEC filing tables (pre, sub, tag, num) to filter for the company Walmart with fiscal year end 0131 and fiscal year 2026, identifying the revenue tag via tlabel containing 'Revenue', and summing th"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "TESLA.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Tesla's net income (loss) line item from the income statement (report=3) for the fiscal year 2025 with fiscal year end December 31 (fye='1231'). It joins the pre and sub tables on adsh to attribute each financial line item to the correct company filing, filtering for Tesla Motor"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "WALMART.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves the Total assets line item from Walmart's balance sheet for the fiscal year ending January 31, 2026. It joins the financial data (sec.public.pre) with company metadata (sec.public.sub) on the filing identifier adsh, filters for Walmart by CIK 40729 (the numeric form of CIK 00000"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U01",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "This query searches the SEC XBRL filing metadata for any Alphabet-related submissions with fiscal year end December 31 (fye='1231') or fiscal year 2025 (fy=2025), filed on or before December 31, 2025, sorted by filing date descending. It returns the available filing metadata fields including adsh, c"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "WALMART.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Walmart's net income line item record for the fiscal year ended January 31, 2026. It joins the SEC filing metadata (sec.public.pre) with the company filing details (sec.public.sub) on the unique filing identifier adsh. The WHERE clause filters for the net income metric label, Wa"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U03",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query calculates the analyst consensus earnings-per-share estimate for Tesla (as a US filer) for fiscal year 2026 by averaging the per-share EPS values from SEC filings. It starts with the sec.public.sub table filtered to fiscal year 2026 and US filings, joins to sec.public.num to get the EPS v"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U02",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "This query retrieves SEC XBRL filing records for Amazon on February 6, 2026, by joining the financial filing table (sec.public.num) with the company identifier table (sec.public.sub) on the shared adsh key. It filters for the specific date using num.ddate and for Amazon using sub.name. The result se"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U05",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: bas1, bas2, Fiscal Year, Former Legal Name."
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U06",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves the XBRL tag 'PriceEarningsRatio' associated with Exxon Mobil's SEC filing for the period ending December 31, 2025. It joins the tag metadata table (sec.public.tag) to the numeric data bridge (sec.public.num) via the tag identifier, then to the filing submission (sec.public.sub)"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U04",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This calculates Coca-Cola's dividend yield on March 1, 2026 by dividing dividend per share by stock price per share. It joins the tag and num tables twice to find both dividend and price metrics, filters for Coca-Cola by name, and restricts results to filings with ddate on or before March 1, 2026 wi"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U07",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata reasoning step failed. No source data was queried.\n\nRelevant catalog candidates found: Financial Direction, tlabel, Coregistration Entity, Reporting Segments, Monetary Value."
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U09",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves the total revenue value for Berkshire Hathaway for fiscal year 2027 by joining the company filing records with their associated financial values. It filters for the company name 'Berkshire Hathaway' and fiscal year 2027, then sums the monetary value column from the num table to "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U08",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Caterpillar's total revenue for the quarter ended March 31, 2026 by joining the financial value table (sec.public.num) with the company identifier (sec.public.sub), the financial reporting tag (sec.public.tag), and the financial statement metadata (sec.public.pre). It filters fo"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U10",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves financial filing values (the 'value' column) and their labels (tlabel) for Alphabet Inc. on January 15, 2026, by joining the SEC filing tables (num, tag, sub, pre) on their respective keys. It filters for the company name 'Alphabet' from the sec.public.sub table and the specific"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U11",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "I couldn't complete the metadata lookup safely. The metadata lookup reached its reasoning limit. No source data was queried.\n\nRelevant catalog candidates found: Metric Label, Is Negating, Is Abstract, Company Name."
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U12",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "This query attempts to extract financial filing data from the SEC XBRL schema for fiscal year 2025, joining the core tables (sub, num, tag, pre) on their respective keys. It filters for records where the data type is 'percent', the unit of measure is 'USD', and the financial statement is the 'Income"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U14",
+  "value": null,
+  "label": "refused",
+  "error": null,
+  "answer": "This query attempts to compute Netflix's monthly subscriber churn rate from the available SEC filing tables, but the schema contains only financial filing metadata (CIK, tags, fiscal years, addresses) and no streaming subscriber or churn data. It filters sec.public.sub for filings from the year 2025"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U15",
+  "value": 1231.0,
+  "label": "refused",
+  "error": null,
+  "answer": "This query attempts to retrieve Walmart's 52-week high stock price as of January 31, 2026 from the available SEC filing schema. However, the schema contains only financial reporting tables (pre, sub, num, tag) with columns for XBRL filing metadata, financial statement line items, and company identif",
+  "override": true
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "B",
+  "repeat": 1,
+  "qid": "U13",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves SEC filing records for Pfizer company where the fiscal year ends on January 31 (fye='0131'), joining the company submission data (sec.public.sub) with the financial report structure (sec.public.pre) on the shared adsh identifier. It returns the filing identifiers, company name, "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R1",
+  "repeat": 1,
+  "qid": "AMAZON.revenue",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Amazon's total revenue for the fiscal year ended December 31, 2025, by joining the filing entity (sub) with its financial values (num) and XBRL tags (tag). It filters for Amazon's 10-K filing, annual data (qtrs=4), consolidated company totals (segments IS NULL, coreg IS NULL), t"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R1",
+  "repeat": 1,
+  "qid": "BERKSHIRE.total_assets",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Berkshire Hathaway's total assets value as of December 31, 2025, from the balance sheet (qtrs=0). It joins the primary filing (pre) to the company record (sub) on accession number, then follows the verified tag path to identify the 'Total Assets' line item and its period end dat"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R1",
+  "repeat": 1,
+  "qid": "COCACOLA.revenue",
+  "value": 15819000000.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves Coca-Cola's total revenue from its most recent 10-K annual filing with a fiscal year end of December 31, 2025. It joins the num and sub tables on the accession number (adsh), filters for the company name containing 'COCA COLA', limits to 10-K form filings, ensures the period end"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R1",
+  "repeat": 1,
+  "qid": "EXXON.net_income",
+  "value": 204194000.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves Exxon Mobil's net income for the fiscal year ended December 31, 2025. It joins the company identifier table (sec.public.sub) with the pre-filing accession table (sec.public.pre) on adsh, then links to the tag and number tables via the verified tag tag path to access the NetIncom"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R1",
+  "repeat": 1,
+  "qid": "JPMORGAN.revenue",
+  "value": 4148443000045.87,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves JPMorgan Chase's total revenue for the fiscal year ended December 31, 2025, by joining the financial values table with the company metadata table on the accession number, filtering for the company name, fiscal year 2025, 10-K form, full-year duration (qtrs=4), and fiscal year-en"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R1",
+  "repeat": 1,
+  "qid": "WALMART.net_income",
+  "value": 37417000.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves Walmart's net income for the fiscal year ended January 31, 2026, by joining the SEC filing metadata (pre), financial reporting tags (tag), numerical values (num), and entity submissions (sub). It filters for the Walmart entity via name ILIKE, form 10-K, fiscal year 2026 with a J"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R2",
+  "repeat": 1,
+  "qid": "AMAZON.revenue",
+  "value": 716924000000.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query retrieves Amazon's total revenue for the fiscal year ended December 31, 2025, by joining the num, sub, and tag tables. It filters for Amazon's legal filing name (ILIKE '%AMAZON%'), the 10-K form, the correct fiscal year end date, annual qtrs=4, consolidated rows (segments and coreg NULL),"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R2",
+  "repeat": 1,
+  "qid": "BERKSHIRE.total_assets",
+  "value": 0.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves Berkshire Hathaway's total assets from the 10-K balance sheet as of December 31, 2025. It starts by identifying the company from the pre table using name matching, then joins through the sub, tag, and num tables to access the Assets line item value. The filters ensure we get the"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R2",
+  "repeat": 1,
+  "qid": "COCACOLA.revenue",
+  "value": 47941000000.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query retrieves Coca-Cola's total revenue for the fiscal year ended December 31, 2025, by joining the sec.public.num and sec.public.sub tables on the accession number (adsh). It filters for the company name matching 'COCA COLA', form type '10-K', fiscal period '2025-12-31', annual data (qtrs=4)"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R2",
+  "repeat": 1,
+  "qid": "EXXON.net_income",
+  "value": 812000000.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves Exxon Mobil's net income in USD for the fiscal year ending December 31, 2025. It joins the filing metadata (pre) with the company identifier (sub) to filter by name, then joins the financial values (num) and tags (tag) to isolate the annual net income amount reported in whole US"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R2",
+  "repeat": 1,
+  "qid": "JPMORGAN.revenue",
+  "value": 182447000000.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query retrieves JPMorgan Chase's total revenue for the fiscal year ended December 31, 2025, by joining the sec.public.num and sec.public.sub tables on the accession number (adsh). It filters for the company name 'JPMORGAN CHASE & CO', the 10-K form, the period end date of 2025-12-31, quarterly "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R2",
+  "repeat": 1,
+  "qid": "WALMART.net_income",
+  "value": -0.47,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves Walmart's net income for the fiscal year ended January 31, 2026 by joining the XBRL filing tables (pre, sub, tag, num) to filter for the Walmart company, the correct fiscal year (2026), the period end date (2026-01-31), and the annual net income line item (qtrs=4 for full fiscal"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R3",
+  "repeat": 1,
+  "qid": "AMAZON.revenue",
+  "value": 716924000000.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query retrieves Amazon's total revenue for the fiscal year ended December 31, 2025, from its 10-K filing. It joins the num, sub, tag, and pre tables to anchor the filing and resolve the revenue tag. The name filter uses ILIKE '%AMAZON%' to match the filer name stored in upper case. The tag is f"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R3",
+  "repeat": 1,
+  "qid": "BERKSHIRE.total_assets",
+  "value": 148327000000.0,
+  "label": "wrong",
+  "error": null,
+  "answer": "This query retrieves Berkshire Hathaway's total assets from its most recent 10-K annual filing as of the fiscal year-end date December 31, 2025. It joins the num and sub tables on the accession number (adsh), filters for the company name, the 10-K form, the specified period, the Assets tag, point-in"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R3",
+  "repeat": 1,
+  "qid": "COCACOLA.revenue",
+  "value": 47941000000.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query retrieves Coca-Cola's total revenue for the fiscal year ended December 31, 2025, by joining the num and sub tables on the accession number (adsh). It filters for the company name 'COCA COLA CO', the 10-K form, the specified period, and selects the revenue value with priority given to the "
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R3",
+  "repeat": 1,
+  "qid": "EXXON.net_income",
+  "value": 28844000000.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query retrieves Exxon Mobil's net income for the fiscal year ended December 31, 2025, by joining the SEC filing's numeric values (num) with the filing metadata (sub). It filters for the 10-K annual report where the company name matches Exxon Mobil, the fiscal period is 2025-12-31, the tag is ei"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R3",
+  "repeat": 1,
+  "qid": "JPMORGAN.revenue",
+  "value": 182447000000.0,
+  "label": "correct",
+  "error": null,
+  "answer": "This query retrieves JPMorgan Chase's total revenue for the fiscal year ended December 31, 2025, by joining the SEC filing subsidiary data (sec.public.sub) with the reported financial facts (sec.public.num). It filters for the company name matching JPMorgan Chase, form type 10-K, fiscal period endin"
+ },
+ {
+  "agent": "auto-ontology",
+  "condition": "R3",
+  "repeat": 1,
+  "qid": "WALMART.net_income",
+  "value": null,
+  "label": "no_answer",
+  "error": null,
+  "answer": "This query retrieves Walmart's net income for the fiscal year ended January 31, 2026, by joining the XBRL fact table (num) with the subsidiary filing metadata (sub) and the reporting tag bridge (pre, tag). It filters for the company 'WALMART INC' on form 10-K with fiscal year end period 2026-01-31, "
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "ALPHABET.revenue",
+  "value": 402836000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "AMAZON.revenue",
+  "value": 716924000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "BERKSHIRE.revenue",
+  "value": 371444000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "CATERPILLAR.revenue",
+  "value": 67589000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "COCACOLA.revenue",
+  "value": 47941000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "EXXON.revenue",
+  "value": 332238000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "JPMORGAN.revenue",
+  "value": 182447000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "PFIZER.revenue",
+  "value": 62579000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "TESLA.revenue",
+  "value": 94827000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "WALMART.revenue",
+  "value": 713163000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U01",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U04",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U07",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U10",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U13",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "ALPHABET.net_income",
+  "value": 132170000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "AMAZON.net_income",
+  "value": 77670000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "BERKSHIRE.net_income",
+  "value": 66968000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "CATERPILLAR.net_income",
+  "value": 8884000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "COCACOLA.net_income",
+  "value": 13107000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "EXXON.net_income",
+  "value": 28844000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "JPMORGAN.net_income",
+  "value": 57048000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "PFIZER.net_income",
+  "value": 7771000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "TESLA.net_income",
+  "value": 3794000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "WALMART.net_income",
+  "value": 21893000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U02",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U05",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U08",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U11",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U14",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "ALPHABET.total_assets",
+  "value": 595281000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "AMAZON.total_assets",
+  "value": 818042000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "BERKSHIRE.total_assets",
+  "value": 1222176000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "CATERPILLAR.total_assets",
+  "value": 98585000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "COCACOLA.total_assets",
+  "value": 104816000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "EXXON.total_assets",
+  "value": 448980000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "JPMORGAN.total_assets",
+  "value": 4424900000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "PFIZER.total_assets",
+  "value": 208160000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "TESLA.total_assets",
+  "value": 137806000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "WALMART.total_assets",
+  "value": 284668000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U03",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U06",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U09",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U12",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 1,
+  "qid": "U15",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "ALPHABET.revenue",
+  "value": 402836000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "AMAZON.revenue",
+  "value": 716924000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "BERKSHIRE.revenue",
+  "value": 371444000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "CATERPILLAR.revenue",
+  "value": 67589000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "COCACOLA.revenue",
+  "value": 47941000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "EXXON.revenue",
+  "value": 332238000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "JPMORGAN.revenue",
+  "value": 182447000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "PFIZER.revenue",
+  "value": 62579000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "TESLA.revenue",
+  "value": 94827000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "WALMART.revenue",
+  "value": 713163000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U01",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U04",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U07",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U10",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U13",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "ALPHABET.net_income",
+  "value": 132170000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "AMAZON.net_income",
+  "value": 77670000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "BERKSHIRE.net_income",
+  "value": 66968000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "CATERPILLAR.net_income",
+  "value": 8884000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "COCACOLA.net_income",
+  "value": 13107000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "EXXON.net_income",
+  "value": 28844000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "JPMORGAN.net_income",
+  "value": 57048000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "PFIZER.net_income",
+  "value": 7771000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "TESLA.net_income",
+  "value": 3794000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "WALMART.net_income",
+  "value": 21893000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U02",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U05",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U08",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U11",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U14",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "ALPHABET.total_assets",
+  "value": 595281000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "AMAZON.total_assets",
+  "value": 818042000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "BERKSHIRE.total_assets",
+  "value": 1222176000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "CATERPILLAR.total_assets",
+  "value": 98585000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "COCACOLA.total_assets",
+  "value": 104816000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "EXXON.total_assets",
+  "value": 448980000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "JPMORGAN.total_assets",
+  "value": 4424900000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "PFIZER.total_assets",
+  "value": 208160000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "TESLA.total_assets",
+  "value": 137806000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "WALMART.total_assets",
+  "value": 284668000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U03",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U06",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U09",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U12",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 2,
+  "qid": "U15",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "ALPHABET.revenue",
+  "value": 402836000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "AMAZON.revenue",
+  "value": 716924000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "BERKSHIRE.revenue",
+  "value": 371444000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "CATERPILLAR.revenue",
+  "value": 67589000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "COCACOLA.revenue",
+  "value": 47941000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "EXXON.revenue",
+  "value": 332238000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "JPMORGAN.revenue",
+  "value": 182447000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "PFIZER.revenue",
+  "value": 62579000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "TESLA.revenue",
+  "value": 94827000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "WALMART.revenue",
+  "value": 713163000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U01",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U04",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U07",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U10",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U13",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "ALPHABET.net_income",
+  "value": 132170000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "AMAZON.net_income",
+  "value": 77670000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "BERKSHIRE.net_income",
+  "value": 66968000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "CATERPILLAR.net_income",
+  "value": 8884000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "COCACOLA.net_income",
+  "value": 13107000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "EXXON.net_income",
+  "value": 28844000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "JPMORGAN.net_income",
+  "value": 57048000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "PFIZER.net_income",
+  "value": 7771000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "TESLA.net_income",
+  "value": 3794000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "WALMART.net_income",
+  "value": 21893000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U02",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U05",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U08",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U11",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U14",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "ALPHABET.total_assets",
+  "value": 595281000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "AMAZON.total_assets",
+  "value": 818042000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "BERKSHIRE.total_assets",
+  "value": 1222176000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "CATERPILLAR.total_assets",
+  "value": 98585000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "COCACOLA.total_assets",
+  "value": 104816000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "EXXON.total_assets",
+  "value": 448980000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "JPMORGAN.total_assets",
+  "value": 4424900000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "PFIZER.total_assets",
+  "value": 208160000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "TESLA.total_assets",
+  "value": 137806000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "WALMART.total_assets",
+  "value": 284668000000.0,
+  "label": "correct"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U03",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U06",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U09",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U12",
+  "value": null,
+  "label": "refused"
+ },
+ {
+  "agent": "baseline",
+  "condition": "raw",
+  "repeat": 3,
+  "qid": "U15",
+  "value": null,
+  "label": "refused"
+ }
+]

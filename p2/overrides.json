@@ -1,0 +1,5 @@
+{
+ "_note": "Manual labels after reading the full answer text. Each says the data cannot answer, though rows were returned.",
+ "auto-ontology|A|1|U06": "refused",
+ "auto-ontology|B|1|U15": "refused"
+}

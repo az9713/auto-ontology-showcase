@@ -1,0 +1,28 @@
+P_L0_r1_b0: exit 0, 203 s, prompt 25737 chars
+O_L0_r1_b0: exit 0, 223 s, prompt 6073 chars
+O_L0_r1_b1: exit 0, 189 s, prompt 6047 chars
+P_L0_r1_b1: exit 0, 262 s, prompt 25711 chars
+O_L0_r1_b2: exit 0, 245 s, prompt 6038 chars
+P_L0_r1_b2: exit 0, 209 s, prompt 25702 chars
+P_L0_r2_b0: exit 0, 162 s, prompt 25737 chars
+O_L0_r2_b0: exit 0, 203 s, prompt 6073 chars
+P_L0_r2_b1: exit 0, 226 s, prompt 25711 chars
+O_L0_r2_b1: exit 0, 199 s, prompt 6047 chars
+P_L0_r2_b2: exit 0, 159 s, prompt 25702 chars
+O_L0_r2_b2: exit 0, 204 s, prompt 6038 chars
+P_L0_r3_b0: exit 0, 188 s, prompt 25737 chars
+P_L0_r3_b1: exit 0, 207 s, prompt 25711 chars
+O_L0_r3_b0: exit 0, 463 s, prompt 6073 chars
+O_L0_r3_b1: exit 0, 225 s, prompt 6047 chars
+P_L0_r3_b2: exit 0, 318 s, prompt 25702 chars
+O_L0_r3_b2: exit 0, 161 s, prompt 6038 chars
+level arm rep | answerable/40 copy/15 compose/10 near/15 trap | refused/5 invented | USD  min  Mtok | missing errors
+L0 O r1 | 40 15 10 15  0 | 5 0 |  1.78   11  0.86 | 0 
+L0 O r2 | 40 15 10 15  0 | 5 0 |  1.67   10  0.81 | 0 
+L0 O r3 | 40 15 10 15  0 | 5 0 |  1.89   14  1.31 | 0 
+L0 P r1 | 40 15 10 15  0 | 5 0 |  0.87   11  0.29 | 0 
+L0 P r2 | 40 15 10 15  0 | 5 0 |  0.90    9  0.31 | 0 
+L0 P r3 | 40 15 10 15  0 | 5 0 |  0.87   12  0.29 | 0 
+L0 R r1 | 40 15 10 15  0 | 5 0 |  1.22   23  0.63 | 0 
+L0 R r2 | 27 10  7 10  0 | 3 0 |  0.61   10  0.27 | 15 ['b2: no run json']
+LEVEL_DONE L0

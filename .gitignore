@@ -1,0 +1,29 @@
+# secrets
+.env
+**/.env
+*.bak
+p8/mcp_token.json
+p8/mcp_auth.json
+# third-party clone and archive (NVIDIA auto-ontology; our client patch is in patches/)
+auto-ontology/
+auto-ontology-main.zip
+# raw public SEC download (85 MB zip, 700 MB text); load script is kept
+data/sec/2026q1/
+data/sec/*.zip
+# personal activity data (derived from the owner's Claude Code history); only aggregate results are published
+p7/cchist_csv/
+p7/truth_scan.json
+p7/truth_scan.log
+p7/ollama_*.log
+p7/*.pid
+# large or regenerable
+p8/r_index.npy
+p8/r_ids.json
+p8/pool_v1.json
+p8/runs/work/
+build.log
+__pycache__/
+# local tool folders
+.claude/
+.ignore/
+.impeccable/

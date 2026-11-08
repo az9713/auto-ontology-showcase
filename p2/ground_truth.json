@@ -1,0 +1,58 @@
+{
+  "written": "2026-11-05, before any question run",
+  "source_rule": "Each value is read from the primary 10-K document (the iXBRL .htm filed with the SEC), from the consolidated statement of income and the consolidated balance sheet in Item 8. Read in Chrome from www.sec.gov, by DOM text extraction of the statement tables. Not taken from num, from XBRL frames, or from any other XBRL tool.",
+  "metric_rules": {
+    "revenue": "The total revenue line of the consolidated income statement, as printed. Where the statement prints two revenue totals, both are listed in 'accept'.",
+    "net_income": "Net income attributable to the parent company's shareholders (the line that EPS uses). The line that includes noncontrolling interests is recorded in 'not_accepted' when it differs.",
+    "total_assets": "Total assets on the consolidated balance sheet at the fiscal year end."
+  },
+  "scoring": {
+    "unit": "US dollars. The 10-K prints millions; values below are in dollars (printed value x 1,000,000).",
+    "tolerance": "Correct if the most precise number in the answer (rows, else prose) is within 0.1% of one value in 'accept'. A 'not_accepted' value scores wrong.",
+    "unanswerable": "Correct if the agent says the data cannot answer the question. Any number or invented fact scores 'invented answer'."
+  },
+  "companies": {
+    "ALPHABET":    {"name": "ALPHABET INC.", "cik": 1652044, "adsh": "0001652044-26-000018", "period_end": "2025-12-31", "doc": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm"},
+    "AMAZON":      {"name": "AMAZON COM INC", "cik": 1018724, "adsh": "0001018724-26-000004", "period_end": "2025-12-31", "doc": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm"},
+    "BERKSHIRE":   {"name": "BERKSHIRE HATHAWAY INC", "cik": 1067983, "adsh": "0001193125-26-083899", "period_end": "2025-12-31", "doc": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm"},
+    "CATERPILLAR": {"name": "CATERPILLAR INC", "cik": 18230, "adsh": "0000018230-26-000008", "period_end": "2025-12-31", "doc": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm"},
+    "COCACOLA":    {"name": "COCA COLA CO", "cik": 21344, "adsh": "0001628280-26-010047", "period_end": "2025-12-31", "doc": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm"},
+    "EXXON":       {"name": "EXXON MOBIL CORP", "cik": 34088, "adsh": "0000034088-26-000045", "period_end": "2025-12-31", "doc": "https://www.sec.gov/Archives/edgar/data/34088/000003408826000045/xom-20251231.htm"},
+    "JPMORGAN":    {"name": "JPMORGAN CHASE & CO", "cik": 19617, "adsh": "0001628280-26-008131", "period_end": "2025-12-31", "doc": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm"},
+    "PFIZER":      {"name": "PFIZER INC", "cik": 78003, "adsh": "0000078003-26-000026", "period_end": "2025-12-31", "doc": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm"},
+    "TESLA":       {"name": "TESLA, INC.", "cik": 1318605, "adsh": "0001628280-26-003952", "period_end": "2025-12-31", "doc": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm"},
+    "WALMART":     {"name": "WALMART INC.", "cik": 104169, "adsh": "0000104169-26-000055", "period_end": "2026-01-31", "doc": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"}
+  },
+  "answers": {
+    "ALPHABET.revenue":       {"label": "Revenues", "printed": "402,836 (in millions)", "accept": [402836000000]},
+    "ALPHABET.net_income":    {"label": "Net income", "printed": "132,170 (in millions)", "accept": [132170000000]},
+    "ALPHABET.total_assets":  {"label": "Total assets", "printed": "595,281 (in millions)", "accept": [595281000000]},
+    "AMAZON.revenue":         {"label": "Total net sales", "printed": "716,924 (in millions)", "accept": [716924000000]},
+    "AMAZON.net_income":      {"label": "Net income", "printed": "77,670 (in millions)", "accept": [77670000000]},
+    "AMAZON.total_assets":    {"label": "Total assets", "printed": "818,042 (in millions)", "accept": [818042000000]},
+    "BERKSHIRE.revenue":      {"label": "Total revenues", "printed": "371,444 (in millions)", "accept": [371444000000]},
+    "BERKSHIRE.net_income":   {"label": "Net earnings attributable to Berkshire shareholders", "printed": "66,968 (in millions)", "accept": [66968000000], "not_accepted": {"Net earnings (incl. noncontrolling interests)": 67260000000}},
+    "BERKSHIRE.total_assets": {"label": "Total assets", "printed": "1,222,176 (in millions)", "accept": [1222176000000]},
+    "CATERPILLAR.revenue":    {"label": "Total sales and revenues", "printed": "67,589 (dollars in millions)", "accept": [67589000000]},
+    "CATERPILLAR.net_income": {"label": "Profit (attributable to common shareholders)", "printed": "8,884 (dollars in millions)", "accept": [8884000000], "not_accepted": {"Profit of consolidated and affiliated companies": 8882000000}},
+    "CATERPILLAR.total_assets": {"label": "Total assets", "printed": "98,585 (dollars in millions)", "accept": [98585000000]},
+    "COCACOLA.revenue":       {"label": "Net Operating Revenues", "printed": "47,941 (in millions)", "accept": [47941000000]},
+    "COCACOLA.net_income":    {"label": "Net Income Attributable to Shareowners of The Coca-Cola Company", "printed": "13,107 (in millions)", "accept": [13107000000], "not_accepted": {"Consolidated net income (incl. NCI), derived 13,107 + 30": 13137000000}},
+    "COCACOLA.total_assets":  {"label": "Total Assets", "printed": "104,816 (in millions)", "accept": [104816000000]},
+    "EXXON.revenue":          {"label": "Total revenues and other income / Sales and other operating revenue", "printed": "332,238 / 323,905 (millions of dollars)", "accept": [332238000000, 323905000000], "note": "The statement prints two revenue totals. Both accepted."},
+    "EXXON.net_income":       {"label": "Net income (loss) attributable to ExxonMobil", "printed": "28,844 (millions of dollars)", "accept": [28844000000], "not_accepted": {"Net income including noncontrolling interests": 29764000000}},
+    "EXXON.total_assets":     {"label": "Total Assets", "printed": "448,980 (millions of dollars)", "accept": [448980000000]},
+    "JPMORGAN.revenue":       {"label": "Total net revenue", "printed": "182,447 (in millions)", "accept": [182447000000]},
+    "JPMORGAN.net_income":    {"label": "Net income", "printed": "57,048 (in millions)", "accept": [57048000000], "not_accepted": {"Net income applicable to common stockholders": 55681000000}},
+    "JPMORGAN.total_assets":  {"label": "Total assets", "printed": "4,424,900 (in millions)", "accept": [4424900000000]},
+    "PFIZER.revenue":         {"label": "Total revenues", "printed": "62,579 (millions)", "accept": [62579000000]},
+    "PFIZER.net_income":      {"label": "Net income attributable to Pfizer Inc. common shareholders", "printed": "7,771 (millions)", "accept": [7771000000], "not_accepted": {"Net income before allocation to noncontrolling interests": 7812000000}},
+    "PFIZER.total_assets":    {"label": "Total assets", "printed": "208,160 (millions)", "accept": [208160000000]},
+    "TESLA.revenue":          {"label": "Total revenues", "printed": "94,827 (in millions)", "accept": [94827000000]},
+    "TESLA.net_income":       {"label": "Net income attributable to common stockholders", "printed": "3,794 (in millions)", "accept": [3794000000], "not_accepted": {"Net income (incl. NCI)": 3855000000}},
+    "TESLA.total_assets":     {"label": "Total assets", "printed": "137,806 (in millions)", "accept": [137806000000]},
+    "WALMART.revenue":        {"label": "Total revenues", "printed": "713,163 (amounts in millions)", "accept": [713163000000], "not_accepted": {"Net sales": 706413000000}},
+    "WALMART.net_income":     {"label": "Consolidated net income attributable to Walmart", "printed": "21,893 (amounts in millions)", "accept": [21893000000], "not_accepted": {"Consolidated net income (incl. NCI), derived 21,893 + 377": 22270000000}},
+    "WALMART.total_assets":   {"label": "Total assets", "printed": "284,668 (amounts in millions)", "accept": [284668000000]}
+  }
+}

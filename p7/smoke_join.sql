@@ -1,0 +1,1 @@
+SELECT n.value FROM sub s JOIN num n ON s.adsh = n.adsh WHERE s.name = 'AMAZON COM INC' AND s.form = '10-K' AND n.tag = 'Revenues' AND n.qtrs = 4 AND n.uom = 'USD' AND n.coreg IS NULL AND n.ddate = s.period;

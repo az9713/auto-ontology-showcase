@@ -1,0 +1,1 @@
+COCACOLA.revenue JPMORGAN.revenue WALMART.net_income AMAZON.revenue EXXON.net_income BERKSHIRE.total_assets
