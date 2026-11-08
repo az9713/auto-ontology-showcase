@@ -41,6 +41,9 @@ project document (plan, decisions, progress, results, log). There is no project 
 - DB `cchist` and its certified terms/attributes stay in the store (DB `auto_ontology`). SEC store untouched.
 - Git: workspace root = repo `az9713/auto-ontology-showcase` (public since 2026-11-08, branch main). `.gitignore` keeps out secrets, the clone,
   raw SEC data and the personal `cchist` rows. Names and user paths were replaced by "the owner" / `<user>` before the first commit.
+- GitHub Pages: branch `gh-pages` holds only the 2 HTML files; https://az9713.github.io/auto-ontology-showcase/ .
+  After a change to an HTML file on main, refresh it (Git Bash): `T=$(git ls-tree HEAD auto-ontology-showcase-projects.html sec-ontology-map.html | git mktree);
+  C=$(git commit-tree $T -p origin/gh-pages -m "Pages: refresh"); git push origin $C:refs/heads/gh-pages`.
 
 ## Next task
 **P8 DONE 2026-11-08** (project document `#p8results`). Gate fired after L1: P, R, O each 40/40 and 5/5 refused at L0 (50 defs)

@@ -11,8 +11,8 @@ certified. The same definitions given as plain text in the prompt, or found by a
 better than the ontology tool, at a lower cost. The full reasons are in [Why the ontology gave no benefit](#why-the-ontology-gave-no-benefit).
 
 The project document with every plan, decision, progress row and log entry is
-[`auto-ontology-showcase-projects.html`](auto-ontology-showcase-projects.html). A picture of the SEC data and its ontology
-is [`sec-ontology-map.html`](sec-ontology-map.html). Both are HTML files: download them and open them in a browser.
+[`auto-ontology-showcase-projects.html`](https://az9713.github.io/auto-ontology-showcase/auto-ontology-showcase-projects.html). A picture of the SEC data and its ontology
+is [`sec-ontology-map.html`](https://az9713.github.io/auto-ontology-showcase/sec-ontology-map.html). Both open as web pages on GitHub Pages.
 
 ## Contents
 
