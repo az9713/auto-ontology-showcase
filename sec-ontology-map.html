@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="color-scheme" content="dark">
+<title>SEC data: the ontology map (P2)</title>
+<style>
+  :root { --bg:#0f172a; --card:#1e293b; --line:#334155; --text:#e2e8f0; --text2:#cbd5e1; --muted:#94a3b8;
+          --orange:#fb923c; --teal:#2dd4bf; --green:#4ade80; --red:#f87171; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.55 system-ui, Segoe UI, sans-serif; }
+  main { max-width:1060px; margin:0 auto; padding:28px 20px 60px; }
+  h1 { font-size:24px; margin:0 0 4px; } h2 { font-size:18px; margin:36px 0 10px; color:var(--orange); }
+  p, li { color:var(--text2); } .muted { color:var(--muted); font-size:13px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; }
+  .tabs { display:flex; gap:8px; flex-wrap:wrap; margin:16px 0 10px; }
+  .tabs button { background:var(--card); color:var(--text2); border:1px solid var(--line); border-radius:8px;
+                 padding:8px 14px; font:inherit; cursor:pointer; }
+  .tabs button[aria-selected="true"] { border-color:var(--teal); color:var(--text); box-shadow:inset 0 -2px 0 var(--teal); }
+  .tabs button:focus-visible { outline:2px solid var(--orange); outline-offset:2px; }
+  svg { width:100%; height:auto; display:block; }
+  table { border-collapse:collapse; width:100%; font-size:13px; }
+  th, td { border-bottom:1px solid var(--line); padding:5px 8px; text-align:left; vertical-align:top; }
+  th { color:var(--muted); font-weight:600; } code { color:var(--teal); font-size:13px; }
+  .funnel div.row { display:grid; grid-template-columns:260px 1fr 110px; gap:10px; align-items:center; margin:5px 0; }
+  .bar { height:14px; background:var(--teal); border-radius:3px; }
+  .num { text-align:right; font-variant-numeric:tabular-nums; }
+  .ok { color:var(--green); } .bad { color:var(--red); } .warn { color:var(--orange); }
+  .scroll { overflow-x:auto; }
+</style>
+</head>
+<body>
+<main>
+<h1>SEC data: the ontology map</h1>
+<p class="muted">Database <code>sec</code>: SEC Financial Statement Data Sets, 2026q1. 4 tables, 65 columns.
+Sources: <code>data/sec/load_sec.sql</code>, <code>p2/model_A.yaml</code>, <code>p2/model_B.yaml</code>,
+<code>p2/corrections.py</code>, and read-only queries on the live database (2026-11-06).</p>
+
+<div class="card">
+  <p style="margin:0"><b>The picture in one sentence.</b> A <b>filing</b> (<code>sub</code>) holds many <b>facts</b>
+  (<code>num</code>). Each fact is one number for one <b>concept</b> (<code>tag</code>) and one period. A
+  <b>statement line</b> (<code>pre</code>) records where the filer printed that concept, and the filer's label for it.</p>
+</div>
+
+<h2>1. The 4 tables, in 4 states</h2>
+<p>Select a state. The boxes and arrows stay the same. The names, links and marks change.</p>
+<div class="tabs" role="tablist" aria-label="Ontology state">
+  <button role="tab" data-v="truth" aria-selected="true">What the data is</button>
+  <button role="tab" data-v="A" aria-selected="false">A: generated, raw tables</button>
+  <button role="tab" data-v="B" aria-selected="false">B: generated, declared keys</button>
+  <button role="tab" data-v="C" aria-selected="false">B + certified (R1–R3)</button>
+</div>
+<div class="card scroll"><svg id="map" viewBox="0 0 1000 580" role="img" aria-labelledby="note"></svg></div>
+<div class="card" id="note" style="margin-top:10px"></div>
+
+<h2>2. How one number is found: Amazon revenue, fiscal year 2025</h2>
+<p>The <code>num</code> table holds 3,690,955 numbers. Exactly 1 of them is Amazon's annual revenue. Each filter below
+removes a trap. Counts are from the live database.</p>
+<div class="card funnel" id="funnel"></div>
+<p class="muted">The 17 rows removed at the last step are breakdowns: <code>segments</code> not NULL (business
+segment, product, region). A sum over the 18 rows gives a wrong number with no error. The bar length uses a
+log scale.</p>
+
+<h2>3. One real row from each table</h2>
+<div class="card scroll">
+<table>
+<tr><th>Table</th><th>Row</th><th>What it means</th></tr>
+<tr><td><code>sub</code></td><td><code>0001018724-26-000004 | cik 1018724 | AMAZON COM INC | sic 5961 | 10-K | period 2025-12-31 | fy 2025 | FY | fye 1231 | filed 2026-02-06</code></td>
+<td>Amazon's annual report. <code>adsh</code> is the filing ID.</td></tr>
+<tr><td><code>num</code></td><td><code>0001018724-26-000004 | RevenueFromContractWithCustomerExcludingAssessedTax | us-gaap/2025 | ddate 2025-12-31 | qtrs 4 | USD | segments NULL | coreg NULL | 716924000000.0000</code></td>
+<td>Revenue: $716,924,000,000, a full year (4 quarters), company total.</td></tr>
+<tr><td><code>tag</code></td><td><code>RevenueFromContractWithCustomerExcludingAssessedTax | us-gaap/2025 | custom f | abstract f | monetary | D | C | Revenue from Contract with Customer, Excluding Assessed Tax</code></td>
+<td>The concept. The same tag also has a <code>us-gaap/2024</code> row.</td></tr>
+<tr><td><code>pre</code></td><td><code>0001018724-26-000004 | report 4 | line 7 | IS | inpth f | RevenueFromContractWithCustomerExcludingAssessedTax | us-gaap/2025 | Total net sales | negating f</code></td>
+<td>Amazon printed it on the income statement (<code>IS</code>), line 7, as "Total net sales".</td></tr>
+</table>
+</div>
+
+<h2>4. The traps in this data</h2>
+<div class="card">
+<ol>
+  <li><b>One concept, several tags.</b> Revenue is <code>Revenues</code> for 6 of the 10 companies,
+  <code>RevenueFromContractWithCustomerExcludingAssessedTax</code> for Amazon and Tesla, and
+  <code>RevenuesNetOfInterestExpense</code> for JPMorgan. Net income for Caterpillar is
+  <code>NetIncomeLossAvailableToCommonStockholdersBasic</code>. A wrong tag gives no error.</li>
+  <li><b>Most tags are company-specific.</b> 83,919 of 91,794 <code>tag</code> rows (91.4%) have
+  <code>custom = true</code>. For these rows, <code>version</code> is the filing's <code>adsh</code>, not
+  <code>us-gaap/2025</code>.</li>
+  <li><b>The key of <code>tag</code> has 2 columns.</b> One tag has one row per taxonomy version. A join on
+  <code>tag</code> alone can repeat rows. Join on <code>tag</code> and <code>version</code>.</li>
+  <li><b>Breakdowns sit next to totals.</b> For Amazon revenue: 18 rows at the year end, 1 company total.
+  Filter <code>segments IS NULL</code> and <code>coreg IS NULL</code>. A sum gave Coca-Cola revenue
+  18,775,436,000,089 in condition A.</li>
+  <li><b>Period type.</b> <code>qtrs = 4</code> is a full year (revenue, net income). <code>qtrs = 0</code> is a
+  point in time (total assets).</li>
+  <li><b>Labels are not names.</b> <code>pre.plabel</code> is the filer's own text ("Total net sales"). Select
+  amounts by <code>num.tag</code>, not by label.</li>
+  <li><b>Company names.</b> <code>sub.name</code> is upper case and exact. The 2 failures left after R3 were
+  name matches: <code>ILIKE '%BERKSHIRE HATHAWAY%'</code> matched other filers, and <code>'WALMART INC'</code>
+  missed the period.</li>
+  <li><b>Not every filing is annual.</b> 4,262 of 6,169 filings are <code>10-K</code>; 972 are <code>10-Q</code>,
+  372 <code>20-F</code>, 112 <code>40-F</code>.</li>
+</ol>
+</div>
+
+<h2>5. Ontology or database: is there a difference?</h2>
+<div class="card">
+<p style="margin-top:0"><b>Yes, but the line between them is not sharp.</b> A database stores the rows and checks
+that each row and each query has a valid form. An ontology stores what the rows <i>mean</i> and the rules to get a
+correct number from them. The database answers "is this query valid?". The ontology helps the agent answer "is this
+the right query?".</p>
+<p><b>The test case from P2.</b> Condition A gave Coca-Cola revenue as 18,775,436,000,089: a sum over many tags
+and filings. The database ran that query with no error, because the SQL was valid. Only a rule about meaning
+("a company total is one row; never sum across tags") marks it as wrong. That rule is in the ontology (the R1
+description of <code>num</code>), not in the database.</p>
+</div>
+
+<div class="card scroll" style="margin-top:10px">
+<table>
+<tr><th></th><th>Database (<code>sec</code>)</th><th>Ontology (auto-ontology, <code>p2/model_B.yaml</code> + R1–R3)</th></tr>
+<tr><td><b>What it holds</b></td><td>Tables, columns, types, rows. Keys, if someone declares them.</td>
+<td>Terms (1 per table), column attributes (name + description), links, SQL attributes (metric definitions),
+custom analyses (verified example queries), and a certified flag on each item.</td></tr>
+<tr><td><b>Who reads it</b></td><td>The database engine, on each query and each write.</td>
+<td>The agent (an LLM), when it writes the SQL for a question.</td></tr>
+<tr><td><b>Is it enforced?</b></td><td>Yes. A row that breaks a key or a type is rejected.</td>
+<td>No. It is advice. The agent can ignore it: after R3, the agent matched <code>'WALMART INC'</code> exactly and found no row, although
+the certified <code>sub.name</code> description says "Match with ILIKE on the distinctive word".</td></tr>
+<tr><td><b>Table <code>num</code></b></td><td>10 columns; <code>value</code> is <code>numeric(28,4)</code>.</td>
+<td>"Reported Financial Fact": one number for one tag, one period, one filing. Never sum across tags.</td></tr>
+<tr><td><b>Column <code>qtrs</code></b></td><td>An integer, values 0 to 4.</td>
+<td>"4 = one full fiscal year (revenue, net income). 0 = a point in time (total assets)."</td></tr>
+<tr><td><b>"Revenue"</b></td><td>Not an object. It is 3 of 91,794 tag names, and the data does not say which one
+applies to which company.</td>
+<td>SQL attribute "Fiscal Year Revenue": the tag priority, <code>qtrs = 4</code>, company total. One definition for
+every company.</td></tr>
+<tr><td><b>Link <code>num</code> → <code>sub</code></b></td><td>Foreign key <code>num_adsh_fk</code> (only in
+condition B; the SEC files declare none).</td>
+<td>A link on <code>adsh</code>. In B it came from the declared key. In A the tool did not find it.</td></tr>
+</table>
+</div>
+
+<div class="card" style="margin-top:10px">
+<p style="margin-top:0"><b>Where they overlap.</b></p>
+<ul>
+  <li>A schema is a small ontology already. A foreign key states a relation ("a fact belongs to a filing"). In B, the
+  6 links came directly from the 4 declared keys.</li>
+  <li>The ontology is itself stored in a database (database <code>auto_ontology</code> in the same Postgres container, tables such as <code>term</code>, <code>sql_attribute</code>, <code>custom_analysis</code>). The difference is the content
+  (meaning and rules) and the reader (the agent), not the storage.</li>
+  <li>The word "ontology" has 2 uses. In formal knowledge engineering (OWL, RDF), an ontology has classes, properties
+  and logical axioms, and a reasoner derives new facts from them. The auto-ontology model has no axioms and no
+  reasoner. Its top-level parts are <code>data_layer</code> and <code>semantic_layer</code> (terms, links, SQL
+  attributes, custom analyses). That is the type of model that tools such as dbt metrics or LookML call a
+  "semantic layer".</li>
+</ul>
+<p style="margin-bottom:0"><b>What P2 measured about the difference.</b> Meaning in plain text did not change the
+result: R1 (certified descriptions) gave 0 of 6. Meaning written as SQL did: R2 (3 certified SQL attributes) gave
+3 of 6, and R3 (3 verified examples) gave 4 of 6. In this test, the ontology was useful only where it stated a rule in
+a form close to a query.</p>
+</div>
+</main>
+
+<script>
+const T = { // table geometry and columns (label, key mark)
+  sub: { x:20,  y:150, rows:"6,169",     cols:[["adsh","PK"],["cik"],["ein"],["name"],["form"],["period"],["fy"],["fp"],["filed"],["+ 27 more columns"]] },
+  num: { x:365, y:20,  rows:"3,690,955", cols:[["adsh","FK"],["tag","FK"],["version","FK"],["ddate"],["qtrs"],["uom"],["segments"],["coreg"],["value"],["footnote"]] },
+  tag: { x:710, y:150, rows:"91,794",    cols:[["tag","PK"],["version","PK"],["custom"],["abstract"],["datatype"],["iord"],["crdr"],["tlabel"],["doc"]] },
+  pre: { x:365, y:310, rows:"733,134",   cols:[["adsh","FK"],["report"],["line"],["stmt"],["inpth"],["rfile"],["tag","FK"],["version","FK"],["plabel"],["negating"]] },
+};
+const W = 270, HEAD = 54, RH = 18;
+const C = { green:"#4ade80", red:"#f87171", teal:"#2dd4bf", orange:"#fb923c", muted:"#94a3b8", line:"#334155" };
+const ok = "✓", no = "✗";
+
+const V = {
+  truth: {
+    names: { sub:["Filing", 0], num:["Fact", 0], tag:["Concept (XBRL tag)", 0], pre:["Statement line", 0] },
+    edge: { color:C.green, dash:"", label:"" }, prePath: true, marks: {},
+    note: `<b>What the data is.</b> 4 real joins. <code>num.adsh</code> and <code>pre.adsh</code> point to
+      <code>sub.adsh</code>. <code>num(tag, version)</code> and <code>pre(tag, version)</code> point to
+      <code>tag(tag, version)</code>. The SEC files declare no keys; condition B added them.
+      <code>num</code> and <code>pre</code> share <code>adsh, tag, version</code> but have no key between them (grey line).`,
+  },
+  A: {
+    names: { sub:["Subsidiary Information", -1], num:["Num", -1], tag:["Financial Reporting Tag", 1], pre:["Financial Filing Submission", -1] },
+    edge: { color:C.red, dash:"6 5", label:"missed" }, prePath: false, noKeys: true,
+    marks: { sub:{adsh:"suspected FK", cik:"suspected FK", ein:"suspected FK"} },
+    note: `<b>A: generated from the raw tables.</b> 4 terms, <span class="bad">0 links</span>, 0 SQL attributes (36.5 s).
+      The model flagged 3 suspected foreign keys, all in <code>sub</code> (<code>adsh</code>, <code>cik</code>,
+      <code>ein</code>, orange), and linked 0. No keys were declared, so the boxes show no PK or FK. It took the primary key <code>sub.adsh</code> as a foreign key and
+      missed <code>num.adsh</code> and <code>pre.adsh</code>. 2 term names are wrong: <code>sub</code> is not
+      "subsidiary" (it is "submission"), and <code>pre</code> holds statement lines, not filings. "Num" is not a name.
+      Answers: 0 of 30 correct.`,
+  },
+  B: {
+    names: { sub:["SEC Filing Submission", 1], num:["Financial Record", 0], tag:["Tag Definition", 0], pre:["Financial Report Entry", 0] },
+    edge: { color:C.teal, dash:"", label:"" }, prePath: false, marks: {},
+    note: `<b>B: generated after keys were declared.</b> 4 terms, <span class="ok">6 links, all correct</span>,
+      0 SQL attributes (1 min 3 s). The 6 links are single columns: <code>adsh</code>, <code>tag</code> and
+      <code>version</code>, from each of <code>num</code> and <code>pre</code>. The connector made 10 column pairs from the
+      4 keys, 4 of them wrong (<code>tag→version</code>, <code>version→tag</code>, bug at <code>postgres.py:272-291</code>);
+      the overlap check removed the 4. <code>sub</code> is now named correctly. Answers: still 0 of 30 correct.`,
+  },
+  C: {
+    names: { sub:["SEC Filing Submission", 1], num:["Reported Financial Fact", 1], tag:["Tag Definition", 0], pre:["Statement Presentation Line", 1] },
+    edge: { color:C.teal, dash:"", label:"" }, prePath: false,
+    marks: { num:{ddate:"certified", qtrs:"certified", segments:"certified", coreg:"certified", value:"certified"},
+             sub:{adsh:"certified", name:"certified", form:"certified", period:"certified"} },
+    note: `<b>B plus 3 correction rounds</b> (6-question subset, 1 run each).
+      <br><b>R1</b>: 3 term names and descriptions certified (green names), and 9 column attributes (green ✓).
+      The <code>num</code> description holds the tag priority, "never SUM across tags", and the join rule. Result: 0 of 6.
+      <br><b>R2</b>: 3 certified SQL attributes on <code>num</code>: "Fiscal Year Revenue", "Fiscal Year Net Income",
+      "Year End Total Assets". Result: 3 of 6.
+      <br><b>R3</b>: 3 verified SQL examples (Coca-Cola revenue, Pfizer net income, Alphabet total assets). Result: 4 of 6,
+      2 of them holdout questions. <code>tag</code> got no correction.`,
+  },
+};
+
+const ns = "http://www.w3.org/2000/svg";
+function el(tag, attrs, text) { const e = document.createElementNS(ns, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]); if (text != null) e.textContent = text; return e; }
+function rowY(t, col) { const i = T[t].cols.findIndex(c => c[0] === col); return T[t].y + HEAD + i * RH + 4; }
+
+function draw(v) {
+  const s = document.getElementById("map"), cfg = V[v]; s.replaceChildren();
+  // edges first, under the boxes
+  const edges = [["num","adsh","sub","adsh","L"],["pre","adsh","sub","adsh","L"],
+                 ["num","tag","tag","tag","R"],["num","version","tag","version","R"],
+                 ["pre","tag","tag","tag","R"],["pre","version","tag","version","R"]];
+  for (const [a, ac, b, bc, side] of edges) {
+    const y1 = rowY(a, ac), y2 = rowY(b, bc);
+    const x1 = side === "L" ? T[a].x : T[a].x + W, x2 = side === "L" ? T[b].x + W : T[b].x;
+    const mx = (x1 + x2) / 2;
+    s.append(el("path", { d:`M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`, fill:"none",
+      stroke:cfg.edge.color, "stroke-width":2, "stroke-dasharray":cfg.edge.dash }));
+    s.append(el("circle", { cx:x2, cy:y2, r:4, fill:cfg.edge.color }));
+  }
+  if (cfg.edge.label) s.append(el("text", { x:500, y:300, fill:cfg.edge.color, "font-size":13, "text-anchor":"middle" }, "red dashed = a real join the tool missed (4 of 4)"));
+  if (cfg.prePath) {
+    const x = T.num.x + W + 18;
+    s.append(el("path", { d:`M${T.num.x + W},${rowY("num","adsh")} H${x} V${rowY("pre","adsh")} H${T.pre.x + W}`,
+      fill:"none", stroke:C.muted, "stroke-width":1.2, "stroke-dasharray":"2 4" }));
+    s.append(el("text", { x:x - 6, y:291, fill:C.muted, "font-size":11, "text-anchor":"end" }, "no key: do not join"));
+  }
+  // boxes
+  for (const t in T) {
+    const b = T[t], h = HEAD + b.cols.length * RH + 10, [name, state] = cfg.names[t];
+    const nameColor = state === 1 ? C.green : state === -1 ? C.red : "#e2e8f0";
+    s.append(el("rect", { x:b.x, y:b.y, width:W, height:h, rx:10, fill:"#1e293b", stroke:C.line }));
+    s.append(el("text", { x:b.x + 14, y:b.y + 20, fill:C.muted, "font-size":12, "font-family":"ui-monospace,Consolas,monospace" },
+      `${t} · ${b.rows} rows`));
+    s.append(el("text", { x:b.x + 14, y:b.y + 42, fill:nameColor, "font-size":16, "font-weight":600 },
+      name + (state === 1 ? "  " + ok : state === -1 ? "  " + no : "")));
+    s.append(el("line", { x1:b.x, x2:b.x + W, y1:b.y + HEAD - 4, y2:b.y + HEAD - 4, stroke:C.line }));
+    b.cols.forEach(([c, key], i) => {
+      const y = b.y + HEAD + i * RH + 8, mark = (cfg.marks[t] || {})[c];
+      const more = c.startsWith("+");
+      s.append(el("text", { x:b.x + 14, y, fill:more ? C.muted : "#cbd5e1", "font-size":13,
+        "font-family":"ui-monospace,Consolas,monospace" }, c));
+      if (key && !cfg.noKeys) s.append(el("text", { x:b.x + 110, y, fill:key === "PK" ? C.orange : C.teal, "font-size":11 }, key));
+      if (mark) s.append(el("text", { x:b.x + W - 12, y, "text-anchor":"end", "font-size":11,
+        fill:mark === "certified" ? C.green : C.orange }, mark === "certified" ? ok + " certified" : mark));
+    });
+  }
+  document.getElementById("note").innerHTML = cfg.note;
+}
+
+document.querySelectorAll(".tabs button").forEach(btn => btn.addEventListener("click", () => {
+  document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", b === btn));
+  draw(btn.dataset.v);
+}));
+draw("truth");
+
+// funnel: counts from read-only queries, 2026-11-06
+const F = [["All rows in num", 3690955], ["In Amazon's 10-K (adsh)", 421], ["+ one of 3 revenue tags", 54],
+           ["+ full year (qtrs = 4)", 54], ["+ year end (ddate = sub.period)", 18],
+           ["+ company total, USD (segments, coreg NULL)", 1]];
+const max = Math.log10(F[0][1] + 1);
+document.getElementById("funnel").innerHTML = F.map(([l, n]) =>
+  `<div class="row"><span>${l}</span><div class="bar" style="width:${Math.max(1, 100 * Math.log10(n + 1) / max)}%"></div>
+   <span class="num">${n.toLocaleString("en-US")}</span></div>`).join("") +
+  `<p style="margin:8px 0 0">Result: <code>716924000000.0000</code>, tag <code>RevenueFromContractWithCustomerExcludingAssessedTax</code>,
+   the 10-K value $716,924 million.</p>`;
+</script>
+</body>
+</html>
